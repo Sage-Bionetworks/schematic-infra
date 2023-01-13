@@ -5,6 +5,8 @@ name: Deploy to AWS
 
 on:
   push:
+    branches: 
+      - main
 
 env:
   IMAGE_PATH_AND_TAG: ghcr.io/sage-bionetworks/schematic:0.1.11-beta
