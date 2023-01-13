@@ -1,0 +1,2 @@
+Patient ID,Sex,Year of Birth,Diagnosis,Component,Cancer Type,Family History,Uuid,entityId
+123,Female,,Healthy,Patient,Breast,"Breast, Lung",803e9d13-1e7e-4c8c-bee5-2a64e9742d56,

@@ -1,0 +1,2 @@
+when sending 4 requests at the same time, we calculate the avg duration time of finishing running the endpoint
+model/validate: 30.876177231470745
