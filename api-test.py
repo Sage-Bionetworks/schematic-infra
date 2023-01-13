@@ -52,8 +52,9 @@ def cal_time_api_call(url: str, params: dict, request_type="get"):
 
         for f in concurrent.futures.as_completed(futures):
             try:
-                status_code = f.result()
-                print("status code", status_code)
+                status_code = f.result().status_code
+                if status_code != 200:
+                    print("Error code: ", status_code)
             except Exception as exc:
                 print(f"generated an exception:{exc}")
 
@@ -220,6 +221,14 @@ def model_validate_req():
     return time_diff
 
 
+def storage_assets_table_req():
+    base_url = "https://schematic.dnt-dev.sagebase.org/v1/storage/assets/tables"
+    token = get_token()
+    params = {"input_token": token, "asset_view": "syn23643253", "return_type": "json"}
+    time_diff = cal_time_api_call(base_url, params)
+    return time_diff
+
+
 def execute_all_endpoints():
     with open("duration_cal.txt", "w") as f:
         f.write(
@@ -238,7 +247,8 @@ def execute_all_endpoints():
     #     model_component_requirements, "model/component-requirements"
     # )
     # calculate_avg_run_time_per_endpoint(model_submit_req, "manifest/submit")
-    calculate_avg_run_time_per_endpoint(model_validate_req, "model/validate")
+    # calculate_avg_run_time_per_endpoint(model_validate_req, "model/validate")
+    calculate_avg_run_time_per_endpoint(storage_assets_table_req, "storage/asset/table")
 
 
 execute_all_endpoints()
