@@ -9,7 +9,7 @@ from typing import Callable
 
 EXAMPLE_SCHEMA_URL = "https://raw.githubusercontent.com/Sage-Bionetworks/schematic/develop/tests/data/example.model.jsonld"
 DATA_FLOW_SCHEMA_URL = "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow/dev/inst/data_flow_component.jsonld"
-CONCURRENT_THREADS = 4
+CONCURRENT_THREADS = 40
 RUN_TOTAL_TIMES_PER_ENDPOINT = 3
 
 
@@ -229,6 +229,51 @@ def storage_assets_table_req():
     return time_diff
 
 
+def storage_dataset_files_req():
+    base_url = "https://schematic.dnt-dev.sagebase.org/v1/storage/dataset/files"
+    token = get_token()
+    params = {
+        "input_token": token,
+        "asset_view": "syn23643253",
+        "dataset_id": "syn23643250",
+        "full_path": True,
+    }
+    time_diff = cal_time_api_call(base_url, params)
+    return time_diff
+
+
+def storage_project_datasets_req():
+    base_url = "https://schematic.dnt-dev.sagebase.org/v1/storage/project/datasets"
+    token = get_token()
+    params = {
+        "input_token": token,
+        "asset_view": "syn23643253",
+        "project_id": "syn26251192",
+    }
+    time_diff = cal_time_api_call(base_url, params)
+    return time_diff
+
+
+def storage_project_manifest_req():
+    base_url = "https://schematic.dnt-dev.sagebase.org/v1/storage/project/manifests"
+    token = get_token()
+    params = {
+        "input_token": token,
+        "project_id": "syn30988314",
+        "asset_view": "syn23643253",
+    }
+    time_diff = cal_time_api_call(base_url, params)
+    return time_diff
+
+
+def storage_project_req():
+    base_url = "https://schematic.dnt-dev.sagebase.org/v1/storage/projects"
+    token = get_token()
+    params = {"input_token": token, "asset_view": "syn23643253"}
+    time_diff = cal_time_api_call(base_url, params)
+    return time_diff
+
+
 def execute_all_endpoints():
     with open("duration_cal.txt", "w") as f:
         f.write(
@@ -238,7 +283,9 @@ def execute_all_endpoints():
         f.close()
 
     # calculate_avg_run_time_per_endpoint(find_class_specific_property_req, "explorer/find_class_specific_property")
-    # calculate_avg_run_time_per_endpoint(get_node_dependencies_req, "explorer/get_node_dependencies")
+    calculate_avg_run_time_per_endpoint(
+        get_node_dependencies_req, "explorer/get_node_dependencies"
+    )
     # calculate_avg_run_time_per_endpoint(get_datatype_manifest_req, "get/datatype/manifest")
     # calculate_avg_run_time_per_endpoint(get_manifest_generate_req, "manifest/generate")
     # calculate_avg_run_time_per_endpoint(download_manifest_req, "manifest/download")
@@ -248,7 +295,15 @@ def execute_all_endpoints():
     # )
     # calculate_avg_run_time_per_endpoint(model_submit_req, "manifest/submit")
     # calculate_avg_run_time_per_endpoint(model_validate_req, "model/validate")
-    calculate_avg_run_time_per_endpoint(storage_assets_table_req, "storage/asset/table")
+    # calculate_avg_run_time_per_endpoint(storage_assets_table_req, "storage/asset/table")
+    # calculate_avg_run_time_per_endpoint(storage_dataset_files_req, "storage/dataset/files")
+    # calculate_avg_run_time_per_endpoint(
+    #     storage_project_datasets_req, "storage/project/datasets"
+    # )
+    # calculate_avg_run_time_per_endpoint(
+    #     storage_project_manifest_req, "storage/project/manifests"
+    # )
+    # calculate_avg_run_time_per_endpoint(storage_project_req, "storage/projects")
 
 
 execute_all_endpoints()

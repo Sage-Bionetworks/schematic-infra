@@ -1,0 +1,70 @@
+Running 30s test @ https://schematic.dnt-dev.sagebase.org/v1/explorer/get_node_dependencies?schema_url=https%3A%2F%2Fraw.githubusercontent.com%2FSage-Bionetworks%2Fschematic%2Fdevelop%2Ftests%2Fdata%2Fexample.model.jsonld&source_node=Patient&return_display_names=true&return_schema_ordered=true
+  1 threads and 1 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    81.94ms   51.00ms 493.09ms   95.56%
+    Req/Sec    13.15      5.16    20.00     57.09%
+  Latency Distribution
+     50%   67.81ms
+     75%   74.71ms
+     90%  110.39ms
+     99%  373.51ms
+  391 requests in 30.05s, 106.53KB read
+Requests/sec:     13.01
+Transfer/sec:      3.54KB
+
+Running 30s test @ https://schematic.dnt-dev.sagebase.org/v1/explorer/get_node_dependencies?schema_url=https%3A%2F%2Fraw.githubusercontent.com%2FSage-Bionetworks%2Fschematic%2Fdevelop%2Ftests%2Fdata%2Fexample.model.jsonld&source_node=Patient&return_display_names=true&return_schema_ordered=true
+  1 threads and 5 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   310.93ms  150.88ms 915.74ms   85.87%
+    Req/Sec    18.59      9.83    49.00     72.89%
+  Latency Distribution
+     50%  290.30ms
+     75%  311.52ms
+     90%  503.56ms
+     99%  827.48ms
+  496 requests in 30.08s, 135.14KB read
+Requests/sec:     16.49
+Transfer/sec:      4.49KB
+
+Running 30s test @ https://schematic.dnt-dev.sagebase.org/v1/explorer/get_node_dependencies?schema_url=https%3A%2F%2Fraw.githubusercontent.com%2FSage-Bionetworks%2Fschematic%2Fdevelop%2Ftests%2Fdata%2Fexample.model.jsonld&source_node=Patient&return_display_names=true&return_schema_ordered=true
+  1 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   588.85ms  220.09ms   1.40s    78.30%
+    Req/Sec    19.00     10.95    50.00     79.45%
+  Latency Distribution
+     50%  512.35ms
+     75%  613.63ms
+     90%  985.17ms
+     99%    1.21s 
+  500 requests in 30.04s, 136.23KB read
+  Socket errors: connect 0, read 0, write 0, timeout 1
+Requests/sec:     16.64
+Transfer/sec:      4.54KB
+
+Running 30s test @ https://schematic.dnt-dev.sagebase.org/v1/explorer/get_node_dependencies?schema_url=https%3A%2F%2Fraw.githubusercontent.com%2FSage-Bionetworks%2Fschematic%2Fdevelop%2Ftests%2Fdata%2Fexample.model.jsonld&source_node=Patient&return_display_names=true&return_schema_ordered=true
+  1 threads and 20 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.19s   268.16ms   1.94s    61.84%
+    Req/Sec    18.45      9.70    48.00     70.48%
+  Latency Distribution
+     50%    1.11s 
+     75%    1.41s 
+     90%    1.59s 
+     99%    1.82s 
+  490 requests in 30.08s, 133.51KB read
+Requests/sec:     16.29
+Transfer/sec:      4.44KB
+
+Running 30s test @ https://schematic.dnt-dev.sagebase.org/v1/explorer/get_node_dependencies?schema_url=https%3A%2F%2Fraw.githubusercontent.com%2FSage-Bionetworks%2Fschematic%2Fdevelop%2Ftests%2Fdata%2Fexample.model.jsonld&source_node=Patient&return_display_names=true&return_schema_ordered=true
+  1 threads and 40 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     2.33s   308.40ms   3.37s    73.57%
+    Req/Sec    19.27     11.56    58.00     83.72%
+  Latency Distribution
+     50%    2.41s 
+     75%    2.51s 
+     90%    2.60s 
+     99%    3.01s 
+  488 requests in 30.09s, 132.96KB read
+Requests/sec:     16.22
+Transfer/sec:      4.42KB
