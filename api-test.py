@@ -10,7 +10,7 @@ from typing import Callable
 EXAMPLE_SCHEMA_URL = "https://raw.githubusercontent.com/Sage-Bionetworks/schematic/develop/tests/data/example.model.jsonld"
 DATA_FLOW_SCHEMA_URL = "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow/dev/inst/data_flow_component.jsonld"
 CONCURRENT_THREADS = 40
-RUN_TOTAL_TIMES_PER_ENDPOINT = 3
+RUN_TOTAL_TIMES_PER_ENDPOINT = 3  # use at least 10
 
 
 def fetch(url: str, params: dict):
@@ -286,7 +286,9 @@ def execute_all_endpoints():
     calculate_avg_run_time_per_endpoint(
         get_node_dependencies_req, "explorer/get_node_dependencies"
     )
-    # calculate_avg_run_time_per_endpoint(get_datatype_manifest_req, "get/datatype/manifest")
+    # calculate_avg_run_time_per_endpoint(
+    #     get_datatype_manifest_req, "get/datatype/manifest"
+    # )
     # calculate_avg_run_time_per_endpoint(get_manifest_generate_req, "manifest/generate")
     # calculate_avg_run_time_per_endpoint(download_manifest_req, "manifest/download")
     # calculate_avg_run_time_per_endpoint(populate_manifest_req, "manifest/populate")
@@ -296,7 +298,9 @@ def execute_all_endpoints():
     # calculate_avg_run_time_per_endpoint(model_submit_req, "manifest/submit")
     # calculate_avg_run_time_per_endpoint(model_validate_req, "model/validate")
     # calculate_avg_run_time_per_endpoint(storage_assets_table_req, "storage/asset/table")
-    # calculate_avg_run_time_per_endpoint(storage_dataset_files_req, "storage/dataset/files")
+    # calculate_avg_run_time_per_endpoint(
+    #     storage_dataset_files_req, "storage/dataset/files"
+    # )
     # calculate_avg_run_time_per_endpoint(
     #     storage_project_datasets_req, "storage/project/datasets"
     # )
