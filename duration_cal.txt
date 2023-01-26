@@ -1,2 +1,2 @@
-when sending 40 requests at the same time, we calculate the avg duration time of finishing running the endpoint
-explorer/get_node_dependencies: 2.737501382827759
+when sending 5 requests at the same time, we calculate the avg duration time of finishing running the endpoint
+manifest/generate: 0.36838197708129883

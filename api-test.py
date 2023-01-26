@@ -9,8 +9,9 @@ from typing import Callable
 
 EXAMPLE_SCHEMA_URL = "https://raw.githubusercontent.com/Sage-Bionetworks/schematic/develop/tests/data/example.model.jsonld"
 DATA_FLOW_SCHEMA_URL = "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow/dev/inst/data_flow_component.jsonld"
-CONCURRENT_THREADS = 40
-RUN_TOTAL_TIMES_PER_ENDPOINT = 3  # use at least 10
+CONCURRENT_THREADS = 5
+
+RUN_TOTAL_TIMES_PER_ENDPOINT = 1  # use at least 10
 
 
 def fetch(url: str, params: dict):
@@ -115,19 +116,23 @@ def get_datatype_manifest_req():
     params = {
         "input_token": input_token,
         "asset_view": "syn23643253",
-        "manifest_id": "syn23643253",
+        "manifest_id": "syn27600110",
     }
     time_diff = cal_time_api_call(base_url, params)
     return time_diff
 
 
 def get_manifest_generate_req():
-    base_url = "https://schematic.dnt-dev.sagebase.org/v1/manifest/generate"
+    # base_url = "https://schematic.dnt-dev.sagebase.org/v1/manifest/generate"
+    base_url = "http://localhost:80/v1/manifest/generate"
+    input_token = get_token()
     params = {
         "schema_url": EXAMPLE_SCHEMA_URL,
         "title": "Example",
         "data_type": ["Patient", "Biospecimen"],
+        # "dataset_id": "syn35294937",
         "use_annotations": False,
+        # "input_token": input_token,
     }
     time_diff = cal_time_api_call(base_url, params)
     return time_diff
@@ -283,13 +288,13 @@ def execute_all_endpoints():
         f.close()
 
     # calculate_avg_run_time_per_endpoint(find_class_specific_property_req, "explorer/find_class_specific_property")
-    calculate_avg_run_time_per_endpoint(
-        get_node_dependencies_req, "explorer/get_node_dependencies"
-    )
+    # calculate_avg_run_time_per_endpoint(
+    #     get_node_dependencies_req, "explorer/get_node_dependencies"
+    # )
     # calculate_avg_run_time_per_endpoint(
     #     get_datatype_manifest_req, "get/datatype/manifest"
     # )
-    # calculate_avg_run_time_per_endpoint(get_manifest_generate_req, "manifest/generate")
+    calculate_avg_run_time_per_endpoint(get_manifest_generate_req, "manifest/generate")
     # calculate_avg_run_time_per_endpoint(download_manifest_req, "manifest/download")
     # calculate_avg_run_time_per_endpoint(populate_manifest_req, "manifest/populate")
     # calculate_avg_run_time_per_endpoint(
