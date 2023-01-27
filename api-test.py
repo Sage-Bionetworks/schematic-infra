@@ -9,7 +9,7 @@ from typing import Callable
 
 EXAMPLE_SCHEMA_URL = "https://raw.githubusercontent.com/Sage-Bionetworks/schematic/develop/tests/data/example.model.jsonld"
 DATA_FLOW_SCHEMA_URL = "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow/dev/inst/data_flow_component.jsonld"
-CONCURRENT_THREADS = 5
+CONCURRENT_THREADS = 20
 
 RUN_TOTAL_TIMES_PER_ENDPOINT = 1  # use at least 10
 
@@ -123,8 +123,8 @@ def get_datatype_manifest_req():
 
 
 def get_manifest_generate_req():
-    # base_url = "https://schematic.dnt-dev.sagebase.org/v1/manifest/generate"
-    base_url = "http://localhost:80/v1/manifest/generate"
+    base_url = "https://schematic.dnt-dev.sagebase.org/v1/manifest/generate"
+    #base_url = "http://localhost:80/v1/manifest/generate"
     input_token = get_token()
     params = {
         "schema_url": EXAMPLE_SCHEMA_URL,

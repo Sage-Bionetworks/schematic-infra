@@ -1,70 +1,69 @@
 Running 30s test @ https://schematic.dnt-dev.sagebase.org/v1/explorer/get_node_dependencies?schema_url=https%3A%2F%2Fraw.githubusercontent.com%2FSage-Bionetworks%2Fschematic%2Fdevelop%2Ftests%2Fdata%2Fexample.model.jsonld&source_node=Patient&return_display_names=true&return_schema_ordered=true
   1 threads and 1 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
-    Latency    81.94ms   51.00ms 493.09ms   95.56%
-    Req/Sec    13.15      5.16    20.00     57.09%
+    Latency    92.25ms   95.72ms 843.12ms   95.13%
+    Req/Sec    13.35      5.16    20.00     57.51%
   Latency Distribution
-     50%   67.81ms
-     75%   74.71ms
-     90%  110.39ms
-     99%  373.51ms
-  391 requests in 30.05s, 106.53KB read
-Requests/sec:     13.01
-Transfer/sec:      3.54KB
+     50%   68.85ms
+     75%   77.03ms
+     90%  102.47ms
+     99%  611.33ms
+  389 requests in 30.06s, 105.99KB read
+Requests/sec:     12.94
+Transfer/sec:      3.53KB
 
 Running 30s test @ https://schematic.dnt-dev.sagebase.org/v1/explorer/get_node_dependencies?schema_url=https%3A%2F%2Fraw.githubusercontent.com%2FSage-Bionetworks%2Fschematic%2Fdevelop%2Ftests%2Fdata%2Fexample.model.jsonld&source_node=Patient&return_display_names=true&return_schema_ordered=true
   1 threads and 5 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
-    Latency   310.93ms  150.88ms 915.74ms   85.87%
-    Req/Sec    18.59      9.83    49.00     72.89%
+    Latency   166.41ms  154.22ms   1.03s    87.87%
+    Req/Sec    39.52     17.71    90.00     56.88%
   Latency Distribution
-     50%  290.30ms
-     75%  311.52ms
-     90%  503.56ms
-     99%  827.48ms
-  496 requests in 30.08s, 135.14KB read
-Requests/sec:     16.49
-Transfer/sec:      4.49KB
+     50%  101.85ms
+     75%  196.26ms
+     90%  376.10ms
+     99%  742.60ms
+  1101 requests in 30.08s, 299.98KB read
+Requests/sec:     36.60
+Transfer/sec:      9.97KB
 
 Running 30s test @ https://schematic.dnt-dev.sagebase.org/v1/explorer/get_node_dependencies?schema_url=https%3A%2F%2Fraw.githubusercontent.com%2FSage-Bionetworks%2Fschematic%2Fdevelop%2Ftests%2Fdata%2Fexample.model.jsonld&source_node=Patient&return_display_names=true&return_schema_ordered=true
   1 threads and 10 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
-    Latency   588.85ms  220.09ms   1.40s    78.30%
-    Req/Sec    19.00     10.95    50.00     79.45%
+    Latency   266.76ms  213.31ms   1.20s    85.27%
+    Req/Sec    42.44     17.42    90.00     66.32%
   Latency Distribution
-     50%  512.35ms
-     75%  613.63ms
-     90%  985.17ms
-     99%    1.21s 
-  500 requests in 30.04s, 136.23KB read
-  Socket errors: connect 0, read 0, write 0, timeout 1
-Requests/sec:     16.64
-Transfer/sec:      4.54KB
+     50%  200.94ms
+     75%  392.28ms
+     90%  565.60ms
+     99%  924.86ms
+  1243 requests in 30.04s, 338.67KB read
+Requests/sec:     41.38
+Transfer/sec:     11.27KB
 
 Running 30s test @ https://schematic.dnt-dev.sagebase.org/v1/explorer/get_node_dependencies?schema_url=https%3A%2F%2Fraw.githubusercontent.com%2FSage-Bionetworks%2Fschematic%2Fdevelop%2Ftests%2Fdata%2Fexample.model.jsonld&source_node=Patient&return_display_names=true&return_schema_ordered=true
   1 threads and 20 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
-    Latency     1.19s   268.16ms   1.94s    61.84%
-    Req/Sec    18.45      9.70    48.00     70.48%
+    Latency   529.38ms  418.88ms   1.72s    59.75%
+    Req/Sec    41.13     18.45   100.00     65.26%
   Latency Distribution
-     50%    1.11s 
-     75%    1.41s 
-     90%    1.59s 
-     99%    1.82s 
-  490 requests in 30.08s, 133.51KB read
-Requests/sec:     16.29
-Transfer/sec:      4.44KB
+     50%  453.88ms
+     75%  834.59ms
+     90%    1.12s 
+     99%    1.59s 
+  1203 requests in 30.07s, 327.97KB read
+Requests/sec:     40.01
+Transfer/sec:     10.91KB
 
 Running 30s test @ https://schematic.dnt-dev.sagebase.org/v1/explorer/get_node_dependencies?schema_url=https%3A%2F%2Fraw.githubusercontent.com%2FSage-Bionetworks%2Fschematic%2Fdevelop%2Ftests%2Fdata%2Fexample.model.jsonld&source_node=Patient&return_display_names=true&return_schema_ordered=true
   1 threads and 40 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
-    Latency     2.33s   308.40ms   3.37s    73.57%
-    Req/Sec    19.27     11.56    58.00     83.72%
+    Latency     1.01s   863.80ms   3.32s    59.37%
+    Req/Sec    42.58     19.37    90.00     66.67%
   Latency Distribution
-     50%    2.41s 
-     75%    2.51s 
-     90%    2.60s 
+     50%  774.34ms
+     75%    1.75s 
+     90%    2.27s 
      99%    3.01s 
-  488 requests in 30.09s, 132.96KB read
-Requests/sec:     16.22
-Transfer/sec:      4.42KB
+  1247 requests in 30.10s, 339.76KB read
+Requests/sec:     41.43
+Transfer/sec:     11.29KB
