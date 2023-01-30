@@ -127,7 +127,7 @@ class DockerFargateStack(Stack):
             
         # Overriding health check timeout helps with sluggishly responding app's (e.g. Shiny)
         # https://docs.aws.amazon.com/cdk/api/v1/python/aws_cdk.aws_elasticloadbalancingv2/ApplicationTargetGroup.html#aws_cdk.aws_elasticloadbalancingv2.ApplicationTargetGroup    
-        load_balanced_fargate_service.target_group.configure_health_check(interval=Duration.seconds(120), timeout=Duration.seconds(60), path="/v1/ui")
+        load_balanced_fargate_service.target_group.configure_health_check(interval=Duration.seconds(120), timeout=Duration.seconds(60), path="/v1/ui/")
 
         if False: # enable/disable autoscaling
             scalable_target = load_balanced_fargate_service.service.auto_scale_task_count(
