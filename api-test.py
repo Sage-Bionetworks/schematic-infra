@@ -7,9 +7,9 @@ from numbers import Number
 import os
 from typing import Callable
 
-EXAMPLE_SCHEMA_URL = "https://raw.githubusercontent.com/Sage-Bionetworks/schematic/develop/tests/data/example.model.jsonld"
-DATA_FLOW_SCHEMA_URL = "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow/dev/inst/data_flow_component.jsonld"
-CONCURRENT_THREADS = 20
+EXAMPLE_SCHEMA_URL = "https://raw.githubusercontent.com/Sage-Bionetworks/schematic/develop-add-uWSGI/tests/data/example.model.new.jsonld"
+DATA_FLOW_SCHEMA_URL = "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow/main/inst/data_flow_component.jsonld"
+CONCURRENT_THREADS = 1000
 
 RUN_TOTAL_TIMES_PER_ENDPOINT = 1  # use at least 10
 
@@ -32,7 +32,7 @@ def send_post_request_with_file(url: str, params: dict):
 
 def get_token():
     token = os.environ.get("TOKEN")
-    if token == "":
+    if token == "" or None:
         return LookupError("Please provide token of asset store")
     else:
         return token
@@ -51,10 +51,12 @@ def cal_time_api_call(url: str, params: dict, request_type="get"):
                 for x in range(CONCURRENT_THREADS)
             ]
 
+        all_error = 0
         for f in concurrent.futures.as_completed(futures):
             try:
                 status_code = f.result().status_code
                 if status_code != 200:
+                    all_error = all_error + 1
                     print("Error code: ", status_code)
             except Exception as exc:
                 print(f"generated an exception:{exc}")
@@ -62,6 +64,7 @@ def cal_time_api_call(url: str, params: dict, request_type="get"):
     time_diff = time.time() - start_time
     time.sleep(2)
     print(f"duration time of running {url}", time_diff)
+    print(f"total errors", all_error)
     return time_diff
 
 
@@ -98,14 +101,16 @@ def find_class_specific_property_req():
 
 
 def get_node_dependencies_req():
+    # base_url = (
+    #     "https://schematic.dnt-dev.sagebase.org/v1/explorer/get_node_dependencies"
+    # )
     base_url = (
-        "https://schematic.dnt-dev.sagebase.org/v1/explorer/get_node_dependencies"
+        "http://localhost:7080/v1/explorer/get_node_dependencies"
     )
     params = {
         "schema_url": EXAMPLE_SCHEMA_URL,
         "source_node": "Patient",
     }
-    # execute_api_call(base_url, params, '/explorer/get_node_dependencies')
     time_diff = cal_time_api_call(base_url, params)
     return time_diff
 
@@ -139,12 +144,13 @@ def get_manifest_generate_req():
 
 
 def download_manifest_req():
-    base_url = "https://schematic.dnt-dev.sagebase.org/v1/manifest/download"
+    #base_url = "https://schematic.dnt-dev.sagebase.org/v1/manifest/download"
+    base_url = ("http://localhost:7080/v1/manifest/download")
     token = get_token()
     params = {
         "input_token": token,
         "asset_view": "syn28559058",
-        "dataset_id": "syn28268700",
+        "dataset_id": "syn51078367",
         "as_json": True,
     }
     time_diff = cal_time_api_call(base_url, params)
@@ -216,7 +222,8 @@ def model_submit_big_manifest():
 
 
 def model_validate_req():
-    base_url = "https://schematic.dnt-dev.sagebase.org/v1/model/validate"
+    #base_url = "https://schematic.dnt-dev.sagebase.org/v1/model/validate"
+    base_url = "http://localhost:7080/v1/model/validate"
     params = {
         "schema_url": EXAMPLE_SCHEMA_URL,
         "data_type": "Patient",
@@ -278,6 +285,20 @@ def storage_project_req():
     time_diff = cal_time_api_call(base_url, params)
     return time_diff
 
+def send_concurrent_req():
+    #base_url = "https://schematic.dnt-dev.sagebase.org/v1/ui/"
+    base_url = "http://localhost:7080/v1/ui/"
+    params = {}
+    time_diff = cal_time_api_call(base_url, params)
+    return time_diff
+
+def get_data_type_manifest_req():
+    #base_url = "https://schematic.dnt-dev.sagebase.org/v1/get/datatype/manifest"
+    base_url = "http://localhost:7080/v1/get/datatype/manifest"
+    token = get_token()
+    params = {"input_token": token, "asset_view": "syn23643253", "manifest_id": "syn27600110"}
+    time_diff = cal_time_api_call(base_url, params)
+    return time_diff
 
 def execute_all_endpoints():
     with open("duration_cal.txt", "w") as f:
@@ -286,7 +307,8 @@ def execute_all_endpoints():
         )
         f.write("\n")
         f.close()
-
+    
+    #calculate_avg_run_time_per_endpoint(send_concurrent_req, "swagger-ui")
     # calculate_avg_run_time_per_endpoint(find_class_specific_property_req, "explorer/find_class_specific_property")
     # calculate_avg_run_time_per_endpoint(
     #     get_node_dependencies_req, "explorer/get_node_dependencies"
@@ -294,14 +316,14 @@ def execute_all_endpoints():
     # calculate_avg_run_time_per_endpoint(
     #     get_datatype_manifest_req, "get/datatype/manifest"
     # )
-    calculate_avg_run_time_per_endpoint(get_manifest_generate_req, "manifest/generate")
-    # calculate_avg_run_time_per_endpoint(download_manifest_req, "manifest/download")
+    #calculate_avg_run_time_per_endpoint(get_manifest_generate_req, "manifest/generate")
+    #calculate_avg_run_time_per_endpoint(download_manifest_req, "manifest/download")
     # calculate_avg_run_time_per_endpoint(populate_manifest_req, "manifest/populate")
     # calculate_avg_run_time_per_endpoint(
     #     model_component_requirements, "model/component-requirements"
     # )
     # calculate_avg_run_time_per_endpoint(model_submit_req, "manifest/submit")
-    # calculate_avg_run_time_per_endpoint(model_validate_req, "model/validate")
+    calculate_avg_run_time_per_endpoint(model_validate_req, "model/validate")
     # calculate_avg_run_time_per_endpoint(storage_assets_table_req, "storage/asset/table")
     # calculate_avg_run_time_per_endpoint(
     #     storage_dataset_files_req, "storage/dataset/files"
@@ -313,6 +335,7 @@ def execute_all_endpoints():
     #     storage_project_manifest_req, "storage/project/manifests"
     # )
     # calculate_avg_run_time_per_endpoint(storage_project_req, "storage/projects")
+    #calculate_avg_run_time_per_endpoint(get_data_type_manifest_req, "get/datatype/manifest")
 
 
 execute_all_endpoints()
