@@ -9,9 +9,9 @@ from typing import Callable
 
 EXAMPLE_SCHEMA_URL = "https://raw.githubusercontent.com/Sage-Bionetworks/schematic/develop-add-uWSGI/tests/data/example.model.new.jsonld"
 DATA_FLOW_SCHEMA_URL = "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow/main/inst/data_flow_component.jsonld"
-CONCURRENT_THREADS = 1000
+CONCURRENT_THREADS = 1
 
-RUN_TOTAL_TIMES_PER_ENDPOINT = 1  # use at least 10
+RUN_TOTAL_TIMES_PER_ENDPOINT = 10  # use at least 10
 
 
 def fetch(url: str, params: dict):
@@ -24,7 +24,8 @@ def send_post_request_with_file(url: str, params: dict):
         params=params,
         files={
             "file_name": open(
-                "test-manifests/synapse_storage_manifest_patient.csv", "rb"
+                #"test-manifests/synapse_storage_manifest_patient.csv", "rb"
+                "test-manifests/synapse_storage_manifest_patient_two.csv", "rb"
             )
         },
     )
@@ -182,11 +183,12 @@ def model_component_requirements():
 
 def model_submit_req():
     ### Can't concurrently modify the same object
-    base_url = "https://schematic.dnt-dev.sagebase.org/v1/model/submit"
+    #base_url = "https://schematic.dnt-dev.sagebase.org/v1/model/submit"
+    base_url = "http://localhost:7080/v1/model/submit"
     token = get_token()
     params = {
         "schema_url": EXAMPLE_SCHEMA_URL,
-        "data_type": "Patient",
+        "data_type": None,
         "dataset_id": "syn45794337",
         "manifest_record_type": "table",
         "restrict_rules": False,
@@ -222,8 +224,8 @@ def model_submit_big_manifest():
 
 
 def model_validate_req():
-    #base_url = "https://schematic.dnt-dev.sagebase.org/v1/model/validate"
-    base_url = "http://localhost:7080/v1/model/validate"
+    base_url = "https://schematic.dnt-dev.sagebase.org/v1/model/validate"
+    #base_url = "http://localhost:7080/v1/model/validate"
     params = {
         "schema_url": EXAMPLE_SCHEMA_URL,
         "data_type": "Patient",
@@ -322,8 +324,8 @@ def execute_all_endpoints():
     # calculate_avg_run_time_per_endpoint(
     #     model_component_requirements, "model/component-requirements"
     # )
-    # calculate_avg_run_time_per_endpoint(model_submit_req, "manifest/submit")
-    calculate_avg_run_time_per_endpoint(model_validate_req, "model/validate")
+    calculate_avg_run_time_per_endpoint(model_submit_req, "manifest/submit")
+    #calculate_avg_run_time_per_endpoint(model_validate_req, "model/validate")
     # calculate_avg_run_time_per_endpoint(storage_assets_table_req, "storage/asset/table")
     # calculate_avg_run_time_per_endpoint(
     #     storage_dataset_files_req, "storage/dataset/files"
