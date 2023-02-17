@@ -7,7 +7,7 @@ from numbers import Number
 import os
 from typing import Callable
 
-EXAMPLE_SCHEMA_URL = "https://raw.githubusercontent.com/Sage-Bionetworks/schematic/develop-add-uWSGI/tests/data/example.model.new.jsonld"
+EXAMPLE_SCHEMA_URL = "https://raw.githubusercontent.com/Sage-Bionetworks/schematic/develop-add-uWSGI-two/tests/data/example.model.jsonld"
 DATA_FLOW_SCHEMA_URL = "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow/main/inst/data_flow_component.jsonld"
 CONCURRENT_THREADS = 1
 
@@ -189,11 +189,14 @@ def model_submit_req():
     params = {
         "schema_url": EXAMPLE_SCHEMA_URL,
         "data_type": None,
-        "dataset_id": "syn45794337",
+        "dataset_id": "syn27221721",
         "manifest_record_type": "table",
         "restrict_rules": False,
         "input_token": token,
-        "asset_view": "syn23643253",
+        "asset_view": "syn28559058",
+        "restrict_rules": False,
+        "table_manipulation": "replace",
+        "use_schema_label": True
     }
     time_diff = cal_time_api_call(base_url, params, request_type="post-file")
     return time_diff
