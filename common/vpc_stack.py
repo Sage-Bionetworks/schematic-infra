@@ -6,7 +6,7 @@ from aws_cdk import (Stack,
 
 from constructs import Construct
 
-STACK_ID = "schematic-test-common"
+STACK_ID = "schematic-common"
 VPC_NAME = f'{STACK_ID}-vpc'
 VPC_CIDR_CONTEXT= "VPC_CIDR"
 
