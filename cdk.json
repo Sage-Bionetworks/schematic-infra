@@ -29,6 +29,17 @@
     "@aws-cdk/core:target-partitions": [
       "aws",
       "aws-cn"
-    ]
+    ],
+    "dev": {
+      "IMAGE_PATH_AND_TAG": "ghcr.io/sage-bionetworks/schematic:0.1.30-beta",
+      "AWS_DEFAULT_REGION": "us-east-1",
+      "PORT": "7080",
+      "COST_CENTER": "NO PROGRAM / 000000",
+      "STACK_NAME_PREFIX": "schematic-test",
+      "HOST_NAME": "schematic.dnt-dev.sagebase.org",
+      "HOSTED_ZONE_NAME": "dnt-dev.sagebase.org",
+      "HOSTED_ZONE_ID": "Z0441843EAHKE7DR12AX",
+      "VPC_CIDR": "10.255.73.0/24"
+    }
   }
 }
