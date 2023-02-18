@@ -12,6 +12,7 @@ on:
 
 concurrency:
   group: ${{ github.workflow }}
+  push:
 
 jobs:
   cdk-deploy:
