@@ -145,13 +145,13 @@ def get_manifest_generate_req():
 
 
 def download_manifest_req():
-    #base_url = "https://schematic.dnt-dev.sagebase.org/v1/manifest/download"
-    base_url = ("http://localhost:7080/v1/manifest/download")
+    base_url = "https://schematic.dnt-dev.sagebase.org/v1/manifest/download"
+    #base_url = ("http://localhost:7080/v1/manifest/download")
     token = get_token()
     params = {
         "input_token": token,
-        "asset_view": "syn28559058",
-        "dataset_id": "syn51078367",
+        "asset_view": "syn50896957",
+        "dataset_id": "syn50900267",
         "as_json": True,
     }
     time_diff = cal_time_api_call(base_url, params)
@@ -183,8 +183,8 @@ def model_component_requirements():
 
 def model_submit_req():
     ### Can't concurrently modify the same object
-    #base_url = "https://schematic.dnt-dev.sagebase.org/v1/model/submit"
-    base_url = "http://localhost:7080/v1/model/submit"
+    base_url = "https://schematic.dnt-dev.sagebase.org/v1/model/submit"
+    #base_url = "http://localhost:7080/v1/model/submit"
     token = get_token()
     params = {
         "schema_url": EXAMPLE_SCHEMA_URL,
@@ -322,12 +322,12 @@ def execute_all_endpoints():
     #     get_datatype_manifest_req, "get/datatype/manifest"
     # )
     #calculate_avg_run_time_per_endpoint(get_manifest_generate_req, "manifest/generate")
-    #calculate_avg_run_time_per_endpoint(download_manifest_req, "manifest/download")
+    calculate_avg_run_time_per_endpoint(download_manifest_req, "manifest/download")
     # calculate_avg_run_time_per_endpoint(populate_manifest_req, "manifest/populate")
     # calculate_avg_run_time_per_endpoint(
     #     model_component_requirements, "model/component-requirements"
     # )
-    calculate_avg_run_time_per_endpoint(model_submit_req, "manifest/submit")
+    # calculate_avg_run_time_per_endpoint(model_submit_req, "manifest/submit")
     #calculate_avg_run_time_per_endpoint(model_validate_req, "model/validate")
     # calculate_avg_run_time_per_endpoint(storage_assets_table_req, "storage/asset/table")
     # calculate_avg_run_time_per_endpoint(
