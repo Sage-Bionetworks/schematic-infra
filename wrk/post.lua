@@ -7,25 +7,34 @@
 -- wrk.headers["Content-Type"] = "multipart/form-data"
 
 
-function read_file(path)
-    local file, errorMessage = io.open(path, "rb")
-    if not file then
-        error("Could not read the file:" .. errorMessage .. "\n")
-    end
+-- function read_file(path)
+--     local file, errorMessage = io.open(path, "rb")
+--     if not file then
+--         error("Could not read the file:" .. errorMessage .. "\n")
+--     end
   
-    local content = file:read "*all"
-    file:close()
-    return content
-end
+--     local content = file:read "*all"
+--     file:close()
+--     return content
+-- end
 
 
-local FileBody = read_file("/Users/lpeng/Downloads/synapse-storage-manifest-big.csv")
-local Filename = "synapse-storage-manifest-big.csv"
-local ContentDisposition = 'Content-Disposition: form-data; filename="' .. Filename .. '";type=text/csv'
-local ContentType = 'Content-Type: multipart/form-data'
+-- local FileBody = read_file("/Users/lpeng/Downloads/synapse-storage-manifest-big.csv")
+-- local Filename = "synapse-storage-manifest-big.csv"
+-- local ContentDisposition = 'Content-Disposition: form-data; filename="' .. Filename .. '";type=text/csv'
+-- local ContentType = 'Content-Type: multipart/form-data'
 
+
+-- wrk.method = "POST"
+-- wrk.headers["Content-Type"] = "multipart/form-data"
+-- wrk.body = ContentDisposition .. ContentType .. FileBody
 
 wrk.method = "POST"
-wrk.headers["Content-Type"] = "multipart/form-data"
-wrk.body = ContentDisposition .. ContentType .. FileBody
+wrk.headers["Content-Type"] = "text/csv"
 
+counter = 0
+request = function()
+    counter = counter + 1
+    os.execute("/Users/lpeng/Documents/schematic-infra/schematic-infra/wrk/send-csv.sh")
+    return wrk.format("POST", "/", wrk.headers, nil)
+end
