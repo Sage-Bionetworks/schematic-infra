@@ -1,16 +1,15 @@
 import time
 import requests
-import datetime
 import concurrent.futures
 from concurrent.futures import ThreadPoolExecutor
 from numbers import Number
 import os
 from typing import Callable
 
-EXAMPLE_SCHEMA_URL = "https://raw.githubusercontent.com/Sage-Bionetworks/schematic/develop-add-uWSGI-two/tests/data/example.model.jsonld"
+EXAMPLE_SCHEMA_URL = "https://raw.githubusercontent.com/Sage-Bionetworks/schematic/develop/tests/data/example.model.jsonld"
 HTAN_SCHEMA_URL = "https://raw.githubusercontent.com/ncihtan/data-models/main/HTAN.model.jsonld"
 DATA_FLOW_SCHEMA_URL = "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow/main/inst/data_flow_component.jsonld"
-CONCURRENT_THREADS = 1
+CONCURRENT_THREADS = 2
 
 RUN_TOTAL_TIMES_PER_ENDPOINT = 10  # use at least 10
 
@@ -36,7 +35,7 @@ def send_post_request_with_file(url: str, params: dict):
 def get_token():
     token = os.environ.get("TOKEN")
     if token == "" or None:
-        return LookupError("Please provide token of asset store")
+        raise LookupError("Please provide token of asset store")
     else:
         return token
 
@@ -136,11 +135,15 @@ def get_manifest_generate_req():
     input_token = get_token()
     params = {
         "schema_url": EXAMPLE_SCHEMA_URL,
+        #"schema_url": HTAN_SCHEMA_URL,
         "title": "Example",
-        "data_type": ["Patient", "Biospecimen"],
-        # "dataset_id": "syn35294937",
+        "data_type": ["Patient"],
+        #"data_type": ["Biospecimen"],
+        "dataset_id": "syn28268700",
+        "asset_view": "syn23643253", 
         "use_annotations": False,
-        # "input_token": input_token,
+        "input_token": input_token,
+        "output_format": "excel"
     }
     time_diff = cal_time_api_call(base_url, params)
     return time_diff
@@ -326,13 +329,13 @@ def execute_all_endpoints():
     # calculate_avg_run_time_per_endpoint(
     #     get_datatype_manifest_req, "get/datatype/manifest"
     # )
-    #calculate_avg_run_time_per_endpoint(get_manifest_generate_req, "manifest/generate")
+    calculate_avg_run_time_per_endpoint(get_manifest_generate_req, "manifest/generate")
     #calculate_avg_run_time_per_endpoint(download_manifest_req, "manifest/download")
     # calculate_avg_run_time_per_endpoint(populate_manifest_req, "manifest/populate")
     # calculate_avg_run_time_per_endpoint(
     #     model_component_requirements, "model/component-requirements"
     # )
-    calculate_avg_run_time_per_endpoint(model_submit_req, "manifest/submit")
+    #calculate_avg_run_time_per_endpoint(model_submit_req, "manifest/submit")
     #calculate_avg_run_time_per_endpoint(model_validate_req, "model/validate")
     # calculate_avg_run_time_per_endpoint(storage_assets_table_req, "storage/asset/table")
     # calculate_avg_run_time_per_endpoint(
