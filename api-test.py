@@ -9,7 +9,7 @@ from typing import Callable
 EXAMPLE_SCHEMA_URL = "https://raw.githubusercontent.com/Sage-Bionetworks/schematic/develop/tests/data/example.model.jsonld"
 HTAN_SCHEMA_URL = "https://raw.githubusercontent.com/ncihtan/data-models/main/HTAN.model.jsonld"
 DATA_FLOW_SCHEMA_URL = "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow/main/inst/data_flow_component.jsonld"
-CONCURRENT_THREADS = 2
+CONCURRENT_THREADS = 5
 
 RUN_TOTAL_TIMES_PER_ENDPOINT = 10  # use at least 10
 
@@ -26,7 +26,8 @@ def send_post_request_with_file(url: str, params: dict):
             "file_name": open(
                 #"test-manifests/synapse_storage_manifest_patient.csv", "rb"
                 #"test-manifests/synapse_storage_manifest_patient_two.csv", "rb"
-                "test-manifests/synapse_storage_manifest_HTAN.csv", "rb"
+                #"test-manifests/synapse_storage_manifest_HTAN.csv", "rb"
+                "test-manifests/synapse_storage_manifest_HTAN_HMS.csv", "rb"
             )
         },
     )
@@ -130,7 +131,8 @@ def get_datatype_manifest_req():
 
 
 def get_manifest_generate_req():
-    base_url = "https://schematic.dnt-dev.sagebase.org/v1/manifest/generate"
+    #base_url = "https://schematic.dnt-dev.sagebase.org/v1/manifest/generate"
+    base_url = "https://schematic-dev.api.sagebionetworks.org/v1/manifest/generate"
     #base_url = "http://localhost:80/v1/manifest/generate"
     input_token = get_token()
     params = {
@@ -150,7 +152,7 @@ def get_manifest_generate_req():
 
 
 def download_manifest_req():
-    base_url = "https://schematic.dnt-dev.sagebase.org/v1/manifest/download"
+    base_url = "https://schematic-dev.api.sagebionetworks.org/v1/manifest/download"
     #base_url = ("http://localhost:7080/v1/manifest/download")
     token = get_token()
     params = {
@@ -164,7 +166,7 @@ def download_manifest_req():
 
 
 def populate_manifest_req():
-    base_url = "https://schematic.dnt-dev.sagebase.org/v1/manifest/populate"
+    base_url = "https://schematic-dev.api.sagebionetworks.org/v1/manifest/populate"
     params = {
         "schema_url": EXAMPLE_SCHEMA_URL,
         "data_type": "Patient",
@@ -176,7 +178,7 @@ def populate_manifest_req():
 
 
 def model_component_requirements():
-    base_url = "https://schematic.dnt-dev.sagebase.org/v1/model/component-requirements"
+    base_url = "https://schematic-dev.api.sagebionetworks.org/v1/model/component-requirements"
     params = {
         "schema_url": EXAMPLE_SCHEMA_URL,
         "source_component": "Biospecimen",
@@ -188,7 +190,7 @@ def model_component_requirements():
 
 def model_submit_req():
     ### Can't concurrently modify the same object
-    base_url = "https://schematic.dnt-dev.sagebase.org/v1/model/submit"
+    base_url = "https://schematic-dev.api.sagebionetworks.org/v1/model/submit"
     #base_url = "http://localhost:7080/v1/model/submit"
     token = get_token()
     params = {
@@ -233,11 +235,11 @@ def model_submit_big_manifest():
 
 
 def model_validate_req():
-    base_url = "https://schematic.dnt-dev.sagebase.org/v1/model/validate"
+    base_url = "https://schematic-dev.api.sagebionetworks.org/v1/model/validate"
     #base_url = "http://localhost:7080/v1/model/validate"
     params = {
-        # "schema_url": EXAMPLE_SCHEMA_URL,
-        # "data_type": "Patient",
+        #"schema_url": EXAMPLE_SCHEMA_URL,
+        #"data_type": "Patient",
         "schema_url": HTAN_SCHEMA_URL,
         "data_type": "Biospecimen",
     }
@@ -329,14 +331,14 @@ def execute_all_endpoints():
     # calculate_avg_run_time_per_endpoint(
     #     get_datatype_manifest_req, "get/datatype/manifest"
     # )
-    calculate_avg_run_time_per_endpoint(get_manifest_generate_req, "manifest/generate")
-    #calculate_avg_run_time_per_endpoint(download_manifest_req, "manifest/download")
+    # calculate_avg_run_time_per_endpoint(get_manifest_generate_req, "manifest/generate")
+    # calculate_avg_run_time_per_endpoint(download_manifest_req, "manifest/download")
     # calculate_avg_run_time_per_endpoint(populate_manifest_req, "manifest/populate")
     # calculate_avg_run_time_per_endpoint(
     #     model_component_requirements, "model/component-requirements"
     # )
     #calculate_avg_run_time_per_endpoint(model_submit_req, "manifest/submit")
-    #calculate_avg_run_time_per_endpoint(model_validate_req, "model/validate")
+    calculate_avg_run_time_per_endpoint(model_validate_req, "model/validate")
     # calculate_avg_run_time_per_endpoint(storage_assets_table_req, "storage/asset/table")
     # calculate_avg_run_time_per_endpoint(
     #     storage_dataset_files_req, "storage/dataset/files"
