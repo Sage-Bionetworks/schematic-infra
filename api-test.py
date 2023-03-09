@@ -5,6 +5,11 @@ from concurrent.futures import ThreadPoolExecutor
 from numbers import Number
 import os
 from typing import Callable
+import pandas as pd
+import matplotlib.pyplot as plt
+
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
 
 EXAMPLE_SCHEMA_URL = "https://raw.githubusercontent.com/Sage-Bionetworks/schematic/develop/tests/data/example.model.jsonld"
 HTAN_SCHEMA_URL = "https://raw.githubusercontent.com/ncihtan/data-models/main/HTAN.model.jsonld"
@@ -64,7 +69,6 @@ def cal_time_api_call(url: str, params: dict, request_type="get"):
                 print(f"generated an exception:{exc}")
 
     time_diff = time.time() - start_time
-    time.sleep(2)
     print(f"duration time of running {url}", time_diff)
     print(f"total errors", all_error)
     return time_diff
@@ -76,39 +80,42 @@ def write_to_txt_file(name_of_endpoint: str, duration: Number):
         f.write("\n")
         f.close()
 
-
-def execute_api_call(url, params, name_of_endpoint):
-    time_diff = cal_time_api_call(url, params)
-
-    # write_to_txt_file(name_of_endpoint, time_diff)
-
-
 def calculate_avg_run_time_per_endpoint(
     function_to_run: Callable, name_of_endpoint: str
 ):
     sum_time = 0
+    df = pd.DataFrame(columns=['#number','latency'])
     for x in range(RUN_TOTAL_TIMES_PER_ENDPOINT):
         run_time = function_to_run()
+        df=df.append({"#number": x+1, "latency": run_time}, ignore_index=True)
         sum_time = sum_time + run_time
     avg_time = sum_time / RUN_TOTAL_TIMES_PER_ENDPOINT
+    
+    draw_boxplot(df)
     write_to_txt_file(name_of_endpoint, avg_time)
+
+def draw_boxplot(df): 
+    myFig = plt.figure()
+    df["latency"].plot(kind="box")
+    myFig.savefig(f"latency-box-plot.svg", format="svg")
+
 
 
 ## defining endpoints to test
 def find_class_specific_property_req():
-    base_url = "https://schematic.dnt-dev.sagebase.org/v1/explorer/find_class_specific_properties"
+    base_url = "https://schematic-dev.api.sagebionetworks.org/v1/explorer/find_class_specific_properties"
     params = {"schema_url": EXAMPLE_SCHEMA_URL, "schema_class": "MolecularEntity"}
     time_diff = cal_time_api_call(base_url, params)
     return time_diff
 
 
 def get_node_dependencies_req():
-    # base_url = (
-    #     "https://schematic.dnt-dev.sagebase.org/v1/explorer/get_node_dependencies"
-    # )
     base_url = (
-        "http://localhost:7080/v1/explorer/get_node_dependencies"
+        "https://schematic-dev.api.sagebionetworks.org/v1/explorer/get_node_dependencies"
     )
+    # base_url = (
+    #     "http://localhost:7080/v1/explorer/get_node_dependencies"
+    # )
     params = {
         "schema_url": EXAMPLE_SCHEMA_URL,
         "source_node": "Patient",
@@ -118,7 +125,7 @@ def get_node_dependencies_req():
 
 
 def get_datatype_manifest_req():
-    base_url = "https://schematic.dnt-dev.sagebase.org/v1/get/datatype/manifest"
+    base_url = "https://schematic-dev.api.sagebionetworks.org/v1/get/datatype/manifest"
     input_token = get_token()
     params = {
         "input_token": input_token,
@@ -140,8 +147,8 @@ def get_manifest_generate_req():
         "title": "Example",
         "data_type": ["Patient"],
         #"data_type": ["Biospecimen"],
-        "dataset_id": "syn28268700",
-        "asset_view": "syn23643253", 
+        #"dataset_id": "syn28268700",
+        #"asset_view": "syn23643253", 
         "use_annotations": False,
         "input_token": input_token,
         "output_format": "excel"
@@ -156,8 +163,10 @@ def download_manifest_req():
     token = get_token()
     params = {
         "input_token": token,
-        "asset_view": "syn50896957",
-        "dataset_id": "syn50900267",
+        "asset_view": "syn20446927",
+        "dataset_id": "syn24616231",
+        #"asset_view": "syn50896957",
+        #"dataset_id": "syn50900267",
         "as_json": True,
     }
     time_diff = cal_time_api_call(base_url, params)
@@ -232,14 +241,13 @@ def model_submit_big_manifest():
     )
     print(r.status_code)
 
-
 def model_validate_req():
     base_url = "https://schematic-dev.api.sagebionetworks.org/v1/model/validate"
     #base_url = "http://localhost:7080/v1/model/validate"
     params = {
         "schema_url": EXAMPLE_SCHEMA_URL,
         "data_type": "Patient",
-        #"restrict_rules": False
+        "restrict_rules": False
         #"restrict_rules": True
         #"schema_url": HTAN_SCHEMA_URL,
         #"data_type": "Biospecimen",
@@ -333,13 +341,13 @@ def execute_all_endpoints():
     #     get_datatype_manifest_req, "get/datatype/manifest"
     # )
     # calculate_avg_run_time_per_endpoint(get_manifest_generate_req, "manifest/generate")
-    # calculate_avg_run_time_per_endpoint(download_manifest_req, "manifest/download")
+    calculate_avg_run_time_per_endpoint(download_manifest_req, "manifest/download")
     # calculate_avg_run_time_per_endpoint(populate_manifest_req, "manifest/populate")
     # calculate_avg_run_time_per_endpoint(
     #     model_component_requirements, "model/component-requirements"
     # )
     #calculate_avg_run_time_per_endpoint(model_submit_req, "manifest/submit")
-    calculate_avg_run_time_per_endpoint(model_validate_req, "model/validate")
+    # calculate_avg_run_time_per_endpoint(model_validate_req, "model/validate")
     # calculate_avg_run_time_per_endpoint(storage_assets_table_req, "storage/asset/table")
     # calculate_avg_run_time_per_endpoint(
     #     storage_dataset_files_req, "storage/dataset/files"
