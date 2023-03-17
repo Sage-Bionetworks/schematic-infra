@@ -50,7 +50,7 @@ class TestManifestOperation:
             for f in concurrent.futures.as_completed(futures):
                 try:
                     status_code = f.result().status_code
-                    assert status_code == 200 
+                    assert status_code == 200
                     if status_code != 200:
                         total_error_num = total_error_num + 1
                         logger.debug("Error code: ", status_code)
@@ -61,16 +61,16 @@ class TestManifestOperation:
             time_diff = round(time.time() - start_time, 2)
 
             # record latency and errors
-            if not params["dataset_id"]: 
-                if output_format == "google_sheet": 
+            if not params["dataset_id"]:
+                if output_format == "google_sheet":
                     description = "Generating a new google sheet using the example data model"
-                else: 
+                else:
                     description = "Generating a new excel sheet using the example data model"
-            else: 
-                if output_format == "google_sheet": 
+            else:
+                if output_format == "google_sheet":
                     description = "Generating an existing google sheet using the example data model"
-                else: 
-                    description = "Generating an existing excel sheet using the example data model" 
+                else:
+                    description = "Generating an existing excel sheet using the example data model"
 
             output_to_csv(description, dt_string, CONCURRENT_REQUEST, total_error_num, total_504_num, time_diff)
 
@@ -78,8 +78,3 @@ class TestManifestOperation:
                 assert time_diff < TIME_OUT_LIMIT_GENERATE_EXISTING_MANIFEST
             else:
                 assert time_diff < TIME_OUT_LIMIT_GENERATE_NEW_MANIFEST
-
-    
-            
-
-

@@ -14,7 +14,7 @@ def get_token():
         token=os.environ["SYNAPSE_ACCESS_TOKEN"]
     elif "TOKEN" in os.environ:
         token = os.environ["TOKEN"]
-    else: 
+    else:
         logger.debug('TOKEN is missing. Please add synapse access token')
     yield token
 
@@ -41,4 +41,3 @@ def fetch_request():
 @pytest.fixture(scope="session")
 def output_to_csv():
     return csv_export
-

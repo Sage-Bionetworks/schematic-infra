@@ -90,11 +90,11 @@ def calculate_avg_run_time_per_endpoint(
         df=df.append({"#number": x+1, "latency": run_time}, ignore_index=True)
         sum_time = sum_time + run_time
     avg_time = sum_time / RUN_TOTAL_TIMES_PER_ENDPOINT
-    
+
     draw_boxplot(df)
     write_to_txt_file(name_of_endpoint, avg_time)
 
-def draw_boxplot(df): 
+def draw_boxplot(df):
     myFig = plt.figure()
     df["latency"].plot(kind="box")
     myFig.savefig(f"latency-box-plot.svg", format="svg")
@@ -148,7 +148,7 @@ def get_manifest_generate_req():
         "data_type": ["Patient"],
         #"data_type": ["Biospecimen"],
         #"dataset_id": "syn28268700",
-        #"asset_view": "syn23643253", 
+        #"asset_view": "syn23643253",
         "use_annotations": False,
         "input_token": input_token,
         "output_format": "excel"
@@ -331,7 +331,7 @@ def execute_all_endpoints():
         )
         f.write("\n")
         f.close()
-    
+
     #calculate_avg_run_time_per_endpoint(send_concurrent_req, "swagger-ui")
     # calculate_avg_run_time_per_endpoint(find_class_specific_property_req, "explorer/find_class_specific_property")
     # calculate_avg_run_time_per_endpoint(
