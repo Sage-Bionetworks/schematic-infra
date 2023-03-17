@@ -1,0 +1,80 @@
+[
+    {
+        "Component": "DataFlow",
+        "contributor": "FAIR demo data",
+        "data_portal": "FALSE",
+        "dataset": "Biospecimen",
+        "dataset_name": "biospecimen",
+        "embargo": "Not Applicable",
+        "entity_id": "syn35294937",
+        "num_items": "1",
+        "release_scheduled": "Not Applicable",
+        "released": "FALSE",
+        "standard_compliance": "FALSE"
+    },
+    {
+        "Component": "DataFlow",
+        "contributor": "FAIR demo data",
+        "data_portal": "FALSE",
+        "dataset": "Patient",
+        "dataset_name": "patient",
+        "embargo": "Not Applicable",
+        "entity_id": "syn36003517",
+        "num_items": "3",
+        "release_scheduled": "Not Applicable",
+        "released": "FALSE",
+        "standard_compliance": "FALSE"
+    },
+    {
+        "Component": "DataFlow",
+        "contributor": "FAIR demo data",
+        "data_portal": "FALSE",
+        "dataset": "BulkRNA-seqAssay",
+        "dataset_name": "bulk RNA seq",
+        "embargo": "Not Applicable",
+        "entity_id": "syn36003526",
+        "num_items": "2",
+        "release_scheduled": "Not Applicable",
+        "released": "FALSE",
+        "standard_compliance": "FALSE"
+    },
+    {
+        "Component": "DataFlow",
+        "contributor": "FAIR demo data",
+        "data_portal": "FALSE",
+        "dataset": "Patient",
+        "dataset_name": "MockComponent",
+        "embargo": "Not Applicable",
+        "entity_id": "syn44539618",
+        "num_items": "4",
+        "release_scheduled": "Not Applicable",
+        "released": "FALSE",
+        "standard_compliance": "FALSE"
+    },
+    {
+        "Component": "DataFlow",
+        "contributor": "FAIR demo data",
+        "data_portal": "FALSE",
+        "dataset": "Patient",
+        "dataset_name": "test",
+        "embargo": "Not Applicable",
+        "entity_id": "syn45266807",
+        "num_items": "4",
+        "release_scheduled": "Not Applicable",
+        "released": "FALSE",
+        "standard_compliance": "FALSE"
+    },
+    {
+        "Component": "DataFlow",
+        "contributor": "FAIR demo data",
+        "data_portal": "FALSE",
+        "dataset": "Not Applicable",
+        "dataset_name": "DataFlowStatus",
+        "embargo": "Not Applicable",
+        "entity_id": "syn50865023",
+        "num_items": "Not Applicable",
+        "release_scheduled": "Not Applicable",
+        "released": "FALSE",
+        "standard_compliance": "FALSE"
+    }
+]

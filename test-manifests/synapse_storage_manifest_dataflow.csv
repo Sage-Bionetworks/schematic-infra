@@ -1,0 +1,536 @@
+"Component","Uuid","contributor","data_portal","dataset","dataset_name","embargo","entityId","num_items","release_scheduled","released","standard_compliance"
+"DataFlow","7202834a-6cf4-4a4b-84ae-308433f1bdf4","HTAN HTAPP",FALSE,"ImagingLevel2","merfish_level_1","2022-12-01","syn23585912","Not Applicable","2022-12-25",TRUE,TRUE
+"DataFlow","385dac37-e0d3-43d6-b50a-ba336de827c9","HTAN HTAPP",FALSE,"ImagingLevel2","merfish_level_2","2022-12-01","syn23585913","Not Applicable","2022-12-25",TRUE,TRUE
+"DataFlow","f6d5ee40-1a37-4c83-ba2a-5b92048a48e9","HTAN HTAPP",FALSE,"OtherAssay","merfish_level_3","2022-12-01","syn23585914","Not Applicable","2022-12-25",TRUE,TRUE
+"DataFlow","6b036edd-11f0-48e4-9f5d-343ee8371c11","HTAN HTAPP",FALSE,"OtherAssay","merfish_level_4","2022-12-01","syn23585915","Not Applicable","2022-12-25",TRUE,TRUE
+"DataFlow","4e002aba-0b43-47b5-8960-7919aede67c8","HTAN HTAPP",FALSE,"OtherAssay","merfish_level_5","Not Applicable","syn23585916","Not Applicable","2022-12-25",TRUE,TRUE
+"DataFlow","4ef55de4-72f1-401a-83c4-8859a3220792","HTAN HTAPP",FALSE,"OtherAssay","codex_level_1","2022-12-01","syn23591171","Not Applicable","2022-12-25",TRUE,TRUE
+"DataFlow","bc1d26f9-3fed-44b1-ae8a-d599f37745fe","HTAN HTAPP",FALSE,"ImagingLevel2","codex_level_2","2022-12-01","syn23591172","Not Applicable","2022-12-25",FALSE,TRUE
+"DataFlow","2dbfccb5-840d-4170-9a23-f59340946ac0","HTAN HTAPP",FALSE,"OtherAssay","codex_level_3","2022-12-01","syn23591173","Not Applicable","2022-12-25",FALSE,TRUE
+"DataFlow","8193852f-d2a8-4bb5-9f15-4c22f94194bc","HTAN HTAPP",FALSE,"OtherAssay","codex_level_4","Not Applicable","syn23591174","Not Applicable","2022-12-25",FALSE,TRUE
+"DataFlow","7bf829e9-5ec3-47fa-ac04-5ad916929071","HTAN HTAPP",FALSE,"OtherAssay","codex_level_5","Not Applicable","syn23591175","Not Applicable","2022-12-25",FALSE,TRUE
+"DataFlow","1aa8daf5-46f4-4d49-bfd2-8c28b9186169","HTAN HTAPP",FALSE,"ImagingLevel2","mibi_level_1","Not Applicable","syn23638814","Not Applicable","2022-12-25",FALSE,TRUE
+"DataFlow","5973b2f9-0a76-459f-9dd2-1a9f6b7bebef","HTAN HTAPP",FALSE,"ImagingLevel2","mibi_level_2","Not Applicable","syn23638815","Not Applicable","2022-12-25",FALSE,FALSE
+"DataFlow","8b217944-3ad8-4f4e-8bd6-0d2ac2bdb8da","HTAN HTAPP",FALSE,"OtherAssay","mibi_level_3","Not Applicable","syn23638816","Not Applicable","2022-12-25",FALSE,FALSE
+"DataFlow","681b8f8c-cbeb-47e2-9019-6ea95c141f37","HTAN HTAPP",FALSE,"OtherAssay","mibi_level_4","Not Applicable","syn23638817","Not Applicable","2022-12-25",FALSE,FALSE
+"DataFlow","27c1ba48-be8f-47d8-93bc-db01dce48591","HTAN HTAPP",FALSE,"OtherAssay","mibi_level_5","Not Applicable","syn23638818","Not Applicable","2022-12-25",FALSE,FALSE
+"DataFlow","abce1f23-2791-4676-bb48-91a65c904c06","HTAN HTAPP",FALSE,"OtherAssay","h_and_e_level_1","Not Applicable","syn24175688","Not Applicable","2022-12-25",FALSE,FALSE
+"DataFlow","6f932339-01b7-4f16-9599-54f3072f8d5b","HTAN HTAPP",FALSE,"OtherAssay","exseq_level_2","Not Applicable","syn24176067","Not Applicable","2022-12-25",FALSE,FALSE
+"DataFlow","0c089bbf-4f53-4131-9145-71da9a152abd","HTAN HTAPP",FALSE,"OtherAssay","exseq_level_3","Not Applicable","syn24176068","Not Applicable","2022-12-25",FALSE,FALSE
+"DataFlow","7692fafb-1b41-493d-b374-26f8e87058a0","HTAN HTAPP",FALSE,"ScRNA-seqLevel1","single_cell_RNAseq_level_1_colon","Not Applicable","syn24181385","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","644e8ba7-133d-4b0d-b9fa-9a993c5f65cb","HTAN HTAPP",FALSE,"ScRNA-seqLevel2","single_cell_RNAseq_level_2_colon","Not Applicable","syn24181437","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","a13e5fac-7ea3-41fe-8593-babf784be85b","HTAN HTAPP",FALSE,"ScRNA-seqLevel3","single_cell_RNAseq_level_3_colon","Not Applicable","syn24181445","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","5c0e750d-2fe4-48dd-8d78-21f0a3b0431a","HTAN HTAPP",FALSE,"BulkWESLevel2","bulk_DNAseq_level_2_colon","Not Applicable","syn24181527","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","5a93fc40-7652-44b9-b1e5-caed5bb07eac","HTAN HTAPP",FALSE,"BulkRNA-seqLevel2","bulk_RNAseq_level_2_colon","Not Applicable","syn24181573","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","a4bd82e5-a3b3-46ab-933e-00fcd584d55e","HTAN HTAPP",FALSE,"ScRNA-seqLevel1","single_cell_RNAseq_level_1_breast","Not Applicable","syn24181593","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","a20cd74d-ae5f-4ab2-af3f-aa7bee84d9a1","HTAN HTAPP",FALSE,"ScRNA-seqLevel1","single_cell_RNAseq_level_1_glioma","Not Applicable","syn24181594","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","0976924f-3232-4cb6-b0c3-2bece927c382","HTAN HTAPP",FALSE,"ScRNA-seqLevel1","single_cell_RNAseq_level_1_lung","Not Applicable","syn24181595","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","a60834a7-be2a-474b-81cb-79501bf627cf","HTAN HTAPP",FALSE,"ScRNA-seqLevel3","single_cell_RNAseq_level_3_glioma","Not Applicable","syn24181596","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","063fff44-aba8-4117-8094-6375a895518c","HTAN HTAPP",FALSE,"ScRNA-seqLevel1","single_cell_RNAseq_level_1_neuroblastoma","Not Applicable","syn24181597","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","7d1498f9-a78e-42b0-bcb2-57ddeafa9fbd","HTAN HTAPP",FALSE,"ScRNA-seqLevel1","single_cell_RNAseq_level_1_ovarian","Not Applicable","syn24181598","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","ba9eb6c1-65f6-4267-a6fe-f7f20c250b26","HTAN HTAPP",FALSE,"ScRNA-seqLevel4","single_cell_RNAseq_level_4_glioma","Not Applicable","syn24181599","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","4f42490b-d28e-4686-9c75-1511bfb1fd0d","HTAN HTAPP",FALSE,"ScRNA-seqLevel4","single_cell_RNAseq_level_4_lung","Not Applicable","syn24181600","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","aba4c68e-1aa2-4b5d-a965-73d973c910af","HTAN HTAPP",FALSE,"ScRNA-seqLevel4","single_cell_RNAseq_level_4_breast","Not Applicable","syn24181601","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","6bed41ee-2f57-4885-8995-a4f6d714162c","HTAN HTAPP",FALSE,"ScRNA-seqLevel1","single_cell_RNAseq_level_1_sarcoma","Not Applicable","syn24181602","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","cb9aa65b-c320-4cc2-9b6a-1ef8354e98d0","HTAN HTAPP",FALSE,"ScRNA-seqLevel2","single_cell_RNAseq_level_2_breast","Not Applicable","syn24181603","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","f5eb086d-3c8d-4bdc-baac-894c9bf1e629","HTAN HTAPP",FALSE,"ScRNA-seqLevel2","single_cell_RNAseq_level_2_lung","Not Applicable","syn24181604","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","34968903-bb33-4583-85a1-585c2b520938","HTAN HTAPP",FALSE,"ScRNA-seqLevel2","single_cell_RNAseq_level_2_ovarian","Not Applicable","syn24181605","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","4ab61c7d-d4f0-49e9-8350-a4d30dca972b","HTAN HTAPP",FALSE,"ScRNA-seqLevel2","single_cell_RNAseq_level_2_neuroblastoma","Not Applicable","syn24181606","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","c75ad834-4d89-4fcc-bd53-5157719fc87b","HTAN HTAPP",FALSE,"ScRNA-seqLevel4","single_cell_RNAseq_level_4_ovarian","Not Applicable","syn24181607","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","ddd0f80d-a80e-487b-8337-a7f938e7ad85","HTAN HTAPP",FALSE,"ScRNA-seqLevel4","single_cell_RNAseq_level_4_neuroblastoma","Not Applicable","syn24181608","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","eff158c5-d9f3-44cb-aa85-3bbbe373576b","HTAN HTAPP",FALSE,"BulkRNA-seqLevel2","bulk_RNAseq_level_2_lung","Not Applicable","syn24181609","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","b8c09835-7217-44f6-b0d3-034aef22be20","HTAN HTAPP",FALSE,"ScRNA-seqLevel2","single_cell_RNAseq_level_2_sarcoma","Not Applicable","syn24181610","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","67568177-f8d6-42cf-a8c3-1eee67023b39","HTAN HTAPP",FALSE,"BulkWESLevel2","bulk_DNAseq_level_2_lung","Not Applicable","syn24181611","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","72ad3ce4-7696-40f9-b46b-a3b4e2e3c274","HTAN HTAPP",FALSE,"BulkRNA-seqLevel2","bulk_RNAseq_level_2_neuroblastoma","Not Applicable","syn24181612","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","0adb11ce-8aec-4a70-8cbe-fde64aafa04c","HTAN HTAPP",FALSE,"BulkRNA-seqLevel2","bulk_RNAseq_level_2_breast","Not Applicable","syn24181613","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","9f48dc53-7e08-4fed-9ee4-8c056f763e01","HTAN HTAPP",FALSE,"BulkRNA-seqLevel2","bulk_RNAseq_level_2_ovarian","Not Applicable","syn24181614","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","49a267cb-6790-4f46-ad0d-424cc1f91881","HTAN HTAPP",FALSE,"BulkWESLevel2","bulk_DNAseq_level_2_neuroblastoma","Not Applicable","syn24181615","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","535c9aee-e535-4f73-aa06-3bab22ac3109","HTAN HTAPP",FALSE,"BulkWESLevel2","bulk_DNAseq_level_2_breast","Not Applicable","syn24181616","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","00db6569-5213-4511-bd30-e94244074dbf","HTAN HTAPP",FALSE,"BulkRNA-seqLevel2","bulk_RNAseq_level_2_sarcoma","Not Applicable","syn24181617","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","ac2ac68f-76a5-40d5-9241-c0e2d7818529","HTAN HTAPP",FALSE,"BulkWESLevel2","bulk_DNAseq_level_2_sarcoma","Not Applicable","syn24181618","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","5f949fb7-ef45-4b74-bcbc-2351dd159bc4","HTAN HTAPP",FALSE,"ScRNA-seqLevel3","single_cell_RNAseq_level_3_breast","Not Applicable","syn24181619","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","1087c4d6-1530-4e4a-8617-483f6b3b431f","HTAN HTAPP",FALSE,"ScRNA-seqLevel3","single_cell_RNAseq_level_3_lung","Not Applicable","syn24181620","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","86a8052f-63ba-464b-b782-f00836e03377","HTAN HTAPP",FALSE,"ScRNA-seqLevel3","single_cell_RNAseq_level_3_neuroblastoma","Not Applicable","syn24181621","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","ad0330c2-e8f3-40bc-afdd-36e370c9aae9","HTAN HTAPP",FALSE,"ScRNA-seqLevel3","single_cell_RNAseq_level_3_sarcoma","Not Applicable","syn24181622","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","8a6627e5-ccf7-4b90-abc6-bc79a05315c7","HTAN HTAPP",FALSE,"ScRNA-seqLevel4","single_cell_RNAseq_level_4_sarcoma","Not Applicable","syn24181623","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","74beaba9-e77e-4000-a95f-ad72ed788afe","HTAN HTAPP",FALSE,"BulkWESLevel2","bulk_DNAseq_level_2_ovarian","Not Applicable","syn24181624","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","bafe62ea-e8ca-44db-9ef4-9d34e09324ee","HTAN HTAPP",FALSE,"ScRNA-seqLevel2","single_cell_RNAseq_level_2_glioma","Not Applicable","syn24181625","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","30c26d28-6095-4503-8b19-75e7cf4440f1","HTAN HTAPP",FALSE,"BulkWESLevel2","bulk_DNAseq_level_2_glioma","Not Applicable","syn24181626","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","0b6f09de-f79b-4379-b0da-ed6ff1693a9c","HTAN HTAPP",FALSE,"BulkRNA-seqLevel2","bulk_RNAseq_level_2_glioma","Not Applicable","syn24181627","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","4ab6a290-b6ac-433a-97cb-d2bd13dc9f82","HTAN HTAPP",FALSE,"ScRNA-seqLevel3","single_cell_RNAseq_level_3_ovarian","Not Applicable","syn24181628","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","f170064a-f063-4861-bf1b-ec5b3fdf420f","HTAN HTAPP",FALSE,"ScRNA-seqLevel4","single_cell_RNAseq_level_4_colon","Not Applicable","syn24181630","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","67b14f13-9291-4d73-83a1-56a7831bc749","HTAN HTAPP",FALSE,"ScRNA-seqLevel4","slide_seq_level_1_breast","Not Applicable","syn24205844","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","247b1b72-bb20-4a40-a875-bb09b6d6d44d","HTAN HTAPP",FALSE,"ScRNA-seqLevel4","slide_seq_level_3_neuroblastoma","Not Applicable","syn24205846","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","c8e0be5c-eb03-461e-901d-00d2f2cc8364","HTAN HTAPP",FALSE,"ScRNA-seqLevel4","slide_seq_level_2_breast","Not Applicable","syn24205848","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","12e6ce96-0c8e-4cb2-9011-6bc92398b205","HTAN HTAPP",FALSE,"ScRNA-seqLevel4","slide_seq_level_1_neuroblastoma","Not Applicable","syn24205849","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","a8e220bd-ad2e-4742-b99f-ac9422571bdb","HTAN HTAPP",FALSE,"ScRNA-seqLevel4","slide_seq_level_3_breast","Not Applicable","syn24205852","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","38cf66e4-ad05-4727-995f-ef070b2315ce","HTAN HTAPP",FALSE,"ScRNA-seqLevel4","slide_seq_level_2_neuroblastoma","Not Applicable","syn24205853","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","9bd46650-1df3-48aa-a9a0-f68267d988ed","HTAN HTAPP",FALSE,"Demographics","clinical_demographics_colon","Not Applicable","syn24615241","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","664a9b70-590f-43f1-88a0-7e280ab995a9","HTAN HTAPP",FALSE,"Exposure","clinical_exposure_colon","Not Applicable","syn24615243","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","a9e7f18a-c523-4745-a796-430426fe8c18","HTAN HTAPP",FALSE,"Diagnosis","clinical_diagnosis_colon","Not Applicable","syn24615244","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","f86be5b4-8cdc-40a7-8a6b-115e4c4f6ca9","HTAN HTAPP",FALSE,"Diagnosis","clinical_family_history_colon","Not Applicable","syn24615245","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","77232926-cda2-4be7-b61b-77d05c089c26","HTAN HTAPP",FALSE,"FollowUp","clinical_follow_up_colon","Not Applicable","syn24615246","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","62d31f88-d524-41ed-b3ca-d4afc9746575","HTAN HTAPP",FALSE,"Therapy","clinical_therapy_colon","Not Applicable","syn24615247","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","48e01ceb-e030-47cd-868c-1d51906dcb49","HTAN HTAPP",FALSE,"Therapy","archive","Not Applicable","syn24827250","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","287f5351-6f7a-4e54-9fcc-d89b421a22bb","HTAN HTAPP",FALSE,"MolecularTest","clinical_molecular_test_colon","Not Applicable","syn24860582","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","84ad24be-2eb3-43fd-af2d-370778905410","HTAN HTAPP",FALSE,"ImagingLevel2","h_and_e_visium_lung","Not Applicable","syn24862457","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","71d42b38-de94-4206-8526-66c22c3b66ad","HTAN HTAPP",FALSE,"ImagingLevel2","h_and_e_mibi_neuroblastoma","Not Applicable","syn24862458","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","d943fa83-23c2-43f8-914c-68d5394d59e8","HTAN HTAPP",FALSE,"ImagingLevel2","h_and_e_visium_ovarian","Not Applicable","syn24862462","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","2fa6154d-de79-435e-affc-0406f11c6fde","HTAN HTAPP",FALSE,"ImagingLevel2","clinical_tier_2_colon","Not Applicable","syn24873770","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","ffd12685-6b10-40d7-8aec-fe78b3f93c58","HTAN HTAPP",FALSE,"ImagingLevel2","clinical_tier_3_breast","Not Applicable","syn24873771","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","b8ea5857-8497-4118-81c7-898b269fcc15","HTAN HTAPP",FALSE,"BrainCancerTier3","clinical_tier_3_glioma","Not Applicable","syn24873772","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","47d8d63e-eedc-4d00-8485-42e6e376dd64","HTAN HTAPP",FALSE,"BrainCancerTier3","clinical_tier_3_colon","Not Applicable","syn24873773","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","0e285ec0-bf35-48bc-b58a-be502b83534f","HTAN HTAPP",FALSE,"LungCancerTier3","clinical_tier_3_lung","Not Applicable","syn24873774","Not Applicable","2021-11-20",TRUE,TRUE
+"DataFlow","dd4ac233-f1e5-40dc-91b7-8124b7a2961d","HTAN HTAPP",FALSE,"LungCancerTier3","clinical_tier_3_sarcoma","Not Applicable","syn24873775","Not Applicable","2020-04-01",TRUE,TRUE
+"DataFlow","a54ef96b-1235-4bd7-820d-4f57b9a9bdb2","HTAN HTAPP",FALSE,"LungCancerTier3","clinical_tier_3_ovarian","Not Applicable","syn24873776","Not Applicable","2020-04-01",TRUE,TRUE
+"DataFlow","6028c903-4df1-4798-9b88-25598ad6bd40","HTAN HTAPP",FALSE,"LungCancerTier3","clinical_tier_3_neuroblastoma","Not Applicable","syn24873777","Not Applicable","2020-04-01",TRUE,TRUE
+"DataFlow","c3e2cf3a-ffa0-42c3-b294-5a9bcc240c08","HTAN HTAPP",FALSE,"Biospecimen","biospecimen_colon","Not Applicable","syn25117237","Not Applicable","2020-04-01",TRUE,TRUE
+"DataFlow","baf5920c-a903-41f2-a31c-a7fcac671d2d","HTAN HTAPP",FALSE,"Biospecimen","additional_metadata","Not Applicable","syn25122683","Not Applicable","2020-04-01",TRUE,TRUE
+"DataFlow","0d8ce990-28af-4ab1-8883-092ae85cb730","HTAN HTAPP",FALSE,"OtherAssay","merfish_auxiliary_files","Not Applicable","syn25485809","Not Applicable","2020-04-01",TRUE,TRUE
+"DataFlow","db9aa52f-6a29-4357-9cc3-5f2ec437379d","HTAN HTAPP",FALSE,"OtherAssay","mibi_auxiliary_files","Not Applicable","syn25544054","Not Applicable","2020-04-01",TRUE,TRUE
+"DataFlow","5ff1a1a3-629f-47ce-8ef7-cfd63c7c6096","HTAN HTAPP",FALSE,"OtherAssay","codex_auxiliary_files","Not Applicable","syn25556417","Not Applicable","2020-04-01",TRUE,TRUE
+"DataFlow","c9a93131-b1ee-4c8d-81b3-72215e56a0e5","HTAN HTAPP",FALSE,"OtherAssay","codex_level_2_neuroblastoma","Not Applicable","syn25571195","Not Applicable","2020-04-01",TRUE,TRUE
+"DataFlow","7190d4ba-6ac8-484f-b42b-b749bb197be2","HTAN HTAPP",FALSE,"Biospecimen","biospecimen_breast","Not Applicable","syn25585682","Not Applicable","2020-04-01",TRUE,TRUE
+"DataFlow","efebc4fa-4f60-4693-bbd0-11c94684f098","HTAN HTAPP",FALSE,"Biospecimen","biospecimen_glioma","Not Applicable","syn25585683","Not Applicable","2020-04-01",TRUE,TRUE
+"DataFlow","0ab0cffb-dea6-44aa-8896-5982f35454de","HTAN HTAPP",FALSE,"Biospecimen","biospecimen_lung","Not Applicable","syn25585684","Not Applicable","2020-04-01",TRUE,TRUE
+"DataFlow","8f840fa0-eb0a-4936-b995-d615580f3500","HTAN HTAPP",FALSE,"Biospecimen","biospecimen_neuroblastoma","Not Applicable","syn25585685","Not Applicable","2020-04-01",TRUE,TRUE
+"DataFlow","fc29d36a-6db5-4e4f-b1a5-efe0d38ccbb0","HTAN HTAPP",FALSE,"Biospecimen","biospecimen_sarcoma","Not Applicable","syn25585687","Not Applicable","2020-04-01",TRUE,TRUE
+"DataFlow","5737663d-c18e-4a0d-9af0-fa541f84897c","HTAN HTAPP",FALSE,"Demographics","clinical_demographics_breast","Not Applicable","syn25585688","Not Applicable","2020-04-01",TRUE,TRUE
+"DataFlow","743efd3e-de3a-48e6-9412-9a1e6dcb13ee","HTAN HTAPP",FALSE,"Demographics","clinical_demographics_glioma","Not Applicable","syn25585689","Not Applicable","2020-04-01",TRUE,TRUE
+"DataFlow","925dae94-fc60-4d48-aaba-7c2446bf9a73","HTAN HTAPP",FALSE,"Demographics","clinical_demographics_lung","Not Applicable","syn25585690","Not Applicable","2020-04-01",TRUE,TRUE
+"DataFlow","5f0bc860-0185-475e-8bb6-747f6b7c488b","HTAN HTAPP",FALSE,"Demographics","clinical_demographics_neuroblastoma","Not Applicable","syn25585691","Not Applicable","2020-04-01",TRUE,TRUE
+"DataFlow","ad7d32b4-4116-4c8b-b465-ba6900cd9de3","HTAN HTAPP",FALSE,"Demographics","clinical_demographics_sarcoma","Not Applicable","syn25585693","Not Applicable","2020-04-01",TRUE,TRUE
+"DataFlow","eae1cfad-3962-4d7e-82f5-547ad7478a2f","HTAN HTAPP",FALSE,"Diagnosis","clinical_diagnosis_breast","Not Applicable","syn25585694","Not Applicable","2020-04-01",TRUE,TRUE
+"DataFlow","10baf718-c9ae-4da5-8ea9-7bc30e085fd5","HTAN HTAPP",FALSE,"Diagnosis","clinical_diagnosis_glioma","Not Applicable","syn25585695","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","b15c8d77-dfa2-4435-a0cc-f80a5c893ff1","HTAN HTAPP",FALSE,"Diagnosis","clinical_diagnosis_lung","Not Applicable","syn25585696","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","06efe030-65c7-4682-96f5-bb3bbe2e5760","HTAN HTAPP",FALSE,"Diagnosis","clinical_diagnosis_neuroblastoma","Not Applicable","syn25585697","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","fc2a67ec-bada-4149-a8fb-04325af18a2a","HTAN HTAPP",FALSE,"Diagnosis","clinical_diagnosis_sarcoma","Not Applicable","syn25585699","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","ce535531-834b-46c7-a201-7fee50777c50","HTAN HTAPP",FALSE,"Exposure","clinical_exposure_breast","Not Applicable","syn25585700","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","e2d27380-f787-4456-85c0-df79002d32ee","HTAN HTAPP",FALSE,"Exposure","clinical_exposure_glioma","Not Applicable","syn25585701","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","242c1621-4631-409b-a28b-f9a30292eea0","HTAN HTAPP",FALSE,"Exposure","clinical_exposure_lung","Not Applicable","syn25585702","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","6a515de5-aa72-47d8-8e1c-a8eac5314209","HTAN HTAPP",FALSE,"Exposure","clinical_exposure_neuroblastoma","Not Applicable","syn25585703","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","2609836d-0871-4b2a-916b-cda1d125854a","HTAN HTAPP",FALSE,"Exposure","clinical_exposure_sarcoma","Not Applicable","syn25585705","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","eaf2cc0a-ab40-4c0d-b0f9-b4e1c49acf41","HTAN HTAPP",FALSE,"FamilyHistory","clinical_family_history_breast","Not Applicable","syn25585706","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","d313f38d-60ba-42dd-a0e8-a084181ab451","HTAN HTAPP",FALSE,"FamilyHistory","clinical_family_history_glioma","Not Applicable","syn25585707","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","9200d57f-786d-4164-9fe4-4b68f2d61fc7","HTAN HTAPP",FALSE,"FamilyHistory","clinical_family_history_lung","Not Applicable","syn25585709","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","0bd7b49c-4b81-4787-8eb3-c80fdab8dfcc","HTAN HTAPP",FALSE,"FamilyHistory","clinical_family_history_neuroblastoma","Not Applicable","syn25585710","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","3869b51d-c26f-4d08-8ffb-0e184b22718a","HTAN HTAPP",FALSE,"FamilyHistory","clinical_family_history_sarcoma","Not Applicable","syn25585712","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","4cdec8db-c10a-42a3-a6d4-8c14778c4c34","HTAN HTAPP",FALSE,"FollowUp","clinical_follow_up_breast","Not Applicable","syn25585713","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","3011df0c-5e67-4977-af55-17980aef60b4","HTAN HTAPP",FALSE,"FollowUp","clinical_follow_up_glioma","Not Applicable","syn25585714","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","68924ab8-0cce-4607-9f30-dd908e6aa279","HTAN HTAPP",FALSE,"FollowUp","clinical_follow_up_lung","Not Applicable","syn25585715","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","308962fa-9356-4920-afc4-9b723cdaf258","HTAN HTAPP",FALSE,"FollowUp","clinical_follow_up_neuroblastoma","Not Applicable","syn25585716","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","bb628d36-f71c-4a5c-a24c-6a13626d4887","HTAN HTAPP",FALSE,"FollowUp","clinical_follow_up_sarcoma","Not Applicable","syn25585718","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","a0debfb4-2282-42df-9ae4-b8e5214f9395","HTAN HTAPP",FALSE,"Therapy","clinical_therapy_breast","Not Applicable","syn25585719","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","af2efd5f-c4d9-4503-8300-25d53c738ebd","HTAN HTAPP",FALSE,"Therapy","clinical_therapy_glioma","Not Applicable","syn25585720","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","fd2f5b91-718f-4e8e-8338-b4c4096aa2dd","HTAN HTAPP",FALSE,"Therapy","clinical_therapy_lung","Not Applicable","syn25585721","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","81a757a2-a88b-4c53-9aec-1c599d120f39","HTAN HTAPP",FALSE,"Therapy","clinical_therapy_neuroblastoma","Not Applicable","syn25585722","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","84528477-441b-45da-835e-a7d0493fac99","HTAN HTAPP",FALSE,"Therapy","clinical_therapy_sarcoma","Not Applicable","syn25585724","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","c815ef03-07c8-435e-b0b6-c1442e9a5155","HTAN HTAPP",FALSE,"Therapy","clinical_molecular_test_breast","Not Applicable","syn25585725","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","38c83278-59c6-4cd6-8a65-93868c54954c","HTAN HTAPP",FALSE,"MolecularTest","clinical_molecular_test_glioma","Not Applicable","syn25585726","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","578e3fb1-ca08-4c26-a105-d579ee46472d","HTAN HTAPP",FALSE,"MolecularTest","clinical_molecular_test_lung","Not Applicable","syn25585727","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","87d05629-70db-4878-8cc5-12c24a82120f","HTAN HTAPP",FALSE,"MolecularTest","clinical_molecular_test_neuroblastoma","Not Applicable","syn25585728","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","6945aa9d-34c1-4396-9747-c37016b9db88","HTAN HTAPP",FALSE,"MolecularTest","clinical_molecular_test_sarcoma","Not Applicable","syn25585730","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","627f079d-cb2a-4811-bf74-56d115bd411f","HTAN HTAPP",FALSE,"MolecularTest","clinical_tier_2_breast","Not Applicable","syn25585731","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","7cff402f-b0c3-455d-a339-1e7881132923","HTAN HTAPP",FALSE,"MolecularTest","clinical_tier_2_glioma","Not Applicable","syn25585732","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","c1c2362e-da11-487a-b95b-a33f9d2a0269","HTAN HTAPP",FALSE,"ClinicalDataTier2","clinical_tier_2_lung","Not Applicable","syn25585733","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","0db1ad12-de1f-4b7a-a216-06840df01aac","HTAN HTAPP",FALSE,"ClinicalDataTier2","clinical_tier_2_neuroblastoma","Not Applicable","syn25585734","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","1d3cb8d3-c8ce-4837-8fac-3ea11660fc4c","HTAN HTAPP",FALSE,"ClinicalDataTier2","clinical_tier_2_sarcoma","Not Applicable","syn25585736","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","538dd0d3-84b9-43ac-ac5a-51f9d8438743","HTAN HTAPP",FALSE,"Biospecimen","biospecimen_ovarian","Not Applicable","syn25585757","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","4280934f-71fc-49b1-90ca-f27b067d8b55","HTAN HTAPP",FALSE,"Demographics","clinical_demographics_ovarian","Not Applicable","syn25585758","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","f9b371c5-03e2-414d-a140-f3bc33e2df8b","HTAN HTAPP",FALSE,"Diagnosis","clinical_diagnosis_ovarian","Not Applicable","syn25585760","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","764e8a41-cd6c-441e-b45e-723c09463e91","HTAN HTAPP",FALSE,"Exposure","clinical_exposure_ovarian","Not Applicable","syn25585761","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","371b86d3-fa2e-440e-bc4f-b3766d0d0358","HTAN HTAPP",FALSE,"FamilyHistory","clinical_family_history_ovarian","Not Applicable","syn25585762","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","3a41baea-a86d-490c-b040-1046c3985deb","HTAN HTAPP",FALSE,"FollowUp","clinical_follow_up_ovarian","Not Applicable","syn25585764","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","4597fa4a-dc60-4bf6-aab1-6c984c83a884","HTAN HTAPP",FALSE,"Therapy","clinical_therapy_ovarian","Not Applicable","syn25585766","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","650f9b9a-47d1-445d-8c53-b3eeb2286e1c","HTAN HTAPP",FALSE,"Therapy","clinical_molecular_test_ovarian","Not Applicable","syn25585767","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","b85de60c-782c-4c08-a9df-298cb44b3530","HTAN HTAPP",FALSE,"Therapy","clinical_tier_2_ovarian","Not Applicable","syn25585768","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","cd7739f4-04e9-48ca-b791-04b01ed3080d","HTAN HTAPP",FALSE,"Therapy","minerva","Not Applicable","syn25586754","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","bf52ce0a-af05-4d68-9aee-3bf286a9f781","HTAN HTAPP",FALSE,"Therapy","exseq_auxiliary_files","Not Applicable","syn25678408","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","db084714-98b7-457f-b26b-9bfbfcb3ab32","HTAN HTAPP",FALSE,"OtherAssay","exseq_level_4","Not Applicable","syn25757446","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","56e7ced5-4b00-4726-9c6c-6a4a07f69693","HTAN HTAPP",FALSE,"OtherAssay","exseq_level_5","Not Applicable","syn25757449","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","b9a673f0-2e37-4bc3-8c39-163aeffd6493","HTAN HTAPP",FALSE,"OtherAssay","codex_level_3_neuroblastoma","Not Applicable","syn25843119","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","cccf4695-96cb-415e-b2fa-4a994197272c","HTAN HTAPP",FALSE,"OtherAssay","codex_auxiliary_files_neuroblastoma","Not Applicable","syn25843156","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","5616e033-d278-4db9-9eb5-8a93d7e81cc6","HTAN HTAPP",FALSE,"ImagingLevel2","exseq_level_1","Not Applicable","syn25843550","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","be7429c5-40bc-42c2-9ed2-2f8173b9000e","HTAN HTAPP",FALSE,"ImagingLevel2","h_and_e_multi_assay_breast","Not Applicable","syn25882266","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","5703a91c-35db-4bff-8868-b7cc1d079997","HTAN HTAPP",FALSE,"ImagingLevel2","h_and_e_multiassay_neuroblastoma","Not Applicable","syn25882295","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","d20d450e-0cd9-41db-ad54-aa853d276133","HTAN HTAPP",FALSE,"ImagingLevel2","h_and_e_mibi_breast","Not Applicable","syn25882316","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","c720e231-99b3-4c74-8223-4461758017ad","HTAN HTAPP",FALSE,"ImagingLevel2","visium_level_1_ovarian","Not Applicable","syn25997522","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","27b43623-f856-4ea8-88a6-13bb4b08204b","HTAN HTAPP",FALSE,"ImagingLevel2","visium_level_2_ovarian","Not Applicable","syn25997523","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","592c36cb-3ae8-49cc-929a-0093d8fb1a1b","HTAN HTAPP",FALSE,"ImagingLevel2","visium_level_3_ovarian","Not Applicable","syn25997524","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","7a527031-094f-4b53-9f39-b4a895be7269","HTAN HTAPP",FALSE,"ImagingLevel2","visium_level_1_lung","Not Applicable","syn25997525","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","64f6e8db-ccdc-4350-9d0c-e62bdc978f1e","HTAN HTAPP",FALSE,"ImagingLevel2","visium_level_2_lung","Not Applicable","syn25997526","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","fd38a583-ab38-4bae-ab99-b8554c07aa2e","HTAN HTAPP",FALSE,"ImagingLevel2","visium_level_3_lung","Not Applicable","syn25997527","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","1a429bdf-7946-4eeb-b699-6b52583da46c","HTAN HTAPP",FALSE,"ScRNA-seqLevel1","single_cell_RNAseq_level_1_PML","Not Applicable","syn26002150","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","3799d3d6-b3b8-48b3-af9e-15daa4380502","HTAN HTAPP",FALSE,"ScRNA-seqLevel2","single_cell_RNAseq_level_2_PML","Not Applicable","syn26002153","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","c9e93002-2d20-45b8-822b-31b55465bf6d","HTAN HTAPP",FALSE,"ScRNA-seqLevel3","single_cell_RNAseq_level_3_PML","Not Applicable","syn26002156","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","d6afdf7d-c23a-4abd-b69a-b7099d7215e3","HTAN HTAPP",FALSE,"OtherAssay","mibi_level_3_segmented_cell_coordinates","Not Applicable","syn26014990","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","04682278-4b5c-42e1-9453-fe30f0e24f3a","HTAN HTAPP",FALSE,"OtherAssay","data_integration_MBC","Not Applicable","syn26033679","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","a50e4c3a-d164-4951-ae0c-cfa2af987cd6","HTAN HTAPP",FALSE,"Biospecimen","biospecimen_PML","Not Applicable","syn26125064","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","7c6bee01-8267-43cf-979a-3135398647b9","HTAN HTAPP",FALSE,"Demographics","clinical_demographics_PML","Not Applicable","syn26125065","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","a4f2c83b-4f44-4a4a-a917-2856886264d4","HTAN HTAPP",FALSE,"Diagnosis","clinical_diagnosis_PML","Not Applicable","syn26125066","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","b74d61d8-c3a5-4dba-abfd-bcae63a64a84","HTAN HTAPP",FALSE,"Exposure","clinical_exposure_PML","Not Applicable","syn26125067","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","e9de83fc-683d-4675-8d50-c9444e3d7376","HTAN HTAPP",FALSE,"FamilyHistory","clinical_family_history_PML","Not Applicable","syn26125068","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","6ffd7511-c25c-4852-933e-3a220ac8b0ba","HTAN HTAPP",FALSE,"FollowUp","clinical_follow_up_PML","Not Applicable","syn26125069","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","ee48feb5-a39e-4757-8286-184ee43b22dd","HTAN HTAPP",FALSE,"Therapy","clinical_therapy_PML","Not Applicable","syn26125070","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","1ddd080f-7435-4cbb-a830-7673db9d2ba2","HTAN HTAPP",FALSE,"MolecularTest","clinical_molecular_test_PML","Not Applicable","syn26125071","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","e00f2ab3-2114-41b0-94d3-059730e545d1","HTAN HTAPP",FALSE,"ClinicalDataTier2","clinical_tier_2_PML","Not Applicable","syn26125072","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","cec35b36-8d25-4610-8dc5-28285e38f257","HTAN HTAPP",FALSE,"OtherAssay","data_integration_neuroblastoma","Not Applicable","syn26126863","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","563b53f0-37f1-4039-80e9-cef8d887103a","HTAN HTAPP",FALSE,"OtherAssay","bulk_DNAseq_level_1_metadata","Not Applicable","syn26376477","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","7ad8722b-ad00-48ec-8c0f-484e1a8ede2a","HTAN HTAPP",FALSE,"OtherAssay","bulk_RNAseq_level_1_metadata","Not Applicable","syn26376488","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","b7704ac3-7e97-4b18-acca-2f6d9a418ae1","HTAN HTAPP",FALSE,"OtherAssay","HTAPP Documents","Not Applicable","syn26560266","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","1dda2c10-dd2f-4905-912f-8985e3b29c3c","HTAN HTAPP",FALSE,"OtherAssay","clinical_tier_3_breast_precancer_and_cancer","Not Applicable","syn27764067","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","220c56dc-b7b1-4f68-bb0b-017719df56cc","HTAN Vanderbilt",FALSE,"ScRNA-seqLevel3","single_cell_RNAseq_level_3","Not Applicable","syn23520239","Not Applicable","2022-10-01",TRUE,TRUE
+"DataFlow","fbb4e618-9e6a-4e85-882a-b2068527df2d","HTAN Vanderbilt",FALSE,"ScRNA-seqLevel2","single_cell_RNAseq_level_2","Not Applicable","syn23520240","Not Applicable","2022-10-01",TRUE,TRUE
+"DataFlow","2c4d486d-2563-4e1c-87fc-04d924e0ad33","HTAN Vanderbilt",FALSE,"ScRNA-seqLevel1","single_cell_RNAseq_level_1","Not Applicable","syn23520241","Not Applicable","2022-10-01",TRUE,TRUE
+"DataFlow","9f7f36f6-3dce-4962-a5bd-28a5bc759b8c","HTAN Vanderbilt",FALSE,"Demographics","clinical_demographics","Not Applicable","syn23520242","Not Applicable","2022-10-01",TRUE,TRUE
+"DataFlow","f46154c3-b74a-4f79-ac76-3d5a715454f3","HTAN Vanderbilt",FALSE,"Diagnosis","clinical_diagnosis","Not Applicable","syn23520243","Not Applicable","2022-10-01",TRUE,TRUE
+"DataFlow","4f982836-1677-4990-9eba-10c2e5502811","HTAN Vanderbilt",FALSE,"Exposure","clinical_exposure","Not Applicable","syn23520244","Not Applicable","2022-10-01",TRUE,TRUE
+"DataFlow","3063a74c-0f9b-4794-8353-3e47accf3e58","HTAN Vanderbilt",FALSE,"FamilyHistory","clinical_family_history","Not Applicable","syn23520245","Not Applicable","2022-10-01",TRUE,TRUE
+"DataFlow","c383cd5e-337c-4897-a340-098758ef2b3c","HTAN Vanderbilt",FALSE,"FollowUp","clinical_follow_up","Not Applicable","syn23520246","Not Applicable","2022-10-01",TRUE,TRUE
+"DataFlow","47576871-dc0a-400d-9d36-cdbd8c725922","HTAN Vanderbilt",FALSE,"Therapy","clinical_therapy","Not Applicable","syn23520247","Not Applicable","2022-10-01",TRUE,TRUE
+"DataFlow","9a6bfce6-9c6f-4eaf-a576-ccf8cef06c8a","HTAN Vanderbilt",FALSE,"MolecularTest","clinical_molecular_test","Not Applicable","syn24860587","Not Applicable","2021-10-01",TRUE,TRUE
+"DataFlow","0eb9d0f7-5caf-47e7-8347-006f0ebd5bc9","HTAN Vanderbilt",FALSE,"MolecularTest","clinical_tier_2","Not Applicable","syn24873794","Not Applicable","2021-10-01",TRUE,TRUE
+"DataFlow","030bed7b-5052-43ee-aa6e-88aceb51d490","HTAN Vanderbilt",FALSE,"MolecularTest","clinical_tier_3_colon","Not Applicable","syn24873795","Not Applicable","2021-10-01",TRUE,TRUE
+"DataFlow","6dbd3cf4-0f2e-4402-a792-590239d8397a","HTAN Vanderbilt",FALSE,"MolecularTest","archive","Not Applicable","syn24986117","Not Applicable","2021-10-01",TRUE,TRUE
+"DataFlow","8fb5c3eb-4821-4703-9ff0-6053e82dee3e","HTAN Vanderbilt",FALSE,"ImagingLevel2","mxif_level_2","Not Applicable","syn24989514","Not Applicable","2021-10-01",TRUE,TRUE
+"DataFlow","9c33b268-feff-4494-b2ae-b0eb2f4df7b7","HTAN Vanderbilt",FALSE,"Biospecimen","biospecimen","Not Applicable","syn25010793","Not Applicable","2021-10-01",TRUE,TRUE
+"DataFlow","01ce2586-c97a-4d78-92a2-a6b537087bd6","HTAN Vanderbilt",FALSE,"ImagingLevel2","h_and_e_level_1","Not Applicable","syn25054230","Not Applicable","2021-10-01",TRUE,TRUE
+"DataFlow","690cff03-f6a9-498b-b957-4c7a667bf436","HTAN Vanderbilt",FALSE,"ScRNA-seqLevel4","single_cell_RNAseq_level_4","Not Applicable","syn25459679","Not Applicable","2021-10-01",TRUE,TRUE
+"DataFlow","1e0aa880-f2d1-4d74-a572-8b749084bdbd","HTAN Vanderbilt",FALSE,"BulkWESLevel1","whole_exome_seq_level_1","Not Applicable","syn26950967","Not Applicable","2021-10-01",TRUE,TRUE
+"DataFlow","d1c94911-9675-44a4-8675-f0bc61409db2","HTAN Vanderbilt",FALSE,"BulkWESLevel2","whole_exome_seq_level_2","Not Applicable","syn26950968","Not Applicable","2021-10-01",TRUE,TRUE
+"DataFlow","8b83c2a2-b6c4-4fca-b2ac-7c1b7eed2c6a","HTAN Vanderbilt",FALSE,"BulkWESLevel3","whole_exome_seq_level_3","Not Applicable","syn26950969","Not Applicable","2021-10-01",FALSE,TRUE
+"DataFlow","f82c9c15-d9b8-4596-89b6-6f73c50b5414","HTAN TNP - TMA",FALSE,"Not Applicable","phase-1","Not Applicable","syn23554989","Not Applicable","2022-12-01",FALSE,TRUE
+"DataFlow","165ea3a4-9c06-4f9b-aa7d-2c6ed0497476","HTAN TNP - TMA",FALSE,"Biospecimen","biospecimen","Not Applicable","syn24995166","Not Applicable","2022-12-01",FALSE,TRUE
+"DataFlow","becd72bd-767d-492e-8750-6e87cbd1e2a1","HTAN TNP - TMA",FALSE,"Demographics","clinical_demographics","Not Applicable","syn24995167","Not Applicable","2022-12-01",FALSE,TRUE
+"DataFlow","8d789c38-1903-4754-9186-eccaba210391","HTAN TNP - TMA",FALSE,"Diagnosis","clinical_diagnosis","Not Applicable","syn24995168","Not Applicable","2022-12-01",FALSE,TRUE
+"DataFlow","43e9a528-a0b5-4b9b-bd5e-a384148f4442","HTAN TNP - TMA",FALSE,"Exposure","clinical_exposure","Not Applicable","syn24995170","Not Applicable","2022-12-01",FALSE,TRUE
+"DataFlow","dfed4bfa-8118-4b0f-aaa2-f0ffa9896289","HTAN TNP - TMA",FALSE,"FamilyHistory","clinical_family_history","Not Applicable","syn24995171","Not Applicable","2022-12-01",FALSE,TRUE
+"DataFlow","96d1d0b8-a295-4864-b19e-4633427e3e59","HTAN TNP - TMA",FALSE,"FollowUp","clinical_follow_up","Not Applicable","syn24995173","Not Applicable","2022-12-01",FALSE,TRUE
+"DataFlow","23d0fbc4-ffe3-4486-9f5e-ad64bcb7abfb","HTAN TNP - TMA",FALSE,"Therapy","clinical_therapy","Not Applicable","syn24995174","Not Applicable","2022-12-01",FALSE,TRUE
+"DataFlow","1c3dd699-6c54-43b4-b3de-62ed5e078258","HTAN TNP - TMA",FALSE,"MolecularTest","clinical_molecular_test","Not Applicable","syn24995175","Not Applicable","2022-12-01",FALSE,TRUE
+"DataFlow","764a885b-85b0-48e4-b9b7-0538c2bfa361","HTAN TNP - TMA",FALSE,"ClinicalDataTier2","clinical_tier_2","Not Applicable","syn24995176","Not Applicable","2022-12-01",FALSE,TRUE
+"DataFlow","0b863525-b547-4270-8b23-b0e8dd57351c","HTAN TNP - TMA",FALSE,"BreastCancerTier3","clinical_tier_3_breast","Not Applicable","syn24995177","Not Applicable","2022-12-01",FALSE,TRUE
+"DataFlow","022b9480-33cf-4e1b-a38e-90764a8ba612","HTAN TNP - TMA",FALSE,"BreastCancerTier3","clinical_tier_3_glioma","Not Applicable","syn24995179","Not Applicable","2022-12-01",FALSE,TRUE
+"DataFlow","f564afeb-6566-4cb8-a9f3-fd19fcfd215f","HTAN TNP - TMA",FALSE,"BreastCancerTier3","clinical_tier_3_colon","Not Applicable","syn24995180","Not Applicable","2022-12-01",FALSE,TRUE
+"DataFlow","57abd7e8-e4b4-4a5a-bf55-5fdd8918b8a3","HTAN TNP - TMA",FALSE,"BreastCancerTier3","clinical_tier_3_lung","Not Applicable","syn24995181","Not Applicable","2021-11-01",TRUE,TRUE
+"DataFlow","b700e429-037a-4479-ae39-347fdfdff07a","HTAN TNP - TMA",FALSE,"BreastCancerTier3","clinical_tier_3_sarcoma","Not Applicable","syn24995182","Not Applicable","2021-11-01",TRUE,TRUE
+"DataFlow","cca8ce35-ab32-489e-8d6a-a4240e647831","HTAN TNP - TMA",FALSE,"BreastCancerTier3","clinical_tier_3_ovarian","Not Applicable","syn24995184","Not Applicable","2021-11-01",TRUE,TRUE
+"DataFlow","400a08b9-4fb1-4923-a17d-cc869701d070","HTAN TNP - TMA",FALSE,"BreastCancerTier3","clinical_tier_3_neuroblastoma","Not Applicable","syn24995185","Not Applicable","2021-11-01",TRUE,TRUE
+"DataFlow","d44df7d7-d68b-4f02-b127-c6e4bd92a822","HTAN TNP - TMA",FALSE,"BreastCancerTier3","clinical_tier_3_pancreatic","Not Applicable","syn24995187","Not Applicable","2021-11-01",TRUE,TRUE
+"DataFlow","c15a4fb7-b48e-480d-aabd-367412236731","HTAN TNP - TMA",FALSE,"BreastCancerTier3","clinical_tier_3_melanoma","Not Applicable","syn24995188","Not Applicable","2021-11-01",TRUE,TRUE
+"DataFlow","a29fe9cf-8782-464f-8001-5860ef29f72a","HTAN TNP - TMA",FALSE,"BreastCancerTier3","clinical_tier_3_acute_lymphoblastic_leukemia","Not Applicable","syn24995190","Not Applicable","2021-11-01",TRUE,TRUE
+"DataFlow","0166da13-229f-4fad-a866-c60c1837686a","HTAN TNP - TMA",FALSE,"BreastCancerTier3","minerva","Not Applicable","syn25472274","Not Applicable","2021-11-01",TRUE,TRUE
+"DataFlow","41ecfd5b-02f0-4b4c-8061-247aec8fe10a","HTAN TNP - TMA",FALSE,"BreastCancerTier3","imaging_level_2","Not Applicable","syn26341500","Not Applicable","2021-11-01",TRUE,TRUE
+"DataFlow","55a6391e-f2da-4ed4-b303-560c836d2a17","HTAN TNP - TMA",FALSE,"BreastCancerTier3","galaxy-mti","Not Applicable","syn32606398","Not Applicable","2021-11-01",TRUE,TRUE
+"DataFlow","88ba94ba-f023-40c2-8cff-1d13639a4248","HTAN OHSU",FALSE,"Not Applicable","Example_Assay_Dataset","Not Applicable","syn22093323","Not Applicable","2022-08-01",TRUE,TRUE
+"DataFlow","a428e17d-8e77-4375-8f4f-ad33cc829d16","HTAN OHSU",FALSE,"Not Applicable","Example_Clinical_Data","Not Applicable","syn22097676","Not Applicable","2022-08-01",TRUE,TRUE
+"DataFlow","9e266ce9-623f-48d5-941d-8e4f1f6891b3","HTAN OHSU",FALSE,"Not Applicable","rppa_level_2","Not Applicable","syn23639564","Not Applicable","2022-08-01",TRUE,TRUE
+"DataFlow","af426186-d0bc-426f-9c79-44999ed91bf0","HTAN OHSU",FALSE,"Not Applicable","rppa_level_3","Not Applicable","syn23639578","Not Applicable","2022-08-01",TRUE,TRUE
+"DataFlow","b5043e4d-adfc-4cb0-aae2-eabeeb129a21","HTAN OHSU",FALSE,"Not Applicable","rppa_level_4","Not Applicable","syn23639603","Not Applicable","2022-08-01",TRUE,TRUE
+"DataFlow","c56b8a9e-9976-4b43-9bc3-8673c763daf9","HTAN OHSU",FALSE,"Not Applicable","nanostring_level_1","Not Applicable","syn23639753","Not Applicable","2022-08-01",TRUE,TRUE
+"DataFlow","0a3da13c-adfc-4171-97ac-a05d409a3f79","HTAN OHSU",FALSE,"Not Applicable","nanostring_level_2","Not Applicable","syn23639801","Not Applicable","2022-08-01",TRUE,TRUE
+"DataFlow","c30a6c97-b87d-48b6-bf9c-4ee1583d9406","HTAN OHSU",FALSE,"Not Applicable","nanostring_level_3","Not Applicable","syn23639807","Not Applicable","2022-08-01",TRUE,TRUE
+"DataFlow","3a073b19-d3cc-4f78-b987-dc18c63e89f3","HTAN OHSU",FALSE,"BulkRNA-seqLevel1","bulk_rnaseq_level_1","Not Applicable","syn23639829","Not Applicable","2022-08-01",TRUE,TRUE
+"DataFlow","1b43135b-7814-4156-bfa0-f27907bf0740","HTAN OHSU",FALSE,"BulkWESLevel1","bulk_dnaseq_level_1","Not Applicable","syn23639864","Not Applicable","2022-08-01",TRUE,TRUE
+"DataFlow","25dd2b75-3cc6-46b9-9f96-a4ab18c876a7","HTAN OHSU",FALSE,"Biospecimen","biospecimen","Not Applicable","syn24615273","Not Applicable","2022-08-01",TRUE,TRUE
+"DataFlow","373881bc-e1e8-4c64-b660-9fb7f541abd3","HTAN OHSU",FALSE,"Diagnosis","clinical_diagnosis","Not Applicable","syn24615275","Not Applicable","2022-08-01",TRUE,TRUE
+"DataFlow","a55d042b-fb8a-40bc-8664-211879d1e73a","HTAN OHSU",FALSE,"Exposure","clinical_exposure","Not Applicable","syn24615276","Not Applicable","2022-08-01",TRUE,TRUE
+"DataFlow","c0891539-f09e-4f52-9ef3-fd618fa83433","HTAN OHSU",FALSE,"FamilyHistory","clinical_family_history","Not Applicable","syn24615277","Not Applicable","2020-11-01",TRUE,TRUE
+"DataFlow","10c4eabe-8ce8-46d5-98e8-6747fc8e4baa","HTAN OHSU",FALSE,"FollowUp","clinical_follow_up","Not Applicable","syn24615278","Not Applicable","2020-11-01",TRUE,TRUE
+"DataFlow","a4582ac2-c547-44e0-853c-5da0e20dceec","HTAN OHSU",FALSE,"Therapy","clinical_therapy","Not Applicable","syn24615279","Not Applicable","2020-11-01",TRUE,TRUE
+"DataFlow","765e6594-07ca-48ba-838f-676ba41b6a87","HTAN OHSU",FALSE,"Therapy","imaging_level_1","Not Applicable","syn24829230","Not Applicable","2020-11-01",TRUE,TRUE
+"DataFlow","98130da7-c70a-4900-816f-a8e281686809","HTAN OHSU",FALSE,"ImagingLevel2","imaging_level_2","Not Applicable","syn24829424","Not Applicable","2020-11-01",TRUE,TRUE
+"DataFlow","a89a2e7c-ffcb-4c29-8be7-df0ba36ac45e","HTAN OHSU",FALSE,"ImagingLevel2","em_level_4","Not Applicable","syn24829496","Not Applicable","2020-11-01",TRUE,TRUE
+"DataFlow","b8d6df6b-7a22-4149-9085-23c1cab3bb7f","HTAN OHSU",FALSE,"ImagingLevel2","em_level_3","Not Applicable","syn24829499","Not Applicable","2020-11-01",TRUE,TRUE
+"DataFlow","3fdf4ed1-3ff7-44da-bb20-1637633faa08","HTAN OHSU",FALSE,"MolecularTest","clinical_molecular_test","Not Applicable","syn24860589","Not Applicable","2020-11-01",TRUE,TRUE
+"DataFlow","c781de71-6c0f-46de-ba56-a8ec371cb685","HTAN OHSU",FALSE,"Demographics","clinical_demographics","Not Applicable","syn24862563","Not Applicable","2020-11-01",TRUE,TRUE
+"DataFlow","bc39ed38-f716-4972-be74-17020863f67c","HTAN OHSU",FALSE,"ClinicalDataTier2","clinical_tier_2","Not Applicable","syn24873803","Not Applicable","2020-11-01",TRUE,TRUE
+"DataFlow","d62d33eb-7e48-4699-baea-5dc2a045cfa2","HTAN OHSU",FALSE,"BreastCancerTier3","clinical_tier_3_breast","Not Applicable","syn24873804","Not Applicable","2020-11-01",TRUE,TRUE
+"DataFlow","3158f43b-4fe3-42b4-bbdd-02a2d4156255","HTAN OHSU",FALSE,"BreastCancerTier3","imaging_channel_data","Not Applicable","syn24988790","Not Applicable","2020-11-01",TRUE,TRUE
+"DataFlow","0b33cc0a-0f1f-4a31-a0c0-c8e2f0e020c4","HTAN OHSU",FALSE,"BreastCancerTier3","minerva_stories","Not Applicable","syn24992265","Not Applicable","2020-11-01",TRUE,TRUE
+"DataFlow","9778e188-3edd-4f2e-8cd0-d3d3a8d3fcfd","HTAN OHSU",FALSE,"BreastCancerTier3","other_assay","Not Applicable","syn25114220","Not Applicable","2020-11-01",TRUE,TRUE
+"DataFlow","f3a1357f-481a-4a1c-bcef-ac057bfff69c","HTAN OHSU",FALSE,"BreastCancerTier3","minerva","Not Applicable","syn25472273","Not Applicable","2020-11-01",TRUE,TRUE
+"DataFlow","d7e912bb-ec22-4420-b1fa-ba616092eb79","HTAN OHSU",FALSE,"BreastCancerTier3","bulk_dnaseq_level_3","Not Applicable","syn26535370","Not Applicable","2020-11-01",TRUE,TRUE
+"DataFlow","a73e6964-0d0d-4424-971d-b0b39064b91c","HTAN OHSU",FALSE,"BulkRNA-seqLevel3","bulk_rnaseq_level_3","Not Applicable","syn26535390","Not Applicable","2020-11-01",TRUE,TRUE
+"DataFlow","1fed8187-236b-4e1e-82b1-7e7aebbd2a75","HTAN OHSU",FALSE,"BulkRNA-seqLevel3","imaging_level_4","Not Applicable","syn26535421","Not Applicable","2020-11-01",TRUE,TRUE
+"DataFlow","53bd1cbb-407c-46c4-b059-5f6566f6c43a","HTAN OHSU",FALSE,"BulkRNA-seqLevel3","sc_dnaseq_level_3","Not Applicable","syn26535461","Not Applicable","2020-11-01",TRUE,TRUE
+"DataFlow","5de8abf8-d30f-4ea0-9a2e-14a45d5c0726","HTAN OHSU",FALSE,"BulkRNA-seqLevel3","imaging_level_3","Not Applicable","syn26535576","Not Applicable","2020-11-01",TRUE,TRUE
+"DataFlow","bdf9de0b-1ac2-418e-90f6-b56c23b1ae12","HTAN OHSU",FALSE,"ScATAC-seqLevel1","sc_atacseq_level_1","Not Applicable","syn26535587","Not Applicable","2020-11-01",TRUE,TRUE
+"DataFlow","fd51cadb-5e2c-4d2c-8354-e942f8fdc735","HTAN OHSU",FALSE,"ScATAC-seqLevel1","sc_atacseq_level_2","Not Applicable","syn26535592","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","48b721fc-5a76-4735-97d8-b4c0251b0846","HTAN OHSU",FALSE,"BulkRNA-seqLevel2","bulk_rnaseq_level_2","Not Applicable","syn26535599","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","26020142-a4ef-4d43-b024-270a3ead97a0","HTAN OHSU",FALSE,"BulkRNA-seqLevel2","sc_dnaseq_level_2","Not Applicable","syn26535617","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","73b34999-660d-463f-93d1-42a08e3f26dc","HTAN OHSU",FALSE,"BulkRNA-seqLevel2","sc_dnaseq_level_1","Not Applicable","syn26535725","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","10198af7-5d06-4706-ac4b-4441ec989b9b","HTAN OHSU",FALSE,"BulkWESLevel2","bulk_dnaseq_level_2","Not Applicable","syn26536411","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","cf7b2a13-f641-4d1e-9f98-4e9f6d201afd","HTAN OHSU",FALSE,"BulkWESLevel2","archive","Not Applicable","syn26987435","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","8667e2ef-9602-4ee5-8224-fdb618563497","HTAN OHSU",FALSE,"BulkWESLevel2","sc_atacseq_level_3","Not Applicable","syn31547223","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","92bac585-2286-4760-9b2b-889f9f03795c","HTAN OHSU",FALSE,"BulkWESLevel2","em_level_1","Not Applicable","syn31566909","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","a171c3e7-1e6e-478e-9bc0-cd1d5608e572","HTAN OHSU",FALSE,"BulkWESLevel2","em_level_2","Not Applicable","syn31773950","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","b19f05d3-6e94-480e-9930-f4cb2579a0c5","HTAN HMS",FALSE,"Not Applicable","Example Clinical Data - Demographics","Not Applicable","syn22126051","Not Applicable","2021-05-15",TRUE,TRUE
+"DataFlow","549e0605-139a-4373-8553-692480de6145","HTAN HMS",FALSE,"Biospecimen","biospecimen","Not Applicable","syn24616231","Not Applicable","2021-05-15",TRUE,TRUE
+"DataFlow","a529a873-381d-4a6f-86af-a0e4ee9079f9","HTAN HMS",FALSE,"Demographics","clinical_demographics","Not Applicable","syn24616233","Not Applicable","2021-05-15",TRUE,TRUE
+"DataFlow","6e201350-a199-4608-aa0d-b3c7d4267f54","HTAN HMS",FALSE,"Diagnosis","clinical_diagnosis","Not Applicable","syn24616235","Not Applicable","2021-05-15",TRUE,TRUE
+"DataFlow","a34725d0-00bb-44c4-ae9f-4e9f8fa93bbf","HTAN HMS",FALSE,"Exposure","clinical_exposure","Not Applicable","syn24616237","Not Applicable","2021-05-15",TRUE,TRUE
+"DataFlow","12e1e012-86bf-4ff9-a59e-3587838c47b6","HTAN HMS",FALSE,"FamilyHistory","clinical_family_history","Not Applicable","syn24616239","Not Applicable","2021-05-15",TRUE,TRUE
+"DataFlow","e6e21dcb-aee7-46de-9e86-d0ad0d5e9934","HTAN HMS",FALSE,"FollowUp","clinical_follow_up","Not Applicable","syn24616241","Not Applicable","2021-05-15",TRUE,TRUE
+"DataFlow","aa09ae1c-d735-44f5-aae3-8c053d9749b4","HTAN HMS",FALSE,"Therapy","clinical_therapy","Not Applicable","syn24616243","Not Applicable","2021-05-15",TRUE,TRUE
+"DataFlow","de8256e3-7864-49c4-8012-ddb119c73db0","HTAN HMS",FALSE,"MolecularTest","clinical_molecular_test","Not Applicable","syn24860583","Not Applicable","2021-05-15",TRUE,TRUE
+"DataFlow","639ffe4b-3c5d-433a-a379-2fc6668f8e40","HTAN HMS",FALSE,"MolecularTest","clinical_tier_2","Not Applicable","syn24873780","Not Applicable","2021-05-15",TRUE,TRUE
+"DataFlow","e4cbd5f1-255d-475c-b877-48dc59544f0e","HTAN HMS",FALSE,"MolecularTest","clinical_tier_3_melanoma","Not Applicable","syn24873781","Not Applicable","2021-05-15",TRUE,TRUE
+"DataFlow","28a02148-ae11-462c-b4cf-07b8d6ec12ab","HTAN HMS",FALSE,"BulkRNA-seqLevel1","PickSeq_Level_1","Not Applicable","syn24991756","Not Applicable","2021-05-15",TRUE,TRUE
+"DataFlow","887962b0-8253-41bd-bcd8-8b4224d34d13","HTAN HMS",FALSE,"ImagingLevel2","imaging_level_2","Not Applicable","syn25580853","Not Applicable","2021-05-15",TRUE,TRUE
+"DataFlow","9d3d4322-595f-4086-87bd-9a6f688e7c38","HTAN HMS",FALSE,"ImagingLevel2","minerva","Not Applicable","syn25653114","Not Applicable","2021-05-15",TRUE,TRUE
+"DataFlow","409f3aa2-0a4c-4953-94f0-d60d80bb528c","HTAN HMS",FALSE,"ImagingLevel2","archive","Not Applicable","syn25750256","Not Applicable","2021-05-15",TRUE,TRUE
+"DataFlow","1dbd0946-e1fa-4b49-b0fe-e13fe047d56d","HTAN HMS",FALSE,"BulkRNA-seqLevel2","PickSeq_Level_2","Not Applicable","syn26530450","Not Applicable","2021-05-15",TRUE,TRUE
+"DataFlow","d163ee03-7f37-4d5d-9a33-49378b5efd54","HTAN HMS",FALSE,"BulkRNA-seqLevel3","PickSeq_Level_3","Not Applicable","syn26530452","Not Applicable","2021-05-15",TRUE,TRUE
+"DataFlow","ae7db4fc-b882-463a-afc4-14b8b37b919f","HTAN HMS",FALSE,"BulkRNA-seqLevel3","imaging_level_4","Not Applicable","syn34625996","Not Applicable","2021-05-15",TRUE,TRUE
+"DataFlow","666386dc-89d9-44b9-8620-06bc5a8a179c","HTAN HMS",FALSE,"BulkRNA-seqLevel3","imaging_level_3_segmentation","Not Applicable","syn36848897","Not Applicable","2021-05-15",TRUE,TRUE
+"DataFlow","ffdb6f2a-371e-49bf-b4a8-53e5140949ac","HTAN BU",FALSE,"Not Applicable","h_and_e","Not Applicable","syn22432744","Not Applicable","2021-02-01",TRUE,TRUE
+"DataFlow","2fa4b32c-fe8d-456c-83e5-6dbac6de49fa","HTAN BU",FALSE,"Demographics","clinical_demographics","Not Applicable","syn22677299","Not Applicable","2021-02-01",TRUE,TRUE
+"DataFlow","3b3b351a-7841-4ac9-b008-97ab265a2037","HTAN BU",FALSE,"ScRNA-seqLevel1","sc_rna_seq_level_1","Not Applicable","syn22722838","Not Applicable","2021-02-01",TRUE,TRUE
+"DataFlow","bb80036d-d72d-404e-8d8d-97221fb29bb5","HTAN BU",FALSE,"Biospecimen","biospecimens","Not Applicable","syn23632145","Not Applicable","2021-02-01",TRUE,TRUE
+"DataFlow","b3dd4762-b2dc-4d15-a773-d67599938928","HTAN BU",FALSE,"ScRNA-seqLevel2","sc_rna_seq_level_2","Not Applicable","syn23662467","Not Applicable","2021-02-01",TRUE,TRUE
+"DataFlow","fe4b216f-bf77-4392-97c1-50fb8250abfe","HTAN BU",FALSE,"ScRNA-seqLevel3","sc_rna_seq_level_3","Not Applicable","syn23662468","Not Applicable","2021-02-01",TRUE,TRUE
+"DataFlow","f2ef7437-eb49-4e51-afa6-15ec17d794c1","HTAN BU",FALSE,"ScRNA-seqLevel4","sc_rna_seq_level_4","Not Applicable","syn23662469","Not Applicable","2021-02-01",TRUE,TRUE
+"DataFlow","a57a260e-1d2b-4f0e-b65f-160304d21a74","HTAN BU",FALSE,"ScRNA-seqLevel4","archive","Not Applicable","syn24610388","Not Applicable","2021-02-01",TRUE,TRUE
+"DataFlow","520d4af6-c43e-4db2-bc31-72a0f728be58","HTAN BU",FALSE,"Exposure","clinical_exposure","Not Applicable","syn24615248","Not Applicable","2021-02-01",TRUE,TRUE
+"DataFlow","d986a368-db53-4c34-8149-32212ab913cc","HTAN BU",FALSE,"Diagnosis","clinical_diagnosis","Not Applicable","syn24615249","Not Applicable","2021-02-01",TRUE,TRUE
+"DataFlow","1afbddcb-5cf1-4da2-878d-32ad7f470b2b","HTAN BU",FALSE,"FamilyHistory","clinical_family_history","Not Applicable","syn24615250","Not Applicable","2021-02-01",TRUE,TRUE
+"DataFlow","a9d54fe9-3c8f-4d9f-91aa-78a3e474c746","HTAN BU",FALSE,"FollowUp","clinical_follow_up","Not Applicable","syn24615251","Not Applicable","2023-02-01",FALSE,FALSE
+"DataFlow","87828ce6-f210-4796-a976-2a3e269022a2","HTAN BU",FALSE,"Therapy","clinical_therapy","Not Applicable","syn24615252","Not Applicable","2023-02-01",FALSE,FALSE
+"DataFlow","a94ed6f2-b550-4938-aa7d-6eecffb130a9","HTAN BU",FALSE,"Therapy","clinical_molecular_test","Not Applicable","syn24860585","Not Applicable","2023-02-01",FALSE,FALSE
+"DataFlow","11c49d80-dadf-425d-b869-1ea20d29454b","HTAN BU",FALSE,"ClinicalDataTier2","clinical_tier_2","Not Applicable","syn24873786","Not Applicable","2023-02-01",FALSE,FALSE
+"DataFlow","bf61135c-d5ec-464f-9515-7596e5aa2485","HTAN BU",FALSE,"LungCancerTier3","clinical_tier_3_lung","Not Applicable","syn24873787","Not Applicable","2023-02-01",FALSE,FALSE
+"DataFlow","ebefc653-3855-4ccb-8ad9-00cbabce7359","HTAN BU",FALSE,"LungCancerTier3","minerva","Not Applicable","syn25586693","Not Applicable","2023-02-01",FALSE,FALSE
+"DataFlow","df409990-6927-4713-ab3a-956c7c90c0c6","HTAN BU",FALSE,"LungCancerTier3","image_level2","Not Applicable","syn26031632","Not Applicable","2023-02-01",FALSE,FALSE
+"DataFlow","a1067768-7797-4ba9-a1a1-215d8e5ca579","HTAN BU",FALSE,"LungCancerTier3","Bulk_WES_level_3","Not Applicable","syn26944441","Not Applicable","2023-02-01",FALSE,FALSE
+"DataFlow","9c9a8cbe-c752-4679-b348-0c89f1b6b078","HTAN BU",FALSE,"LungCancerTier3","Bulk_RNA_Level3","Not Applicable","syn26944456","Not Applicable","2023-02-01",FALSE,FALSE
+"DataFlow","57d13eb0-bfbc-4626-95fc-08614f8a735c","HTAN WUSTL",FALSE,"ScRNA-seqLevel1","sc_RNAseq_level_1","Not Applicable","syn23643211","Not Applicable","2023-02-01",FALSE,FALSE
+"DataFlow","ff1acc02-d122-4725-9de6-6db2c6903a02","HTAN WUSTL",FALSE,"ScRNA-seqLevel1","sc_RNAseq_level_2","Not Applicable","syn23643212","Not Applicable","2023-02-01",FALSE,FALSE
+"DataFlow","e05f585b-caf1-4be7-b554-c0592fbbff7b","HTAN WUSTL",FALSE,"ScRNA-seqLevel1","sc_RNAseq_level_3","Not Applicable","syn23643213","Not Applicable","2023-02-01",FALSE,FALSE
+"DataFlow","82d42536-d2f1-46c9-9dba-85e9798d9df8","HTAN WUSTL",FALSE,"ScRNA-seqLevel1","sc_RNAseq_level_4","Not Applicable","syn23643214","Not Applicable","2023-02-01",FALSE,FALSE
+"DataFlow","2e939a2a-a1c4-480b-b40f-0e7467236092","HTAN WUSTL",FALSE,"ScRNA-seqLevel1","sn_ATACseq_level_1","Not Applicable","syn23643215","Not Applicable","2023-02-01",FALSE,FALSE
+"DataFlow","8bdb577c-07ac-45dd-989a-f5969f55a61c","HTAN WUSTL",FALSE,"ScRNA-seqLevel1","bulk_RNAseq_level_2","Not Applicable","syn23643217","Not Applicable","2023-02-01",FALSE,FALSE
+"DataFlow","da2c5cde-d712-4d1c-b9ac-0954036538e3","HTAN WUSTL",FALSE,"ScRNA-seqLevel1","bulk_RNAseq_level_3","Not Applicable","syn23643218","Not Applicable","2023-02-01",FALSE,FALSE
+"DataFlow","a8feaa51-f4cd-4e4a-a0a6-bb6b3980a5a5","HTAN WUSTL",FALSE,"BulkWESLevel1","whole_exome_seq_level_1","Not Applicable","syn23643219","Not Applicable","2023-02-01",FALSE,FALSE
+"DataFlow","ad829015-8bfa-4f35-b45f-f10a98d9034a","HTAN WUSTL",FALSE,"BulkWESLevel1","whole_exome_seq_level_2","Not Applicable","syn23643220","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","a1166ea4-d732-4a56-a4d9-f5ebddbff268","HTAN WUSTL",FALSE,"BulkWESLevel1","whole_exome_seq_level_3","Not Applicable","syn23643221","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","1922912e-6328-4918-9a19-10c6e7cf2d26","HTAN WUSTL",FALSE,"Therapy","clinical_therapy","Not Applicable","syn24615254","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","09171fd8-6b8d-4dcb-a69c-a292e079b66b","HTAN WUSTL",FALSE,"Demographics","clinical_demographics","Not Applicable","syn24615255","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","637ff077-bef5-4647-82ac-b32883e25a25","HTAN WUSTL",FALSE,"FamilyHistory","clinical_family_history","Not Applicable","syn24615256","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","9e0d92b7-73fb-4245-a0d7-c94a26b93b11","HTAN WUSTL",FALSE,"Exposure","clinical_exposure","Not Applicable","syn24615257","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","7c38e45b-5ef8-421a-b01b-ca9e4566384f","HTAN WUSTL",FALSE,"Biospecimen","biospecimen","Not Applicable","syn24615258","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","3d171394-320d-463b-b17c-e5015ee6c62c","HTAN WUSTL",FALSE,"FollowUp","clinical_follow_up","Not Applicable","syn24615259","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","67cc9095-8757-4a05-9f57-2e7acedc4d79","HTAN WUSTL",FALSE,"ImagingLevel2","h_and_e_level_1","Not Applicable","syn24628490","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","cc599b1f-b403-40be-90b5-4b05742105c2","HTAN WUSTL",FALSE,"ImagingLevel2","clinical_molecular_test","Not Applicable","syn24860588","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","8a3f4722-6981-4a3c-939f-26b41f7c69a6","HTAN WUSTL",FALSE,"ImagingLevel2","clinical_tier_2","Not Applicable","syn24873799","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","a96acc87-5fb6-4f12-943b-80cd6f822c50","HTAN WUSTL",FALSE,"ImagingLevel2","clinical_tier_3_breast","Not Applicable","syn24873800","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","5976475b-2993-440a-a1f7-0dd80edf38da","HTAN WUSTL",FALSE,"ImagingLevel2","clinical_tier_3_pancreatic","Not Applicable","syn24873801","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","6e7a8de2-f6c8-4a7c-a902-0cf0f38b2ffd","HTAN WUSTL",FALSE,"ImagingLevel2","imc_level_2","Not Applicable","syn24989505","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","ec758420-9fd6-4906-80f0-28c8eaec5e9a","HTAN WUSTL",FALSE,"BulkRNA-seqLevel1","bulk_RNAseq_level_1","Not Applicable","syn24994805","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","7976a380-dc50-49b4-b3cf-3b50f10f8345","HTAN WUSTL",FALSE,"Diagnosis","clinical_diagnosis","Not Applicable","syn25126996","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","ddf1b49c-46eb-4c8b-865a-40426563174b","HTAN WUSTL",FALSE,"Diagnosis","archive","Not Applicable","syn25174770","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","1e7372e2-444c-4174-8ef7-8b472b51ea24","HTAN WUSTL",FALSE,"Diagnosis","minerva","Not Applicable","syn25586708","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","e079bf95-8529-49d5-9790-9322325971fd","HTAN WUSTL",FALSE,"Diagnosis","scRNAseq_level_1_brca22","Not Applicable","syn27782156","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","a66e58be-c67a-4ceb-83ed-686b4054479b","HTAN WUSTL",FALSE,"Diagnosis","clinical_follow_up_brca22","Not Applicable","syn27782165","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","553b14e6-6c60-4718-b4ff-0030ffc60f81","HTAN WUSTL",FALSE,"Diagnosis","biospecimen_brca22","Not Applicable","syn27782166","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","4353db2c-3287-45cd-93ea-1456c30109b8","HTAN WUSTL",FALSE,"Diagnosis","clinical_demographics_brca22","Not Applicable","syn27782167","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","174fa918-968a-4a42-915b-bd6d6e17bdee","HTAN WUSTL",FALSE,"Diagnosis","clinical_diagnosis_brca22","Not Applicable","syn27782168","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","6d21d187-459d-4f98-8d30-1b676be89157","HTAN WUSTL",FALSE,"Diagnosis","clinical_exposure_brca22","Not Applicable","syn27782169","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","bc03c742-b4fb-4928-be5e-c2812f1030e4","HTAN WUSTL",FALSE,"Diagnosis","clinical_therapy_brca22","Not Applicable","syn27782170","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","cbbd08a6-dfa8-42b3-9e86-b551810231b4","HTAN WUSTL",FALSE,"Diagnosis","clinical_molecular_test_brca22","Not Applicable","syn27782171","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","123c4f64-948e-41ed-9f7d-df4c641962e1","HTAN WUSTL",FALSE,"Diagnosis","clinical_family_history_brca22","Not Applicable","syn27782172","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","1ef36156-af0f-42b4-9cf0-8e2ab4301230","HTAN WUSTL",FALSE,"Diagnosis","clinical_exposure_coad22","Not Applicable","syn27782182","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","d26b34e4-9315-46a8-8bee-f7e9d655917c","HTAN WUSTL",FALSE,"Diagnosis","clinical_demographics_coad22","Not Applicable","syn27782183","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","0634ddc0-508b-4589-bfb3-efa4282dff08","HTAN WUSTL",FALSE,"Diagnosis","scRNAseq_level_1_coad22","Not Applicable","syn27782184","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","cd114df3-13f0-4ae2-a72e-4d021899e971","HTAN WUSTL",FALSE,"Diagnosis","biospecimen_coad22","Not Applicable","syn27782185","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","4ad47228-0699-4474-9a72-08804a1f33f6","HTAN WUSTL",FALSE,"Diagnosis","clinical_family_history_coad22","Not Applicable","syn27782186","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","2446cc66-8818-405f-88d4-087e242ff35e","HTAN WUSTL",FALSE,"Diagnosis","clinical_therapy_coad22","Not Applicable","syn27782187","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","05305da4-279b-48b9-95db-cf01c784a5cf","HTAN WUSTL",FALSE,"Diagnosis","clinical_diagnosis_coad22","Not Applicable","syn27782188","Not Applicable","2022-09-20",TRUE,TRUE
+"DataFlow","3864e8a7-409a-4164-a09f-571a34455d27","HTAN WUSTL",FALSE,"Diagnosis","clinical_molecular_test_coad22","Not Applicable","syn27782189","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","efbf140c-6431-4b2e-b10e-688972a5b2f6","HTAN WUSTL",FALSE,"Diagnosis","clinical_follow_up_coad22","Not Applicable","syn27782190","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","acea13db-4968-4d6d-8483-053de0142cfa","HTAN WUSTL",FALSE,"Diagnosis","scRNAseq_level_2_coad22","Not Applicable","syn27782206","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","659065e9-b508-418b-96c8-3560c134e2d6","HTAN WUSTL",FALSE,"Diagnosis","scRNAseq_level_3_brca22","Not Applicable","syn27782207","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","db6bb750-1b53-4cbb-85ef-b7af0d70a6c5","HTAN WUSTL",FALSE,"Diagnosis","scRNAseq_level_4_coad22","Not Applicable","syn27782208","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","c908f467-9c4f-431d-bf9e-bcef71e84e10","HTAN WUSTL",FALSE,"Diagnosis","scRNAseq_level_2_brca22","Not Applicable","syn27782209","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","f2428077-ce1b-46ed-b08a-4ab51ef15bf5","HTAN WUSTL",FALSE,"Diagnosis","scRNAseq_level_3_coad22","Not Applicable","syn27782210","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","96d8415d-83a5-4851-bc51-60f8d0883f4b","HTAN WUSTL",FALSE,"Diagnosis","scRNAseq_level_4_brca22","Not Applicable","syn27782211","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","c39dee15-da0d-4e1b-9b99-27d93a8ccbfd","HTAN WUSTL",FALSE,"OtherAssay","visium_level_1","Not Applicable","syn29265269","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","bca5364a-7839-463c-a0ef-89774ddc9854","HTAN WUSTL",FALSE,"ScRNA-seqLevel1","sn_RNAseq_level_1","Not Applicable","syn29282243","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","e1b9942b-fbef-4db8-9105-c2800ce513d1","HTAN CHOP",FALSE,"ScRNA-seqLevel1","single_cell_RNAseq_level_1","Not Applicable","syn23452919","Not Applicable","2020-01-15",TRUE,TRUE
+"DataFlow","9b911bf2-5b08-4b77-a224-88860e19d7f2","HTAN CHOP",FALSE,"ScATAC-seqLevel1","single_cell_ATACseq_level_1","Not Applicable","syn23662863","Not Applicable","2020-01-15",TRUE,TRUE
+"DataFlow","252107fe-ce7a-4a1c-b4bb-1dc41250ad1b","HTAN CHOP",FALSE,"Diagnosis","clinical_diagnosis","Not Applicable","syn24615215","Not Applicable","2020-01-15",TRUE,TRUE
+"DataFlow","21aa47d9-bfb5-464c-90d4-7a829a901c24","HTAN CHOP",FALSE,"Exposure","clinical_exposure","Not Applicable","syn24615216","Not Applicable","2020-01-15",TRUE,TRUE
+"DataFlow","03da1933-1f60-4835-9d74-e3bbb7c67191","HTAN CHOP",FALSE,"FamilyHistory","clinical_family_history","Not Applicable","syn24615217","Not Applicable","2020-01-15",TRUE,TRUE
+"DataFlow","08099632-1a13-4fed-bc49-f2beecf9dc53","HTAN CHOP",FALSE,"FollowUp","clinical_follow_up","Not Applicable","syn24615218","Not Applicable","2020-01-15",TRUE,TRUE
+"DataFlow","604c1ea5-1a54-4e5a-8c24-29234a213996","HTAN CHOP",FALSE,"Therapy","clinical_therapy","Not Applicable","syn24615219","Not Applicable","2021-03-16",TRUE,TRUE
+"DataFlow","308d530b-db27-4bec-b11c-5ccf7c1b0f71","HTAN CHOP",FALSE,"MolecularTest","clinical_molecular_test","Not Applicable","syn24860584","Not Applicable","2021-03-16",TRUE,TRUE
+"DataFlow","10f51d0e-edcd-426b-8522-f13095afe932","HTAN CHOP",FALSE,"ScRNA-seqLevel2","single_cell_RNAseq_level_2","Not Applicable","syn24860906","Not Applicable","2021-03-16",TRUE,TRUE
+"DataFlow","7f72ee93-77a5-41c5-9c0b-adc3608f3b01","HTAN CHOP",FALSE,"ScRNA-seqLevel2","single_cell_ATACseq_level_2","Not Applicable","syn24860908","Not Applicable","2021-03-16",TRUE,TRUE
+"DataFlow","e73f9a8f-ef99-4242-a149-464f6dd8d95c","HTAN CHOP",FALSE,"ScRNA-seqLevel2","clinical_tier_2","Not Applicable","syn24873782","Not Applicable","2021-03-16",TRUE,TRUE
+"DataFlow","08feb57e-0698-468e-8aa3-cd69fdcd9446","HTAN CHOP",FALSE,"ScRNA-seqLevel2","clinical_tier_3_glioma","Not Applicable","syn24873783","Not Applicable","2021-03-16",TRUE,TRUE
+"DataFlow","9d8a4a3e-fe39-43a5-b967-3bd322e85426","HTAN CHOP",FALSE,"ScRNA-seqLevel2","clinical_tier_3_neuroblastoma","Not Applicable","syn24873784","Not Applicable","2021-03-16",TRUE,TRUE
+"DataFlow","d2c1459d-78d7-4a6e-afa1-94b82b11b117","HTAN CHOP",FALSE,"ScRNA-seqLevel2","clinical_tier_3_acute_lymphoblastic_leukemia","Not Applicable","syn24873785","Not Applicable","2021-03-16",TRUE,TRUE
+"DataFlow","65faf583-e1c3-4ade-ab7f-830d0345ccb0","HTAN CHOP",FALSE,"ScRNA-seqLevel3","single_cell_RNAseq_level_3","Not Applicable","syn24984342","Not Applicable","2021-03-16",TRUE,TRUE
+"DataFlow","7dd26885-abfd-4981-875e-d7c5d24fe1b9","HTAN CHOP",FALSE,"ScRNA-seqLevel4","single_cell_RNAseq_level_4","Not Applicable","syn24984343","Not Applicable","2021-03-16",TRUE,TRUE
+"DataFlow","f3db9be6-05f0-4cfa-8670-56d8704a0827","HTAN CHOP",FALSE,"ScRNA-seqLevel4","snmC-Seq2_level1","Not Applicable","syn24984555","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","44a32736-294a-4c69-8569-e93e0e1346bd","HTAN CHOP",FALSE,"ScRNA-seqLevel4","snmC-Seq2_level2","Not Applicable","syn24984685","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","0b18a34c-a6bc-46b3-ac51-018b035f7c8e","HTAN CHOP",FALSE,"Demographics","clinical_demographics","Not Applicable","syn25127390","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","327a9e95-35df-405b-a7d8-0fbc9bd00e3e","HTAN CHOP",FALSE,"Biospecimen","Biospecimen","Not Applicable","syn25127447","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","11ea94c8-b14d-4d60-b767-54dab89666c2","HTAN CHOP",FALSE,"Biospecimen","snmC-Seq2_level1_new","Not Applicable","syn25955941","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","ecc842b6-1e51-4123-b1f2-d03e73a6612f","HTAN CHOP",FALSE,"ScATAC-seqLevel4","single_cell_ATACseq_level_4","Not Applicable","syn26401297","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","197c5050-9385-43fa-80eb-310c7476a27d","HTAN MSK",FALSE,"ScRNA-seqLevel2","single_cell_RNAseq_level_2","Not Applicable","syn23591071","Not Applicable","2022-11-01",TRUE,TRUE
+"DataFlow","80160109-c4ee-4994-835f-5d47549fc04f","HTAN MSK",FALSE,"ScRNA-seqLevel3","single_cell_RNAseq_level_3","Not Applicable","syn23591072","Not Applicable","2022-11-01",FALSE,TRUE
+"DataFlow","3405fbdb-8b2e-4b8b-a015-0b3f53927478","HTAN MSK",FALSE,"ScRNA-seqLevel4","single_cell_RNAseq_level_4","Not Applicable","syn23591073","Not Applicable","2022-11-01",FALSE,TRUE
+"DataFlow","59c2dc1d-39f6-4e3a-b64b-a9a33cde8398","HTAN MSK",FALSE,"ScRNA-seqLevel4","mIHC_level_1","Not Applicable","syn23591178","Not Applicable","2022-11-01",FALSE,FALSE
+"DataFlow","3b5799d6-5ef7-446e-9f9e-99aa02effe16","HTAN MSK",FALSE,"ScRNA-seqLevel4","mIHC_level_2","Not Applicable","syn23591179","Not Applicable","2022-11-01",FALSE,FALSE
+"DataFlow","e4fd7c1b-a388-41d9-813a-f00f6be11087","HTAN MSK",FALSE,"ScRNA-seqLevel4","mIHC_level_4","Not Applicable","syn23591180","Not Applicable","2022-11-01",FALSE,FALSE
+"DataFlow","bab24db5-3c1b-4776-aea5-82c72d9b1d40","HTAN MSK",FALSE,"ScRNA-seqLevel4","mIHC_level_3","Not Applicable","syn23591181","Not Applicable","2022-11-01",FALSE,FALSE
+"DataFlow","ddd6e3da-0f01-4226-bac4-4037ea817db6","HTAN MSK",FALSE,"ScRNA-seqLevel4","mIHC_level_5","Not Applicable","syn23591182","Not Applicable","2022-11-01",FALSE,FALSE
+"DataFlow","28d45234-2453-4068-ba95-b1389075eb76","HTAN MSK",FALSE,"ScRNA-seqLevel1","single_cell_RNAseq_level_1","Not Applicable","syn23593727","Not Applicable","2021-01-01",TRUE,TRUE
+"DataFlow","2ee37456-d446-4968-b902-96c925e0c858","HTAN MSK",FALSE,"Demographics","clinical_demographics","Not Applicable","syn23633926","Not Applicable","2021-01-01",TRUE,TRUE
+"DataFlow","5334e066-4bd2-4be4-912a-789955859483","HTAN MSK",FALSE,"Diagnosis","clinical_diagnosis","Not Applicable","syn23633927","Not Applicable","2021-01-01",TRUE,TRUE
+"DataFlow","be568755-1b72-4afd-9457-8390e1b0f3a1","HTAN MSK",FALSE,"Exposure","clinical_exposure","Not Applicable","syn23633928","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","0bc7fb33-3d3f-4ae3-8ed1-2796a15a5f3e","HTAN MSK",FALSE,"FamilyHistory","clinical_family_history","Not Applicable","syn23633929","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","481a42c9-bc0a-440b-bca6-eb25add70775","HTAN MSK",FALSE,"FollowUp","clinical_follow_up","Not Applicable","syn23633930","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","2941f489-9052-4ae4-a7c4-b686ab7c0470","HTAN MSK",FALSE,"Therapy","clinical_therapy","Not Applicable","syn23633931","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","c6bdcb8d-70ff-429d-a401-1916003c67a8","HTAN MSK",FALSE,"MolecularTest","clinical_molecular_test","Not Applicable","syn23633932","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","7cd02dde-50e0-4b06-8910-95c14e7f6229","HTAN MSK",FALSE,"Biospecimen","biospecimen","Not Applicable","syn24615234","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","396ab55c-4bcc-4565-a80d-88cad918d386","HTAN MSK",FALSE,"Biospecimen","clinical_tier_2","Not Applicable","syn24873796","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","3406fb1c-0424-4e3e-9176-b60f3706f251","HTAN MSK",FALSE,"Biospecimen","clinical_tier_3_lung","Not Applicable","syn24873797","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","4cd7df69-22e6-46c1-ad29-7d4fc11de811","HTAN MSK",FALSE,"Biospecimen","clinical_tier_3_pancreatic","Not Applicable","syn24873798","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","59e83d51-3457-42f2-9f20-b740d1b301fe","HTAN MSK",FALSE,"Biospecimen","minerva","Not Applicable","syn25472272","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","87002bb7-731e-45e5-bf58-57bff3c8fa88","HTAN MSK",FALSE,"Biospecimen","mibi_level_1","Not Applicable","syn26321090","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","cf8c1879-262a-4e9a-a8ad-ba63fe1d25b5","HTAN MSK",FALSE,"ImagingLevel2","mibi_level_2","Not Applicable","syn26321091","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","76a2a375-92ea-4aaf-8f14-47007574dae4","HTAN MSK",FALSE,"OtherAssay","mibi_level_3","Not Applicable","syn26321092","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","f8867492-5b30-47bc-87fc-2e532d127071","HTAN MSK",FALSE,"OtherAssay","mibi_level_4","Not Applicable","syn26321093","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","70e75d19-bb24-461d-b7bb-63044a56eff2","HTAN MSK",FALSE,"OtherAssay","mibi_level_5","Not Applicable","syn26321094","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","56112038-e2ae-40e0-a8a1-107350ee0708","HTAN MSK",FALSE,"OtherAssay","vectra_level_2","Not Applicable","syn27025191","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","b6b125c8-adfd-4e9e-8944-d0e15401581b","HTAN MSK",FALSE,"OtherAssay","vectra_level_3","Not Applicable","syn27025192","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","d315b0a2-d5d9-4dc9-9f71-429a3dacfbb5","HTAN MSK",FALSE,"OtherAssay","vectra_level_4","Not Applicable","syn27025193","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","c93a6342-81e5-43c3-86d0-0a1986ec714c","HTAN DFCI",FALSE,"Not Applicable","single_cell_RNAseq_level_1","Not Applicable","syn24180872","Not Applicable","2021-01-01",TRUE,TRUE
+"DataFlow","eb3c26a2-8b40-436c-9005-a244657fcf3b","HTAN DFCI",FALSE,"Not Applicable","single_cell_RNAseq_level_3","Not Applicable","syn24180873","Not Applicable","2021-01-01",TRUE,TRUE
+"DataFlow","5f30b38b-ec95-474c-af5e-8e0952d3b5ee","HTAN DFCI",FALSE,"Not Applicable","single_cell_RNAseq_level_2","Not Applicable","syn24180874","Not Applicable","2021-01-01",TRUE,TRUE
+"DataFlow","01f41886-fa30-4eaf-8e3b-e153a5a43018","HTAN DFCI",FALSE,"Not Applicable","single_cell_RNAseq_level_4","Not Applicable","syn24180875","Not Applicable","2021-01-01",TRUE,TRUE
+"DataFlow","0017f283-c072-4edd-a11e-548e1889bd3d","HTAN DFCI",FALSE,"Not Applicable","clinical_diagnosis","Not Applicable","syn24615260","Not Applicable","2021-01-01",TRUE,TRUE
+"DataFlow","ffd3059b-f059-4fda-9fd5-77b06a196f86","HTAN DFCI",FALSE,"FamilyHistory","clinical_family_history","Not Applicable","syn24615261","Not Applicable","2021-01-01",TRUE,TRUE
+"DataFlow","72fd53ab-50ce-42f1-b024-4976017dc557","HTAN DFCI",FALSE,"FamilyHistory","biospecimen","Not Applicable","syn24615262","Not Applicable","2021-01-01",TRUE,TRUE
+"DataFlow","a305bb97-ee89-42e2-85b7-b1903f49a3af","HTAN DFCI",FALSE,"Exposure","clinical_exposure","Not Applicable","syn24615263","Not Applicable","2021-01-01",TRUE,TRUE
+"DataFlow","8ffacb96-ef37-4a55-96ce-32515e97a3fa","HTAN DFCI",FALSE,"Exposure","clinical_therapy","Not Applicable","syn24615264","Not Applicable","2021-01-01",TRUE,TRUE
+"DataFlow","7969f7ce-2521-4afb-a0cb-49e2728595f7","HTAN DFCI",FALSE,"FollowUp","clinical_follow_up","Not Applicable","syn24615265","Not Applicable","2022-10-10",TRUE,TRUE
+"DataFlow","6d992a36-246a-4870-8328-87f7817d7f8b","HTAN DFCI",FALSE,"Demographics","clinical_demographics","Not Applicable","syn24615266","Not Applicable","2022-10-10",TRUE,TRUE
+"DataFlow","abd2df0b-493a-44fc-bd06-10b92d6cc7aa","HTAN DFCI",FALSE,"Demographics","clinical_molecular_test","Not Applicable","syn24860586","Not Applicable","2022-10-10",TRUE,TRUE
+"DataFlow","aae842c6-6133-47a3-bd6c-d4daaca37c5d","HTAN DFCI",FALSE,"ClinicalDataTier2","clinical_tier_2","Not Applicable","syn24873790","Not Applicable","2022-10-10",TRUE,TRUE
+"DataFlow","b2b72706-2d6e-4ffa-b5c4-6ac220a5e7d9","HTAN DFCI",FALSE,"ClinicalDataTier2","clinical_tier_3_breast","Not Applicable","syn24873791","Not Applicable","2022-10-10",TRUE,TRUE
+"DataFlow","05db08a5-b2a9-4dc8-89f5-184981b2d9ba","HTAN DFCI",FALSE,"ClinicalDataTier2","clinical_tier_3_melanoma","Not Applicable","syn24873792","Not Applicable","2022-10-10",TRUE,TRUE
+"DataFlow","937347e8-be3b-467d-92c7-8b2323df5372","HTAN DFCI",FALSE,"ClinicalDataTier2","clinical_tier_3_colon","Not Applicable","syn24873793","Not Applicable","2022-10-10",TRUE,TRUE
+"DataFlow","2f9243dc-cc0e-47fd-aa82-77f1a4c3ca2b","HTAN DFCI",FALSE,"ClinicalDataTier2","minerva","Not Applicable","syn25577443","Not Applicable","2022-10-10",TRUE,TRUE
+"DataFlow","55286310-a1c4-4521-841d-54659a8925fb","HTAN DFCI",FALSE,"ClinicalDataTier2","sardana_phase_1_ff_level_2","Not Applicable","syn25998510","Not Applicable","2022-10-10",TRUE,TRUE
+"DataFlow","3550a61e-fb0c-4a7d-9464-a09e743edf58","HTAN DFCI",FALSE,"ClinicalDataTier2","sardana_phase_1_ffpe_level_2","Not Applicable","syn25998511","Not Applicable","2022-10-10",TRUE,TRUE
+"DataFlow","b135e4a1-c22b-4f58-8e67-31450159de80","HTAN DFCI",FALSE,"ClinicalDataTier2","sardana_pilot_ff_level_2","Not Applicable","syn25998512","Not Applicable","2022-10-10",TRUE,TRUE
+"DataFlow","f77aa7b6-ca59-4d7b-9127-405500036749","HTAN DFCI",FALSE,"ClinicalDataTier2","sardana_pilot_ffpe_level_2","Not Applicable","syn25998513","Not Applicable","2022-10-10",TRUE,TRUE
+"DataFlow","7a9f466a-83b1-4e24-999b-ed4f6ed1deab","HTAN DFCI",FALSE,"LungCancerTier3","clinical_tier_3_lung","Not Applicable","syn29399968","Not Applicable","2022-10-10",TRUE,TRUE
+"DataFlow","856ff83d-d443-4811-a678-a0793c709edb","HTAN Duke",FALSE,"BulkWESLevel1","bulk_DNAseq_level_1","Not Applicable","syn24180956","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","311de7c9-2bfc-451f-bd9d-57c081e049aa","HTAN Duke",FALSE,"Demographics","clinical_demographics","Not Applicable","syn24615228","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","ab3ebbd4-b0ec-44cf-94e7-5b90021a9786","HTAN Duke",FALSE,"Diagnosis","clinical_diagnosis","Not Applicable","syn24615229","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","6ace5d3a-9f1e-43c1-8801-9b4a6fda5374","HTAN Duke",FALSE,"Exposure","clinical_exposure","Not Applicable","syn24615230","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","3b4eb0e3-1a5b-4bd9-b78d-8e6355742f2b","HTAN Duke",FALSE,"FamilyHistory","clinical_family_history","Not Applicable","syn24615231","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","f5b69611-7d36-4ee2-a759-e5dff7a54c72","HTAN Duke",FALSE,"Therapy","clinical_therapy","Not Applicable","syn24615232","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","3c92f977-35a8-4043-974c-0b4acdd47912","HTAN Duke",FALSE,"FollowUp","clinical_follow_up","Not Applicable","syn24615233","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","79e6d815-d853-4f97-a1fe-5bd66a1b3cc2","HTAN Duke",FALSE,"MolecularTest","clinical_molecular_test","Not Applicable","syn24860551","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","e219a7bb-20db-41db-9a55-1286aa501082","HTAN Duke",FALSE,"MolecularTest","clinical_tier_2","Not Applicable","syn24873778","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","a0a479af-f47f-4e12-bd6e-7749a46401f5","HTAN Duke",FALSE,"MolecularTest","clinical_tier_3_breast","Not Applicable","syn24873779","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","e5c7f164-f720-4280-9a6c-a9c1c9c6597c","HTAN Duke",FALSE,"OtherAssay","mibi_imaging_level_1","Not Applicable","syn24995125","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","5f869900-a7cf-4860-9d1d-16c905b15817","HTAN Duke",FALSE,"Biospecimen","biospecimen","Not Applicable","syn25148276","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","8fa58262-1680-44fb-a8b8-6fc4f4680a30","HTAN Duke",FALSE,"Biospecimen","minerva","Not Applicable","syn25472271","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","2ee55341-0c97-4069-9b86-7d72b660e731","HTAN Duke",FALSE,"ImagingLevel2","imaging_level_2","Not Applicable","syn25892944","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","6b5ffde2-3df8-44cb-a54b-882dbad8dfbe","HTAN Duke",FALSE,"ImagingLevel2","mibi_imaging_level_2","Not Applicable","syn26551262","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","27371f2d-3d31-4c8b-b45e-5be04ae08d1c","HTAN Duke",FALSE,"ImagingLevel2","mibi_imaging_level_3","Not Applicable","syn26551280","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","479195d5-50f1-43da-a923-d330376a80c6","HTAN Duke",FALSE,"ImagingLevel2","bulk_RNAseq_level_1","Not Applicable","syn30911850","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","2285349c-6df1-4756-b503-c8b0b08efc38","HTAN Stanford",FALSE,"BulkWESLevel1","wgs","Not Applicable","syn23445842","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","850c3d2b-0392-413d-a73b-173ca0fec0d1","HTAN Stanford",FALSE,"ImagingLevel2","codex","Not Applicable","syn23627808","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","a8b95606-8c5f-4fbe-920f-b0e00ae5ce38","HTAN Stanford",FALSE,"BulkRNA-seqLevel1","bulkRNAseq","Not Applicable","syn23627814","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","09bf8ebb-8e54-44a5-be48-a860bd354d75","HTAN Stanford",FALSE,"BulkRNA-seqLevel1","bulkATACseq","Not Applicable","syn23627815","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","dc8cef67-bd27-4d12-960a-cff0a34557ae","HTAN Stanford",FALSE,"OtherAssay","proteomics","Not Applicable","syn23627817","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","8622c9e1-828d-4780-9a56-d1dd7cf962bf","HTAN Stanford",FALSE,"OtherAssay","metabolomics","Not Applicable","syn23627818","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","01d9727c-6445-4a11-b8e3-50303a100bf8","HTAN Stanford",FALSE,"OtherAssay","lipidomics","Not Applicable","syn23764189","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","c625e67c-1bec-4fde-a91b-4332c9af1ae4","HTAN Stanford",FALSE,"ScATAC-seqLevel1","scatacseq_level_1","Not Applicable","syn24191308","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","64757254-b209-4598-8623-9420acb590c6","HTAN Stanford",FALSE,"ScRNA-seqLevel1","scrnaseq_level_1","Not Applicable","syn24191309","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","7e5c4ad7-c670-4910-8031-8605cbe64140","HTAN Stanford",FALSE,"Biospecimen","biospecimen","Not Applicable","syn24615280","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","e2dbc029-fa80-4732-92e8-00fd8024bd3f","HTAN Stanford",FALSE,"Demographics","clinical_demographics","Not Applicable","syn24615281","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","5632d51b-696d-41b9-b705-da54101dd4ea","HTAN Stanford",FALSE,"Diagnosis","clinical_diagnosis","Not Applicable","syn24615282","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","8d2ddf41-86f1-4408-81eb-26ca726c4b0a","HTAN Stanford",FALSE,"Exposure","clinical_exposure","Not Applicable","syn24615283","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","ff3654ba-07c7-4452-b9ec-2ed82e6dc470","HTAN Stanford",FALSE,"FamilyHistory","clinical_family_history","Not Applicable","syn24615284","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","354f9f18-c748-41d6-be0a-8fd51b3fbb58","HTAN Stanford",FALSE,"FollowUp","clinical_follow_up","Not Applicable","syn24615285","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","17094c62-bad6-4299-8788-bf99d66cca79","HTAN Stanford",FALSE,"Therapy","clinical_therapy","Not Applicable","syn24615286","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","66793d42-442d-484c-bee7-685d3e1319e6","HTAN Stanford",FALSE,"Therapy","clinical_molecular_test","Not Applicable","syn24860552","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","1b68b1a2-9388-4325-b5f0-b4c919d551fc","HTAN Stanford",FALSE,"Therapy","clinical_tier_2","Not Applicable","syn24873788","Not Applicable","2023-06-01",FALSE,FALSE
+"DataFlow","eeb3d045-302a-4f9a-b5ec-ecac39e33eac","HTAN Stanford",FALSE,"Therapy","clinical_tier_3_colon","Not Applicable","syn24873789","Not Applicable","2022-06-01",TRUE,TRUE
+"DataFlow","c19ceac8-3668-4ab3-8898-1dbf4f7fa86f","HTAN Stanford",FALSE,"OtherAssay","scatacseq_level_2","Not Applicable","syn26530163","Not Applicable","2022-06-01",TRUE,TRUE
+"DataFlow","97b8acf3-78d1-4ebc-9e9b-922b82f8b2d7","HTAN Stanford",FALSE,"OtherAssay","scatacseq_level_3","Not Applicable","syn26530164","Not Applicable","2022-06-01",TRUE,TRUE
+"DataFlow","9cfeae4c-8a51-4972-b7d2-c166aa3b6a46","HTAN Stanford",FALSE,"ScRNA-seqLevel2","scrnaseq_level_2","Not Applicable","syn26530912","Not Applicable","2022-06-01",TRUE,TRUE
+"DataFlow","eb49fda7-a854-471c-8ce6-63456b36edbe","HTAN Stanford",FALSE,"ScRNA-seqLevel3","scrnaseq_level_3","Not Applicable","syn26531002","Not Applicable","2021-06-10",TRUE,TRUE
+"DataFlow","e4285e39-da0e-44b9-9a5d-c31f29443805","HTAN Stanford",FALSE,"ScRNA-seqLevel3","codex_level_1","Not Applicable","syn27782965","Not Applicable","2021-06-10",TRUE,TRUE
+"DataFlow","dfe592dc-0e66-4cab-bdaf-a218ffa44412","HTAN Stanford",FALSE,"ScRNA-seqLevel3","codex_level_2","Not Applicable","syn27782972","Not Applicable","2021-06-10",TRUE,TRUE
+"DataFlow","1247b81c-95f5-4f7f-9a8e-49daf8653925","HTAN Stanford",FALSE,"ScRNA-seqLevel3","codex_level_3","Not Applicable","syn27782980","Not Applicable","2021-06-10",TRUE,TRUE
+"DataFlow","31d61439-12c3-4555-80b7-9e7b4ecfa237","HTAN Stanford",FALSE,"ScRNA-seqLevel3","codex_level_4","Not Applicable","syn27782993","Not Applicable","2021-06-10",TRUE,TRUE
+"DataFlow","0f0fee9c-e2e6-4eec-9818-8a42acb3b5d5","HTAN Stanford",FALSE,"ScRNA-seqLevel3","hic_level_1","Not Applicable","syn39253511","Not Applicable","2021-06-10",TRUE,TRUE
+"DataFlow","f50a9f93-944e-4377-b5a9-5478356c2429","HTAN Stanford",FALSE,"ScRNA-seqLevel3","hic_level_2","Not Applicable","syn39253516","Not Applicable","2021-06-10",TRUE,TRUE
+"DataFlow","d6bbe7d3-1816-4909-91c2-1509c4125fc0","HTAN TNP SARDANA",FALSE,"Biospecimen","biospecimen","Not Applicable","syn24984556","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","8c58406e-6670-44de-97ec-f494bd689bf7","HTAN TNP SARDANA",FALSE,"Demographics","clinical_demographics","Not Applicable","syn24984557","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","da8b1bfa-d08a-46fe-bfb5-a76f250f9b3a","HTAN TNP SARDANA",FALSE,"Diagnosis","clinical_diagnosis","Not Applicable","syn24984558","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","7701a944-36de-42bb-a027-9aa45d2279b1","HTAN TNP SARDANA",FALSE,"Exposure","clinical_exposure","Not Applicable","syn24984559","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","8e8de671-4f0e-40f6-aff1-5b4e460e480f","HTAN TNP SARDANA",FALSE,"FamilyHistory","clinical_family_history","Not Applicable","syn24984560","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","cf031c37-a869-4e40-a5c2-c1d4246510ad","HTAN TNP SARDANA",FALSE,"FollowUp","clinical_follow_up","Not Applicable","syn24984561","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","842d5808-99a5-419a-9a2b-5dc4120d43d1","HTAN TNP SARDANA",FALSE,"Therapy","clinical_therapy","Not Applicable","syn24984562","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","bd52f217-7808-4065-9607-b018e7351c89","HTAN TNP SARDANA",FALSE,"MolecularTest","clinical_molecular_test","Not Applicable","syn24984563","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","35ddb9b1-feea-4d0b-8c40-8a10353d1348","HTAN TNP SARDANA",FALSE,"MolecularTest","clinical_tier_2","Not Applicable","syn24984564","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","e49b7adc-55ed-49b4-8d2d-910224b8443c","HTAN TNP SARDANA",FALSE,"MolecularTest","clinical_tier_3_breast","Not Applicable","syn24984565","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","9d8b4249-328e-480a-a0e3-b7b680cbb2b3","HTAN TNP SARDANA",FALSE,"MolecularTest","clinical_tier_3_glioma","Not Applicable","syn24984566","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","bb92a28b-f98e-4c23-b56f-cb7499defccc","HTAN TNP SARDANA",FALSE,"MolecularTest","clinical_tier_3_colon","Not Applicable","syn24984567","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","dc826200-f994-4f91-90a3-c7409a51a9ca","HTAN TNP SARDANA",FALSE,"MolecularTest","clinical_tier_3_lung","Not Applicable","syn24984568","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","14dcd423-c058-45ac-968b-f0e15b6f0306","HTAN TNP SARDANA",FALSE,"MolecularTest","clinical_tier_3_sarcoma","Not Applicable","syn24984569","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","cc751682-cb9b-4648-846b-6f2027920205","HTAN TNP SARDANA",FALSE,"MolecularTest","clinical_tier_3_ovarian","Not Applicable","syn24984570","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","fa474d29-da0d-4416-a06c-e0dad155a4d6","HTAN TNP SARDANA",FALSE,"MolecularTest","clinical_tier_3_neuroblastoma","Not Applicable","syn24984571","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","9a5572d4-b4c1-4fd7-a68f-a178eef39680","HTAN TNP SARDANA",FALSE,"MolecularTest","clinical_tier_3_pancreatic","Not Applicable","syn24984572","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","64966c05-6036-480b-b290-a441d20b9754","HTAN TNP SARDANA",FALSE,"MolecularTest","clinical_tier_3_melanoma","Not Applicable","syn24984573","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","8639d1cf-5018-47fa-a5a0-4e48463f7f32","HTAN TNP SARDANA",FALSE,"MolecularTest","clinical_tier_3_acute_lymphoblastic_leukemia","Not Applicable","syn24984574","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","be621df4-90ff-4573-8044-a76b4de47984","HTAN TNP SARDANA",FALSE,"ImagingLevel2","imaging_level_2","Not Applicable","syn24989038","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","b4b4db06-1fd3-41a5-ae45-dfe16f07d92f","HTAN TNP SARDANA",FALSE,"ImagingLevel2","minerva","Not Applicable","syn25472275","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","f5befc10-ce37-4111-983b-10fb0df65430","HTAN TNP SARDANA",FALSE,"ImagingLevel2","sardana_phase_1_ff_level_2","Not Applicable","syn26486693","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","d7b3888f-a28a-419d-8925-1515f450fbb7","HTAN TNP SARDANA",FALSE,"ImagingLevel2","sardana_phase_1_ffpe_level_2","Not Applicable","syn26486694","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","a6f8f27a-0728-4fe2-b8b7-75a4375f69de","HTAN TNP SARDANA",FALSE,"ImagingLevel2","codex_level_1","Not Applicable","syn27790444","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","1c122560-75df-4362-8447-694d40abddf6","HTAN TNP SARDANA",FALSE,"ImagingLevel2","imaging_level_4","Not Applicable","syn35469108","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","d0afd888-8220-47f7-98aa-5e831747e75c","HTAN SRRS",FALSE,"SRRSBiospecimen","biospecimen","Not Applicable","syn26127200","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","a4150af9-00fd-4d43-932d-924f6422f1a1","HTAN SRRS",FALSE,"SRRSBiospecimen","clinical_demographics","Not Applicable","syn26128478","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","40e51afc-6992-402c-b0d4-98becd4d3aca","HTAN SRRS",FALSE,"SRRSBiospecimen","clinical_diagnosis","Not Applicable","syn26128479","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","747a9ba1-196f-487b-966e-726926ea4ec2","HTAN SRRS",FALSE,"SRRSBiospecimen","clinical_exposure","Not Applicable","syn26128480","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","21c3c393-9459-4e7f-bd1d-3608f998ad5e","HTAN SRRS",FALSE,"SRRSBiospecimen","clinical_family_history","Not Applicable","syn26128481","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","0a46eebd-809b-4e69-b67e-9243664d5b71","HTAN SRRS",FALSE,"SRRSBiospecimen","clinical_follow_up","Not Applicable","syn26128482","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","a0e96db4-af70-47a8-830b-40a164527d00","HTAN SRRS",FALSE,"SRRSBiospecimen","clinical_therapy","Not Applicable","syn26128483","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","114598b5-4599-4f75-a478-652f23de47cc","HTAN SRRS",FALSE,"SRRSBiospecimen","clinical_molecular_test","Not Applicable","syn26128484","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","9502abd9-3059-4623-8e69-3ac7797801a6","HTAN SRRS",FALSE,"SRRSClinicalDataTier2","clinical_tier_2","Not Applicable","syn26128485","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","36c444b9-6f49-4ca3-b3b1-95ab01e1c2db","HTAN SRRS",FALSE,"SRRSClinicalDataTier2","clinical_tier_3_melanoma","Not Applicable","syn26128486","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","bb42742b-ba43-45b5-8fcf-789b342a8738","HTAN SRRS",FALSE,"SRRSClinicalDataTier2","clinical_tier_3_breast","Not Applicable","syn26128488","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","54d89f27-e3f7-47d5-865d-44c25c50ff76","HTAN SRRS",FALSE,"SRRSClinicalDataTier2","clinical_tier_3_glioma","Not Applicable","syn26128489","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","f79167f3-3fca-4a0d-b927-5286c9761623","HTAN SRRS",FALSE,"SRRSClinicalDataTier2","clinical_tier_3_acute_lymphoblastic_leukemia","Not Applicable","syn26128490","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","038287cd-f3de-481e-afa3-a5aba2c026a8","HTAN SRRS",FALSE,"SRRSClinicalDataTier2","clinical_tier_3_colon","Not Applicable","syn26128491","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","dc5dea82-9ac6-4563-b7be-2dff290b6cb8","HTAN SRRS",FALSE,"SRRSClinicalDataTier2","clinical_tier_3_lung","Not Applicable","syn26128492","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","75ea5ffc-ce17-4815-bac8-25f7fb6ae394","HTAN SRRS",FALSE,"SRRSClinicalDataTier2","clinical_tier_3_sarcoma","Not Applicable","syn26128493","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","105af51a-dab8-4fa4-a0aa-710c2efe9a8f","HTAN SRRS",FALSE,"SRRSClinicalDataTier2","clinical_tier_3_ovarian","Not Applicable","syn26128494","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","fa9fb057-db3a-40b7-97af-58a7f5098a1a","HTAN SRRS",FALSE,"SRRSClinicalDataTier2","clinical_tier_3_neuroblastoma","Not Applicable","syn26128495","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","3ec896a5-3e11-42c6-bcc9-4d606fb4d272","HTAN SRRS",FALSE,"SRRSClinicalDataTier2","clinical_tier_3_pancreatic","Not Applicable","syn26128496","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","b091ed43-ed94-49f1-bc3f-c722aafb4525","HTAN SRRS",FALSE,"SRRSClinicalDataTier2","imaging_level_1","Not Applicable","syn26275040","Not Applicable","2022-04-04",TRUE,TRUE
+"DataFlow","821d4add-ab6f-488b-8027-1eb4fb2186e1","HTAN SRRS",FALSE,"SRRSImagingLevel2","imaging_level_2","Not Applicable","syn26275041","Not Applicable","2021-01-01",TRUE,TRUE
+"DataFlow","835699cd-e864-46a2-a193-81caeee572bd","HTAN SRRS",FALSE,"SRRSImagingLevel2","imaging_level_3","Not Applicable","syn26275042","Not Applicable","2021-01-01",TRUE,TRUE
+"DataFlow","fb11b3fe-46ed-4962-9484-18a1a9a5252d","HTAN SRRS",FALSE,"SRRSImagingLevel2","imaging_level_4","Not Applicable","syn26275043","Not Applicable","2021-01-01",TRUE,TRUE
+"DataFlow","d9312e52-91e1-4124-a383-073b1974d6e5","HTAN SRRS",FALSE,"SRRSImagingLevel2","staging","Not Applicable","syn42467311","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","d7d3e375-80af-4232-9fd3-56afaf5badda","HTAN SRRS",FALSE,"SRRSImagingLevel2","BU","Not Applicable","syn42559081","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","433ee941-17bb-4799-a653-ce2d107a2813","HTAN Center C",FALSE,"ImagingLevel2","imaging_level_2","Not Applicable","syn32596094","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","f37d6126-abea-4c37-849c-41e41f023570","HTAN Center C",FALSE,"ImagingLevel2","demographics","Not Applicable","syn32596098","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","233407a7-876e-482f-a860-e9ba2563ca4b","HTAN Center C",FALSE,"ImagingLevel2","imaging_level_3_channels","Not Applicable","syn33005137","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","d51b3531-89ae-4ab2-ba47-af6133faee46","HTAN Center C",FALSE,"ImagingLevel2","test-no-files","Not Applicable","syn33051814","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","547703d0-4a20-454d-8eb6-31099df54945","HTAN Center C",FALSE,"ImagingLevel2","Publications _Test","Not Applicable","syn33282461","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","795c1800-b2be-4fbf-b347-51c5e557e3d8","HTAN Center C",FALSE,"ScRNA-seqLevel1","test-cross-manifest","Not Applicable","syn33519723","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","774180c4-53f0-46c9-9b34-171cd969c86f","HTAN Center C",FALSE,"Biospecimen","test-submit","Not Applicable","syn35565383","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","a0e650d9-27d5-4649-b73a-d77d6c26a2e0","HTAN Center C",FALSE,"OtherAssay","test-deleted-files","Not Applicable","syn35903908","Not Applicable","Not Applicable",FALSE,FALSE
+"DataFlow","02b03b07-b090-44c3-9a3f-cf1a86bece3b","HTAN Center C",FALSE,"OtherAssay","test_srrs","Not Applicable","syn40900734","Not Applicable","Not Applicable",FALSE,FALSE
