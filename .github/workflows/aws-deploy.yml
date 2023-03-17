@@ -29,7 +29,7 @@ jobs:
           cdk_args: '--context env=dev --debug'
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: "3.10"
 
