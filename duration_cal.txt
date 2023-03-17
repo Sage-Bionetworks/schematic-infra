@@ -1,2 +1,0 @@
-when sending 20 requests at the same time, we calculate the avg duration time of finishing running the endpoint
-manifest/generate: 43.858938217163086
