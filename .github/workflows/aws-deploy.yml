@@ -29,9 +29,9 @@ jobs:
           cdk_args: '--context env=dev --debug'
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v2
         with:
-          python-version: 3.10.0
+          python-version: "3.10"
 
       - name: Install dependencies
         run: pip3 install -r requirements.txt -r requirements-dev.txt
