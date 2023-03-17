@@ -1,13 +1,11 @@
+import os
 import logging
 import pytest
-import time
 import requests
-import concurrent.futures
-from concurrent.futures import ThreadPoolExecutor
+import pandas as pd
 
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
-import os
 
 @pytest.fixture(scope="session")
 def get_token():
@@ -28,10 +26,19 @@ def example_data_model():
 def HTAN_data_model():
     yield "https://raw.githubusercontent.com/ncihtan/data-models/main/HTAN.model.jsonld"
 
-
 def fetch(url: str, params: dict):
     return requests.get(url, params=params)
+
+def csv_export(description, dt_string, CONCURRENT_REQUEST, total_error_num, total_504_num, time_diff):
+    fields={"Description": description, "Date time": dt_string, "Number of Concurrent Requests": CONCURRENT_REQUEST, "Number of error": total_error_num, "total 504 error":total_504_num, "Latency": time_diff}
+    df = pd.DataFrame(fields, index=[0])
+    df.to_csv("latency.csv", mode='a', index=False, header=False)
 
 @pytest.fixture(scope="session")
 def fetch_request():
     return fetch
+
+@pytest.fixture(scope="session")
+def output_to_csv():
+    return csv_export
+

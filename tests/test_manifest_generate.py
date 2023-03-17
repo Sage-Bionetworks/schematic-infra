@@ -14,12 +14,14 @@ import pandas as pd
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
-CONCURRENT_REQUEST = 3
-TIME_OUT_LIMIT = 30
+CONCURRENT_REQUEST = 5
+TIME_OUT_LIMIT_GENERATE_NEW_MANIFEST = 30
+TIME_OUT_LIMIT_GENERATE_EXISTING_MANIFEST = 60
 
 class TestManifestOperation:
     @pytest.mark.parametrize("output_format", ["google_sheet"])
-    def test_generate_manifest(self, get_token, example_data_model, fetch_request, output_format):
+    @pytest.mark.parametrize("dataset_id", [None, "syn51078367"])
+    def test_generate_manifest(self, get_token, example_data_model, fetch_request, output_to_csv, output_format, dataset_id):
         base_url = "https://schematic-dev.api.sagebionetworks.org/v1/manifest/generate"
         input_token = get_token
 
@@ -29,7 +31,8 @@ class TestManifestOperation:
             "data_type": ["Patient"],
             "use_annotations": False,
             "input_token": input_token,
-            "output_format": output_format
+            "output_format": output_format,
+            "dataset_id": dataset_id
         }
 
         with ThreadPoolExecutor() as executor:
@@ -57,17 +60,24 @@ class TestManifestOperation:
                     logger.debug(f"generated an exception:{exc}")
             time_diff = round(time.time() - start_time, 2)
 
-            # all requests should finish within 30 seconds 
-            assert time_diff < TIME_OUT_LIMIT
-
-            if output_format == "google_sheet": 
-                description = "Generating a new google sheet using the example data model"
+            # record latency and errors
+            if not params["dataset_id"]: 
+                if output_format == "google_sheet": 
+                    description = "Generating a new google sheet using the example data model"
+                else: 
+                    description = "Generating a new excel sheet using the example data model"
             else: 
-                description = "Generating a new excel sheet using the example data model"
+                if output_format == "google_sheet": 
+                    description = "Generating an existing google sheet using the example data model"
+                else: 
+                    description = "Generating an existing excel sheet using the example data model" 
 
-            fields={"Description": description, "Date time": dt_string, "Number of Concurrent Requests": CONCURRENT_REQUEST, "Number of error": total_error_num, "total 504 error":total_504_num, "Latency": time_diff}
-            df = pd.DataFrame(fields, index=[0])
-            df.to_csv("latency.csv", mode='a', index=False, header=False)
+            output_to_csv(description, dt_string, CONCURRENT_REQUEST, total_error_num, total_504_num, time_diff)
+
+            if dataset_id:
+                assert time_diff < TIME_OUT_LIMIT_GENERATE_EXISTING_MANIFEST
+            else:
+                assert time_diff < TIME_OUT_LIMIT_GENERATE_NEW_MANIFEST
 
     
             
