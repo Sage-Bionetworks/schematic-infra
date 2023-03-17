@@ -133,3 +133,12 @@ dmypy.json
 .pytype/
 
 .project
+
+# jetbrains
+.idea
+
+# CDK outputs
+cdk.out/
+
+# temp files
+temp/
