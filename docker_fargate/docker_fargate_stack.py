@@ -79,16 +79,16 @@ class DockerFargateStack(Stack):
         #
         # for options to pass to ApplicationLoadBalancedTaskImageOptions see:
         # https://docs.aws.amazon.com/cdk/api/v1/python/aws_cdk.aws_ecs_patterns/ApplicationLoadBalancedTaskImageOptions.html#aws_cdk.aws_ecs_patterns.ApplicationLoadBalancedTaskImageOptions
-        #
+        # Documentation on CPU and memory size: https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definition_parameters.html
         load_balanced_fargate_service = ecs_patterns.ApplicationLoadBalancedFargateService(
             self,
             f'{stack_prefix}-Service',
             cluster=cluster,            # Required
-            cpu=256,                    # Default is 256
+            cpu=4096,                    # Default is 256 which is 0.25vCPU; 4096 is 4 vCPU
             desired_count=3,            # Number of copies of the 'task' (i.e. the app') running behind the ALB
             circuit_breaker=ecs.DeploymentCircuitBreaker(rollback=True), # Enable rollback on deployment failure
             task_image_options=task_image_options,
-            memory_limit_mib=1024,      # Default is 512
+            memory_limit_mib=8192,      # Default is 512; 8192 MiB is equivalent to 8GB.
             public_load_balancer=True,  # Default is False
             # TLS:
             certificate=cert,
