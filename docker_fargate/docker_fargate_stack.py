@@ -106,7 +106,7 @@ class DockerFargateStack(Stack):
         if False: # enable/disable autoscaling
             scalable_target = load_balanced_fargate_service.service.auto_scale_task_count(
                min_capacity=1, # Minimum capacity to scale to. Default: 1
-               max_capacity=6 # Maximum capacity to scale to.
+               max_capacity=4 # Maximum capacity to scale to.
             )
 
             # Add more capacity when CPU utilization reaches 50%
