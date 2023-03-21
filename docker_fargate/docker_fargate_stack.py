@@ -88,7 +88,7 @@ class DockerFargateStack(Stack):
             desired_count=3,            # Number of copies of the 'task' (i.e. the app') running behind the ALB
             circuit_breaker=ecs.DeploymentCircuitBreaker(rollback=True), # Enable rollback on deployment failure
             task_image_options=task_image_options,
-            memory_limit_mib=8192,      # Default is 512; 8192 MiB is equivalent to 8GB. 
+            memory_limit_mib=8192,      # Default is 512; 8192 MiB is equivalent to 8GB.
             public_load_balancer=True,  # Default is False
             # TLS:
             certificate=cert,
