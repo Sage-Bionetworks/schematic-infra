@@ -28,10 +28,10 @@ def send_post_request_with_file(url: str, params: dict):
         params=params,
         files={
             "file_name": open(
-                "test-manifests/synapse_storage_manifest_patient.csv", "rb"
+                #"test-manifests/synapse_storage_manifest_patient.csv", "rb"
                 #"test-manifests/synapse_storage_manifest_patient_two.csv", "rb"
                 #"test-manifests/synapse_storage_manifest_HTAN.csv", "rb"
-                #"test-manifests/synapse_storage_manifest_HTAN_HMS.csv", "rb"
+                "test-manifests/synapse_storage_manifest_HTAN_HMS.csv", "rb"
             )
         },
     )
@@ -145,13 +145,15 @@ def get_manifest_generate_req():
         "schema_url": EXAMPLE_SCHEMA_URL,
         #"schema_url": HTAN_SCHEMA_URL,
         "title": "Example",
-        "data_type": ["Patient"],
+        "data_type": ["Biospecimen"],
         #"data_type": ["Biospecimen"],
+        #"data_type": ["Patient"],
+        #"data_type": ["BulkRNA-seqAssay"],
         #"dataset_id": "syn28268700",
         #"asset_view": "syn23643253",
         "use_annotations": False,
         "input_token": input_token,
-        "output_format": "excel"
+        #"output_format": "excel"
     }
     time_diff = cal_time_api_call(base_url, params)
     return time_diff
@@ -206,7 +208,7 @@ def model_submit_req():
         "schema_url": HTAN_SCHEMA_URL,
         "data_type": None,
         "dataset_id": "syn27221721",
-        "manifest_record_type": "table",
+        "manifest_record_type": "table_and_file",
         "restrict_rules": False,
         "input_token": token,
         "asset_view": "syn28559058",
@@ -245,8 +247,9 @@ def model_validate_req():
     base_url = "https://schematic-dev.api.sagebionetworks.org/v1/model/validate"
     #base_url = "http://localhost:7080/v1/model/validate"
     params = {
-        "schema_url": EXAMPLE_SCHEMA_URL,
-        "data_type": "Patient",
+        #"schema_url": EXAMPLE_SCHEMA_URL,
+        "schema_url": HTAN_SCHEMA_URL,
+        "data_type": "Biospecimen",
         "restrict_rules": False
         #"restrict_rules": True
         #"schema_url": HTAN_SCHEMA_URL,
@@ -340,14 +343,14 @@ def execute_all_endpoints():
     # calculate_avg_run_time_per_endpoint(
     #     get_datatype_manifest_req, "get/datatype/manifest"
     # )
-    # calculate_avg_run_time_per_endpoint(get_manifest_generate_req, "manifest/generate")
-    calculate_avg_run_time_per_endpoint(download_manifest_req, "manifest/download")
+    calculate_avg_run_time_per_endpoint(get_manifest_generate_req, "manifest/generate")
+    #calculate_avg_run_time_per_endpoint(download_manifest_req, "manifest/download")
     # calculate_avg_run_time_per_endpoint(populate_manifest_req, "manifest/populate")
     # calculate_avg_run_time_per_endpoint(
     #     model_component_requirements, "model/component-requirements"
     # )
     #calculate_avg_run_time_per_endpoint(model_submit_req, "manifest/submit")
-    # calculate_avg_run_time_per_endpoint(model_validate_req, "model/validate")
+    #calculate_avg_run_time_per_endpoint(model_validate_req, "model/validate")
     # calculate_avg_run_time_per_endpoint(storage_assets_table_req, "storage/asset/table")
     # calculate_avg_run_time_per_endpoint(
     #     storage_dataset_files_req, "storage/dataset/files"
