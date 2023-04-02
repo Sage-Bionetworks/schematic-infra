@@ -138,6 +138,7 @@ def get_datatype_manifest_req():
 
 def get_manifest_generate_req():
     #base_url = "https://schematic.dnt-dev.sagebase.org/v1/manifest/generate"
+    #base_url = "http://a4d669b43078349ec9932b47cd3baa49-1571063749.us-east-1.elb.amazonaws.com:7080/v1/manifest/generate"
     base_url = "https://schematic-dev.api.sagebionetworks.org/v1/manifest/generate"
     #base_url = "http://localhost:80/v1/manifest/generate"
     input_token = get_token()
