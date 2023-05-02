@@ -40,9 +40,9 @@
       "STACK_NAME_PREFIX": "schematic",
       "ACM_CERT_ARN": "arn:aws:acm:us-east-1:631692904429:certificate/0e9682f6-3ffa-46fb-9671-b6349f5164d6",
       "VPC_CIDR": "10.255.73.0/24"
-    },
+    }, 
     "prod": {
-      "IMAGE_PATH_AND_TAG": "ghcr.io/sage-bionetworks/schematic:0.1.32-beta",
+      "IMAGE_PATH_AND_TAG": "ghcr.io/sage-bionetworks/schematic:0.1.39-beta",
       "AWS_DEFAULT_REGION": "us-east-1",
       "PORT": "7080",
       "TAGS": {
