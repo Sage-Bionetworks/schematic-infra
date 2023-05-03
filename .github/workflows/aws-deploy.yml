@@ -84,7 +84,7 @@ jobs:
           role-session-name: GitHubActions-${{ github.repository_owner }}-${{ github.event.repository.name }}-${{ github.run_id }}
           role-duration-seconds: 1200
 
-      - name: cdk deploy to org-sagebase-dca-staging (878654265857)
+      - name: cdk deploy to org-sagebase-dca-prod (878654265857)
         uses: youyo/aws-cdk-github-actions@v2
         with:
           cdk_subcommand: 'deploy'
