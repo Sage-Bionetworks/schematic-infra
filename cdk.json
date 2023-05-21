@@ -53,7 +53,7 @@
       "VPC_CIDR": "10.255.75.0/24"
     },
     "prod": {
-      "IMAGE_PATH_AND_TAG": "ghcr.io/sage-bionetworks/schematic:0.1.39-beta",
+      "IMAGE_PATH_AND_TAG": "ghcr.io/sage-bionetworks/schematic:0.1.44-beta",
       "AWS_DEFAULT_REGION": "us-east-1",
       "PORT": "7080",
       "TAGS": {
