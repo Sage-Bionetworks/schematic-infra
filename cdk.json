@@ -31,9 +31,9 @@
       "aws-cn"
     ],
     "dev": {
-      "IMAGE_PATH_AND_TAG": "ghcr.io/sage-bionetworks/schematic:0.1.44-beta",
+      "IMAGE_PATH_AND_TAG": "ghcr.io/sage-bionetworks/schematic:0.1.45-beta",
       "AWS_DEFAULT_REGION": "us-east-1",
-      "PORT": "7080",
+      "PORT": "443",
       "TAGS": {
         "CostCenter": "NO PROGRAM / 000000"
       },
