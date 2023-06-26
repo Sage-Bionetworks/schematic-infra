@@ -101,7 +101,7 @@ class DockerFargateStack(Stack):
 
         # The number of consecutive health check failures required before considering a target unhealthy. For Application Load Balancers, the default is 2.
         #
-        load_balanced_fargate_service.target_group.configure_health_check(interval=Duration.seconds(120), timeout=Duration.seconds(60), path="/v1/ui/", healthy_http_codes="200-308", unhealthy_threshold_count=5)
+        load_balanced_fargate_service.target_group.configure_health_check(protocol=elbv2.Protocol.HTTPS, interval=Duration.seconds(120), timeout=Duration.seconds(60), path="/v1/ui/", healthy_http_codes="200-308", unhealthy_threshold_count=5)
 
         if True: # enable/disable autoscaling
             scalable_target = load_balanced_fargate_service.service.auto_scale_task_count(
