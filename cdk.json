@@ -33,7 +33,7 @@
     "dev": {
       "IMAGE_PATH_AND_TAG": "ghcr.io/sage-bionetworks/schematic:0.1.49-beta",
       "AWS_DEFAULT_REGION": "us-east-1",
-      "PORT": "443",
+      "PORT": "7080",
       "TAGS": {
         "CostCenter": "NO PROGRAM / 000000"
       },
