@@ -93,6 +93,7 @@ class DockerFargateStack(Stack):
             # TLS:
             certificate=cert,
             protocol=elbv2.ApplicationProtocol.HTTPS,
+            target_protocol=elbv2.ApplicationProtocol.HTTPS,
             ssl_policy=elbv2.SslPolicy.FORWARD_SECRECY_TLS12_RES, # Strong forward secrecy ciphers and TLS1.2 only.
         )
 
