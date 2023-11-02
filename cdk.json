@@ -63,6 +63,7 @@
       "ACM_CERT_ARN": "arn:aws:acm:us-east-1:878654265857:certificate/d11fba3c-1957-48ba-9be0-8b1f460ee970",
       "VPC_CIDR": "10.255.75.0/24"
     },
+
     "prod": {
       "IMAGE_PATH_AND_TAG": "ghcr.io/sage-bionetworks/schematic:v23.9.3",
       "AWS_DEFAULT_REGION": "us-east-1",
