@@ -90,8 +90,8 @@ jobs:
           cdk_subcommand: 'deploy'
           cdk_args: '--require-approval never --context env=staging --progress events --debug'
           actions_comment: false
-          
-  cdk-deploy-dev-refactor: 
+
+  cdk-deploy-dev-refactor:
     runs-on: ubuntu-latest
     if: ${{ github.ref == 'refs/heads/dev' }}
     needs: tests
@@ -118,7 +118,7 @@ jobs:
         with:
           cdk_subcommand: 'deploy'
           cdk_args: '--require-approval never --context env=dev --progress events --debug'
-          actions_comment: false   
+          actions_comment: false
 
 
   cdk-deploy-prod:
