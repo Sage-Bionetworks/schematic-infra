@@ -93,7 +93,7 @@ jobs:
 
   cdk-deploy-dev-refactor:
     runs-on: ubuntu-latest
-    if: ${{ github.ref == 'refs/heads/dev' }}
+    if: ${{ github.ref == 'refs/heads/dev-refactor' }}
     needs: tests
     permissions:
       id-token: write
@@ -117,7 +117,7 @@ jobs:
         uses: youyo/aws-cdk-github-actions@v2
         with:
           cdk_subcommand: 'deploy'
-          cdk_args: '--require-approval never --context env=dev --progress events --debug'
+          cdk_args: '--require-approval never --context env=dev-refactor --progress events --debug'
           actions_comment: false
 
 
