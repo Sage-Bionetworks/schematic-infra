@@ -39,7 +39,7 @@
       },
       "STACK_NAME_PREFIX": "schematic",
       "ACM_CERT_ARN": "arn:aws:acm:us-east-1:631692904429:certificate/0e9682f6-3ffa-46fb-9671-b6349f5164d6",
-      "VPC_CIDR": "10.255.76.0/24"
+      "VPC_CIDR": "10.255.73.0/24"
     },
     "dev-refactor": {
       "IMAGE_PATH_AND_TAG": "ghcr.io/sage-bionetworks/schematic:v23.9.3",
