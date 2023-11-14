@@ -31,7 +31,7 @@
       "aws-cn"
     ],
     "dev": {
-      "IMAGE_PATH_AND_TAG": "ghcr.io/sage-bionetworks/schematic:v23.9.3",
+      "IMAGE_PATH_AND_TAG": "ghcr.io/sage-bionetworks/schematic:23.11.1-docker",
       "AWS_DEFAULT_REGION": "us-east-1",
       "PORT": "443",
       "TAGS": {
@@ -41,8 +41,19 @@
       "ACM_CERT_ARN": "arn:aws:acm:us-east-1:631692904429:certificate/0e9682f6-3ffa-46fb-9671-b6349f5164d6",
       "VPC_CIDR": "10.255.73.0/24"
     },
-    "staging": {
+    "dev-refactor": {
       "IMAGE_PATH_AND_TAG": "ghcr.io/sage-bionetworks/schematic:v23.9.3",
+      "AWS_DEFAULT_REGION": "us-east-1",
+      "PORT": "443",
+      "TAGS": {
+        "CostCenter": "NO PROGRAM / 000000"
+      },
+      "STACK_NAME_PREFIX": "schematic-dev-refactor",
+      "ACM_CERT_ARN": "arn:aws:acm:us-east-1:631692904429:certificate/0e9682f6-3ffa-46fb-9671-b6349f5164d6",
+      "VPC_CIDR": "10.255.76.0/24"
+    },
+    "staging": {
+      "IMAGE_PATH_AND_TAG": "ghcr.io/sage-bionetworks/schematic:23.11.1-docker",
       "AWS_DEFAULT_REGION": "us-east-1",
       "PORT": "443",
       "TAGS": {
@@ -52,8 +63,9 @@
       "ACM_CERT_ARN": "arn:aws:acm:us-east-1:878654265857:certificate/d11fba3c-1957-48ba-9be0-8b1f460ee970",
       "VPC_CIDR": "10.255.75.0/24"
     },
+
     "prod": {
-      "IMAGE_PATH_AND_TAG": "ghcr.io/sage-bionetworks/schematic:v23.9.3",
+      "IMAGE_PATH_AND_TAG": "ghcr.io/sage-bionetworks/schematic:23.11.1-docker",
       "AWS_DEFAULT_REGION": "us-east-1",
       "PORT": "443",
       "TAGS": {
