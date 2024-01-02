@@ -120,7 +120,6 @@ jobs:
           cdk_args: '--require-approval never --context env=dev-refactor --progress events --debug'
           actions_comment: false
 
-
   cdk-deploy-prod:
     runs-on: ubuntu-latest
     if: ${{ github.ref == 'refs/heads/prod' }}
