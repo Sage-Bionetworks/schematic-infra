@@ -90,6 +90,7 @@ class DockerFargateStack(Stack):
             task_image_options=task_image_options,
             memory_limit_mib=8192,      # Default is 512; 8192 MiB is equivalent to 8GB.
             public_load_balancer=True,  # Default is False
+            idle_timeout=Duration.seconds(300), # Modify default idle time out to avoid 504 gateway error
             # TLS:
             certificate=cert,
             protocol=elbv2.ApplicationProtocol.HTTPS,
