@@ -65,7 +65,7 @@
     },
 
     "prod": {
-      "IMAGE_PATH_AND_TAG": "ghcr.io/sage-bionetworks/schematic:v23.12.1",
+      "IMAGE_PATH_AND_TAG": "ghcr.io/sage-bionetworks/schematic:v24.1.1",
       "AWS_DEFAULT_REGION": "us-east-1",
       "PORT": "443",
       "TAGS": {
