@@ -42,7 +42,7 @@
       "VPC_CIDR": "10.255.73.0/24"
     },
     "dev-refactor": {
-      "IMAGE_PATH_AND_TAG": "ghcr.io/sage-bionetworks/schematic:v23.9.3",
+      "IMAGE_PATH_AND_TAG": "ghcr.io/sage-bionetworks/schematic:0.1.62-beta",
       "AWS_DEFAULT_REGION": "us-east-1",
       "PORT": "443",
       "TAGS": {
