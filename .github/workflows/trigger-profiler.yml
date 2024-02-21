@@ -1,0 +1,16 @@
+name: profiler-run
+on:
+    push:
+        branches: ['dev']
+jobs:
+    trigger-profiler:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Repository Dispatch
+              uses: peter-evans/repository-dispatch@v3
+              with:
+                token: ${{ secrets.ACCESS_PROFILER }}
+                repository: username/my-repo
+                event-type: trigger-profiler
+
+
