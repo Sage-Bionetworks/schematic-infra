@@ -10,7 +10,7 @@ jobs:
               uses: peter-evans/repository-dispatch@v3
               with:
                 token: ${{ secrets.ACCESS_PROFILER }}
-                repository: username/my-repo
+                repository: Sage-Bionetworks/schematic_profiler
                 event-type: trigger-profiler
 
 
