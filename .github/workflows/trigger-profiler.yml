@@ -1,0 +1,18 @@
+name: profiler-run
+# Only trigger, when the deployment workflow succeeded
+on:
+    workflow_run:
+      workflows: ["aws-deploy"]
+      types:
+        - completed
+    workflow_dispatch: # Allow manually triggering the workflow
+jobs:
+    trigger-profiler:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Repository Dispatch
+              uses: peter-evans/repository-dispatch@v3
+              with:
+                token: ${{ secrets.ACCESS_PROFILER }}
+                repository: Sage-Bionetworks/schematic_profiler
+                event-type: trigger-profiler
