@@ -1,7 +1,7 @@
 name: profiler-run
 on:
     push:
-        branches: ['dev', 'dev-trigger-profiler']
+        branches: ['dev']
     workflow_dispatch: # Allow manually triggering the workflow
 jobs:
     trigger-profiler:
