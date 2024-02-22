@@ -13,5 +13,3 @@ jobs:
                 token: ${{ secrets.ACCESS_PROFILER }}
                 repository: Sage-Bionetworks/schematic_profiler
                 event-type: trigger-profiler
-
-
