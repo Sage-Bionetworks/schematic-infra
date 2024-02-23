@@ -2,9 +2,8 @@ name: profiler-run
 # Only trigger, when the deployment workflow succeeded
 on:
     workflow_run:
-      workflows: ["aws-deploy"]
-      types:
-        - completed
+      workflows: ["test-deploy"]
+      types: [completed]
     workflow_dispatch: # Allow manually triggering the workflow
 jobs:
     trigger-profiler:
