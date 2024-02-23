@@ -1,5 +1,4 @@
 name: profiler-run
-# Only trigger, when the deployment workflow succeeded
 on:
     workflow_run:
       workflows: ["aws-deploy"]
