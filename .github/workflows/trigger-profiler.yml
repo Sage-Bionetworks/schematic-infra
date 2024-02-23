@@ -1,7 +1,7 @@
 name: profiler-run
 on:
     workflow_run:
-      workflows: ["aws-deploy"]
+      workflows: ["aws-deploy"] # Trigger this workflow only after aws-deploy is completed 
       types: [completed]
     workflow_dispatch: # Allow manually triggering the workflow
 jobs:
