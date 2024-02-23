@@ -2,7 +2,7 @@ name: profiler-run
 # Only trigger, when the deployment workflow succeeded
 on:
     workflow_run:
-      workflows: ["test-deploy"]
+      workflows: ["test-deploy-2"]
       types: [completed]
     workflow_dispatch: # Allow manually triggering the workflow
 jobs:

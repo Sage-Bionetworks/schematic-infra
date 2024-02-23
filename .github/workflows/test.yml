@@ -1,4 +1,4 @@
-name: test-deploy
+name: test-deploy-2
 
 on:
   pull_request:
