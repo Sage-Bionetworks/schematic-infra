@@ -7,10 +7,12 @@ on:
 jobs:
     trigger-profiler:
         runs-on: ubuntu-latest
-        if: ${{ github.event.workflow_run.test-workflow.conclusion == 'success' }} && ${{ github.ref == 'refs/heads/develop-fix-workflow-trigger' }}
+        if: ${{ github.ref == 'refs/heads/develop-fix-workflow-trigger' }}
         steps:
             - name: Print environment variable 
               run: echo "${{ github.event.workflow_run.test-workflow.conclusion }}"
+            - name: Print another environment variable 
+              run: echo "${{ github.event.workflow_run.conclusion }}"
             - name: Repository Dispatch
               uses: peter-evans/repository-dispatch@v3
               with:
