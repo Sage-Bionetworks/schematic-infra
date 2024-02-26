@@ -1,5 +1,8 @@
 name: profiler-run
 on:
+    workflow_run:
+      workflows: ["test"] # Trigger this workflow only after aws-deploy is completed
+      types: [completed]
     workflow_dispatch: # Allow manually triggering the workflow
 jobs:
     trigger-profiler:
@@ -17,3 +20,4 @@ jobs:
                 token: ${{ secrets.ACCESS_PROFILER }}
                 repository: Sage-Bionetworks/schematic_profiler
                 event-type: trigger-profiler
+	
