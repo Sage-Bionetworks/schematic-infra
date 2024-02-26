@@ -7,8 +7,9 @@ on:
 jobs:
     trigger-profiler:
         runs-on: ubuntu-latest
-        if: ${{ github.ref == 'refs/heads/develop-fix-workflow-trigger' }}
         steps:
+            - name: Print github ref 
+              run: echo "${{ github.ref }}"            
             - name: Print environment variable 
               run: echo "${{ github.event.workflow_run.test-workflow.conclusion }}"
             - name: Print another environment variable 
