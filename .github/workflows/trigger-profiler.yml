@@ -1,14 +1,16 @@
 name: profiler-run
 on:
     workflow_run:
-      workflows: ["aws-deploy"] # Trigger this workflow only after aws-deploy is completed
+      workflows: ["aws-deploy", "test"] # Trigger this workflow only after aws-deploy is completed
       types: [completed]
     workflow_dispatch: # Allow manually triggering the workflow
 jobs:
     trigger-profiler:
         runs-on: ubuntu-latest
-        if: ${{ github.event.workflow_run.cdk-deploy-dev.conclusion == 'success' }}
+        if: ${{ github.event.workflow_run.test-workflow.conclusion == 'success' }} && ${{ github.ref == 'refs/heads/develop-fix-workflow-trigger' }}
         steps:
+            - name: Print environment variable 
+              run: echo "${{ github.event.workflow_run.test-workflow.conclusion }}"
             - name: Repository Dispatch
               uses: peter-evans/repository-dispatch@v3
               with:
