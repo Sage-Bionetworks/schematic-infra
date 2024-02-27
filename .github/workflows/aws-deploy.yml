@@ -150,7 +150,7 @@ jobs:
 
   trigger-profiler:
     runs-on: ubuntu-latest
-    needs: tests # for testing purpose. It should be cdk-deploy-dev
+    needs: cdk-deploy-dev
     steps:
       - name: Repository Dispatch
         uses: peter-evans/repository-dispatch@v3
