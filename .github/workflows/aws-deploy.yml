@@ -147,14 +147,3 @@ jobs:
           cdk_subcommand: 'deploy'
           cdk_args: '--require-approval never --context env=prod --progress events --debug'
           actions_comment: false
-
-  trigger-profiler:
-    runs-on: ubuntu-latest
-    needs: cdk-deploy-dev
-    steps:
-      - name: Repository Dispatch
-        uses: peter-evans/repository-dispatch@v3
-        with:
-          token: ${{ secrets.ACCESS_PROFILER }}
-          repository: Sage-Bionetworks/schematic_profiler
-          event-type: trigger-profiler
