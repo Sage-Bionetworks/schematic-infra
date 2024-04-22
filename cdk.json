@@ -44,7 +44,7 @@
     "dev-refactor": {
       "IMAGE_PATH_AND_TAG": "ghcr.io/sage-bionetworks/schematic:0.1.68-beta",
       "AWS_DEFAULT_REGION": "us-east-1",
-      "PORT": "443",
+      "PORT": "7443",
       "TAGS": {
         "CostCenter": "NO PROGRAM / 000000"
       },
