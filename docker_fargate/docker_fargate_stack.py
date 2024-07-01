@@ -84,11 +84,11 @@ class DockerFargateStack(Stack):
             self,
             f'{stack_prefix}-Service',
             cluster=cluster,            # Required
-            cpu=4096,                    # Default is 256 which is 0.25vCPU; 4096 is 4 vCPU
+            cpu=8192,                    # Default is 256 which is 0.25vCPU; 8192 is 8 vCPU
             desired_count=3,            # Number of copies of the 'task' (i.e. the app') running behind the ALB
             circuit_breaker=ecs.DeploymentCircuitBreaker(rollback=True), # Enable rollback on deployment failure
             task_image_options=task_image_options,
-            memory_limit_mib=8192,      # Default is 512; 8192 MiB is equivalent to 8GB.
+            memory_limit_mib=16384,      # Default is 512; 16384 MiB is equivalent to 16GB.
             public_load_balancer=True,  # Default is False
             idle_timeout=Duration.seconds(300), # Modify default idle time out to avoid 504 gateway error
             # TLS:
