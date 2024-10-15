@@ -18,6 +18,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Create and activate virtual environment
+        run: python3 -m venv venv
+
       - name: Static Analysis
         uses: pre-commit/action@v3.0.1
 
