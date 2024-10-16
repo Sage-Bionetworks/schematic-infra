@@ -23,14 +23,15 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Create and activate virtual environment and install pre-commit
+      - name: Create and activate virtual environment and install dependencies
         run: |
           python3 -m venv venv
           source venv/bin/activate
           pip3 install pre-commit
+          pip3 install -r requirements.txt -r requirements-dev.txt
 
       - name: Run pre-commit
-        run: pre-commit run --all-files
+        run: venv/bin/pre-commit run --all-files
 
       - name: cdk synth
         uses: youyo/aws-cdk-github-actions@v2
@@ -39,11 +40,8 @@ jobs:
           actions_comment: false
           cdk_args: '--context env=dev --debug'
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt -r requirements-dev.txt
-
       - name: Run unit tests
-        run: python -m pytest tests/ -s -v
+        run: venv/bin/python -m pytest tests/ -s -v
 
   cdk-deploy-dev:
     runs-on: ubuntu-latest
