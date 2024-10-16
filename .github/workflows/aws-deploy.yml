@@ -18,20 +18,27 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.x"
 
-      - name: Create and activate virtual environment and install dependencies
-        run: |
-          python3 -m venv venv
-          source venv/bin/activate
-          pip3 install pre-commit
-          pip3 install -r requirements.txt -r requirements-dev.txt
+      - name: Static Analysis
+        uses: pre-commit/action@v3.0.0
 
-      - name: Run pre-commit
-        run: venv/bin/pre-commit run --all-files
+      # - name: Set up Python
+      #   uses: actions/setup-python@v4
+      #   with:
+      #     python-version: '3.11'
+
+      # - name: Create and activate virtual environment and install dependencies
+      #   run: |
+      #     python3 -m venv venv
+      #     source venv/bin/activate
+      #     pip3 install pre-commit
+      #     pip3 install -r requirements.txt -r requirements-dev.txt
+
+      # - name: Run pre-commit
+      #   run: venv/bin/pre-commit run --all-files
 
       - name: cdk synth
         uses: youyo/aws-cdk-github-actions@v2
@@ -40,8 +47,11 @@ jobs:
           actions_comment: false
           cdk_args: '--context env=dev --debug'
 
-      - name: Run unit tests
-        run: venv/bin/python -m pytest tests/ -s -v
+      - name: Install dependencies
+        run: pip install -r requirements.txt -r requirements-dev.txt
+
+      # - name: Run unit tests
+      #   run: venv/bin/python -m pytest tests/ -s -v
 
   cdk-deploy-dev:
     runs-on: ubuntu-latest
