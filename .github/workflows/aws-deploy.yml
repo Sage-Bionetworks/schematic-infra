@@ -18,13 +18,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Create and activate virtual environment
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Create and activate virtual environment and install pre-commit
         run: |
           python3 -m venv venv
           source venv/bin/activate
-
-      - name: Install dependencies
-        run: pip3 install pre-commit
+          pip3 install pre-commit
 
       - name: Run pre-commit
         run: pre-commit run --all-files
