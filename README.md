@@ -1,3 +1,5 @@
+**This project has been migrated to:** <https://github.com/Sage-Bionetworks-IT/schematic-infra-v2>
+
 # schematic-infra
 
 CDK project for deploying the infrastructure for a containerized
